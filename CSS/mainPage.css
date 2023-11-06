@@ -7,11 +7,11 @@ body {
     margin: 0;
     top: 0;
     left: 0;
-    overflow: hidden;
+    
 }
 
 body {
-    background-color: orange;
+    background-color: chocolate;
 }
 
 
@@ -38,7 +38,7 @@ body {
 
 .navbar .container-fluid .nav-item .nav-link:hover{
     font-size: 17px;
-    text-decoration: overline chocolate 3px;
+    text-decoration: overline #f58122ff 3px;
 }
 
 .navbar .container-fluid .nav-item .dropdown-menu{
@@ -51,13 +51,18 @@ body {
     font-weight: 600;
 }
 
+/* This will make the  */
 .navbar .container-fluid .nav-item .dropdown-menu .dropdown-item:hover{
-    background-color: chocolate;
+    background-color: #f58122ff;
 }
 
-.navbar .container-fluid .nav-item .dropdown:hover > .dropdown-menu{
-    display: block;
-}
+/* This will make the nav-item with the dropdown menu be displayed when hovered in larger screens*/
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}	
+
 
 /* This will make style the navbar when the display is above the set amount of pixels ( in this case large ) */
 @media screen and (min-width: 750px) {
@@ -71,7 +76,7 @@ body {
       padding: 0 1em;
     }
     .navbar-nav .nav-item .nav-link:hover{
-        text-decoration: overline chocolate 3px;
+        text-decoration: overline #f58122ff 3px;
     }
 }
 
@@ -85,8 +90,14 @@ body {
 
 
 /* HERO SECTION STARTS HERE */
+.carousel .carousel-inner .carousel-item{
+    height: 80%;
+}
 .carousel .carousel-inner .carousel-item img{
     filter:brightness(0.8);
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 .carousel-control-prev{
@@ -121,11 +132,6 @@ body {
     }
 }
 
-@media all and (min-width: 992px) {
-	.navbar .nav-item .dropdown-menu{ display: none; }
-	.navbar .nav-item:hover .dropdown-menu{ display: block; }
-	.navbar .nav-item .dropdown-menu{ margin-top:0; }
-}	
 
 @media screen and (max-width: 890px){
     .carousel-control-next{
@@ -181,3 +187,7 @@ body {
         height: 60px;
     }
 }
+
+
+/* OUR CLASSES SECTION */
+section .classes .heading .

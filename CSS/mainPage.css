@@ -10,7 +10,7 @@ body {
 }
 
 body {
-  background-color: chocolate;
+  background-color: black;
 }
 
 /* NAVIGATION AREA STARTS HERE */
@@ -228,24 +228,22 @@ body {
 }
 
 /* OUR CLASSES SECTION */
-#classes .container-fluid {
-  height: 80vh;
-  margin: auto;
-  position: relative;
-  width: 90%;
-  display: grid;
-  place-items: center;
+#classes .heading{
+    text-align: center;
 }
 
-#classes .container-fluid .slide-track {
-  display: flex;
-  width: calc(420px * 16);
-  animation: scroll 50s linear infinite;
+#classes .heading h1{
+    font-size: 40px;
+    color: whitesmoke;
+    background-color: #f58122ff;
+    margin-right: 35rem;
+    margin-left: 35rem;
+    border-radius: 57px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-family: 'Roboto Slab';
+    font-weight: 700;
+
 }
 
-#classes .container-fluid .slide-track:hover {
-  animation-play-state: paused;
-}
-
-@keyframes scroll {
-}
+#classes .h

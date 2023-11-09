@@ -1,168 +1,246 @@
 <!DOCTYPE html>
 <html lang="pt">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Progym Fitness</title>
 
     <!-- Font Awesome Kit Code Link -->
-    <script src="https://kit.fontawesome.com/f7ccd0c567.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/f7ccd0c567.js"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- Google Fonts CDN Link -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian:wght@300&family=Roboto+Slab&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian:wght@300&family=Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Bootstrap Stylesheet Link -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
     <!-- Bootstrap CDN Icon Link -->
     <!-- Option 1: Include in HTML -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-    
-    <!-- CSS Stylesheet Link -->
-    <link rel="stylesheet" href="../CSS/mainPage.css">
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
 
-<body>
+    <!-- CSS Stylesheet Link -->
+    <link rel="stylesheet" href="../CSS/mainPage.css" />
+  </head>
+
+  <body>
     <!-- NAVIGATION BAR -->
     <!-- In this section the navbar will have the logo/navbar-brand in the middle with the nav tabs around it on the large screens and smaller screens the logo/navbar-brand will be on the left  and it will have a toggler button on the right-->
     <nav class="navbar navbar-expand-md bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand d-md-none" href="#">
-                <img src="../Images/logo/logoProgym.jpg" alt="ProGym Logo" />
+      <div class="container-fluid">
+        <a class="navbar-brand d-md-none" href="#">
+          <img src="../Images/logo/logoProgym.jpg" alt="ProGym Logo" />
+        </a>
+        <!-- BARRA DE NAVEGAÇÃO COLAPSAVEL -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="bi bi-list"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item px-md-0 px-lg-2">
+              <a href="#" class="nav-link active" aria-current="page">Inicio</a>
+            </li>
+            <li class="nav-item dropdown px-md-0 px-lg-2">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle"
+                id="navbarDropdownClass"
+                role="button"
+                data-bs-toggle="dropdown"
+                >Aulas</a
+              >
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownClass">
+                <li>
+                  <a href="../HTML/classesPage.html#mares" class="dropdown-item"
+                    >Marés</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="../HTML/classesPage.html#matola"
+                    class="dropdown-item"
+                    >Matola</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="../HTML/classesPage.html#altoMae"
+                    class="dropdown-item"
+                    >Alto Maé</a
+                  >
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item px-md-0 px-lg-2">
+              <a href="../HTML/pricesPage" class="nav-link">Preços</a>
+            </li>
+            <li class="nav-item px-md-0 px-lg-2">
+              <a href="../HTML/servicesPage" class="nav-link">Serviços</a>
+            </li>
+            <a class="navbar-brand d-none d-md-block" href="#">
+              <img src="../Images/logo/logoProgym.jpg" alt="ProGym Logo" />
             </a>
-            <!-- BARRA DE NAVEGAÇÃO COLAPSAVEL -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="bi bi-list"></i>
-            </button>
-
-
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mx-auto">
-                    <li class="nav-item px-md-0 px-lg-2">
-                        <a href="#" class="nav-link active" aria-current="page">Inicio</a>
-                    </li>
-                    <li class="nav-item dropdown px-md-0 px-lg-2">
-                        <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownClass" role="button" data-bs-toggle="dropdown">Aulas</a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownClass">
-                          <li><a href="../HTML/classesPage.html#mares" class="dropdown-item">Marés</a></li>
-                          <li><a href="../HTML/classesPage.html#matola" class="dropdown-item">Matola</a></li>
-                          <li><a href="../HTML/classesPage.html#altoMae" class="dropdown-item">Alto Maé</a></li>
-                        </ul>                      
-                    </li>
-
-                    <li class="nav-item px-md-0 px-lg-2">
-                        <a href="../HTML/pricesPage" class="nav-link">Preços</a>
-                    </li>
-                    <li class="nav-item px-md-0 px-lg-2">
-                        <a href="../HTML/servicesPage" class="nav-link">Serviços</a>
-                    </li>
-                    <a class="navbar-brand d-none d-md-block" href="#">
-                        <img src="../Images/logo/logoProgym.jpg" alt="ProGym Logo" />
-                    </a>
-                    <li class="nav-item dropdown px-md-0 px-lg-2">
-                      <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownGyms" role="button" data-bs-toggle="dropdown">Ginásios</a>
-                      <ul class="dropdown-menu" aria-labelledby="navbarDropdownGyms">
-                        <li><a href="../HTML/gymsPage.html#mares" class="dropdown-item">Marés</a></li>
-                        <li><a href="../HTML/gymsPage.html#matola" class="dropdown-item">Matola</a></li>
-                        <li><a href="../HTML/gymsPage.html#altoMae" class="dropdown-item">Alto Maé</a></li>
-                      </ul>                      
-                  </li>
-                    <li class="nav-item px-md-0 px-lg-2">
-                        <a href="../HTML/eventsPage.html" class="nav-link">Eventos</a>
-                    </li>
-                    <li class="nav-item px-md-0 px-lg-2">
-                        <a href="../HTML/tvPage.html" class="nav-link">TV Marketing</a>
-                    </li>
-                    <li class="nav-item px-md-0 px-lg-2">
-                        <a href="../HTML/storePage.html" class="nav-link">Loja</a>
-                    </li>
-                </ul>
-            </div>
-
-
-
+            <li class="nav-item dropdown px-md-0 px-lg-2">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle"
+                id="navbarDropdownGyms"
+                role="button"
+                data-bs-toggle="dropdown"
+                >Ginásios</a
+              >
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownGyms">
+                <li>
+                  <a href="../HTML/gymsPage.html#mares" class="dropdown-item"
+                    >Marés</a
+                  >
+                </li>
+                <li>
+                  <a href="../HTML/gymsPage.html#matola" class="dropdown-item"
+                    >Matola</a
+                  >
+                </li>
+                <li>
+                  <a href="../HTML/gymsPage.html#altoMae" class="dropdown-item"
+                    >Alto Maé</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item px-md-0 px-lg-2">
+              <a href="../HTML/eventsPage.html" class="nav-link">Eventos</a>
+            </li>
+            <li class="nav-item px-md-0 px-lg-2">
+              <a href="../HTML/tvPage.html" class="nav-link">TV Marketing</a>
+            </li>
+            <li class="nav-item px-md-0 px-lg-2">
+              <a href="../HTML/storePage.html" class="nav-link">Loja</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
-
-
 
     <!-- HERO SECTION  -->
     <!-- In this section there will be a carousel slide containing several photos of the customers and gym enviorment and events -->
     <section class="hero">
-        <div id="carouselHero" class="carousel slide carousel-fade d-lg-flex d-md-flex d-sm-flex" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="../Images/Images/hero1.png" class="d-block w-100" style="object-position: 0 80%;">
-                <div class="carousel-caption d-none d-md-block" style="top: 35%;">
-                  <h1>Bemvindo a Familia ProGym</h1>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="../Images/Images/hero2.jpg" class="d-block w-100">
-              </div>
-              <div class="carousel-item">
-                <img src="../Images/Images/hero3.jpg" class="d-block w-100">
-              </div>
-              <div class="carousel-item">
-                <img src="../Images/Images/hero4.jpg" class="d-block w-100">
-              </div>
-              <div class="carousel-item">
-                <img src="../Images/Images/hero5.jpg" class="d-block w-100">
-              </div>
-              <div class="carousel-item">
-                <img src="../Images/Images/hero6.jpg" class="d-block w-100">
-              </div>
-              <div class="carousel-item">
-                <img src="../Images/Images/hero7.jpg" class="d-block w-100">
-              </div>
-              <div class="carousel-item">
-                <img src="../Images/Images/hero8.jpg" class="d-block w-100">
-              </div>
-              <div class="carousel-item">
-                <img src="../Images/Images/hero9.jpg" class="d-block w-100">
-              </div>
-              <div class="carousel-item">
-                <img src="../Images/Images/hero10.jpg" class="d-block w-100">
-              </div>
-              <div class="carousel-item">
-                <img src="../Images/Images/hero11.jpg" class="d-block w-100">
-              </div>
-              <div class="carousel-item">
-                <img src="../Images/Images/hero12.jpg" class="d-block w-100">
-              </div>
-              <div class="carousel-item">
-                <img src="../Images/Images/hero13.jpg" class="d-block w-100">
-              </div>
-              <div class="carousel-item">
-                <img src="../Images/Images/hero14.jpg" class="d-block w-100" style="object-position: 0 20%;">
-              </div>
-              <div class="carousel-item">
-                <img src="../Images/Images/hero15.jpg" class="d-block w-100">
-              </div>
-              <div class="carousel-item">
-                <img src="../Images/Images/hero16.jpg" class="d-block w-100">
-              </div>
-              <div class="carousel-item">
-                <img src="../Images/Images/hero17.jpg" class="d-block w-100" style="object-position: 0 65%;">
-              </div>
+      <div
+        id="carouselHero"
+        class="carousel slide carousel-fade d-lg-flex d-md-flex d-sm-flex"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="../Images/Images/hero1.png"
+              class="d-block w-100"
+              style="object-position: 0 80%"
+            />
+            <div class="carousel-caption d-none d-md-block" style="top: 35%">
+              <h1>Bemvindo a Familia ProGym</h1>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselHero" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselHero" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
           </div>
-    
+          <div class="carousel-item">
+            <img src="../Images/Images/hero2.jpg" class="d-block w-100" />
+          </div>
+          <div class="carousel-item">
+            <img src="../Images/Images/hero3.jpg" class="d-block w-100" />
+          </div>
+          <div class="carousel-item">
+            <img src="../Images/Images/hero4.jpg" class="d-block w-100" />
+          </div>
+          <div class="carousel-item">
+            <img src="../Images/Images/hero5.jpg" class="d-block w-100" />
+          </div>
+          <div class="carousel-item">
+            <img src="../Images/Images/hero6.jpg" class="d-block w-100" />
+          </div>
+          <div class="carousel-item">
+            <img src="../Images/Images/hero7.jpg" class="d-block w-100" />
+          </div>
+          <div class="carousel-item">
+            <img src="../Images/Images/hero8.jpg" class="d-block w-100" />
+          </div>
+          <div class="carousel-item">
+            <img src="../Images/Images/hero9.jpg" class="d-block w-100" />
+          </div>
+          <div class="carousel-item">
+            <img src="../Images/Images/hero10.jpg" class="d-block w-100" />
+          </div>
+          <div class="carousel-item">
+            <img src="../Images/Images/hero11.jpg" class="d-block w-100" />
+          </div>
+          <div class="carousel-item">
+            <img src="../Images/Images/hero12.jpg" class="d-block w-100" />
+          </div>
+          <div class="carousel-item">
+            <img src="../Images/Images/hero13.jpg" class="d-block w-100" />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="../Images/Images/hero14.jpg"
+              class="d-block w-100"
+              style="object-position: 0 20%"
+            />
+          </div>
+          <div class="carousel-item">
+            <img src="../Images/Images/hero15.jpg" class="d-block w-100" />
+          </div>
+          <div class="carousel-item">
+            <img src="../Images/Images/hero16.jpg" class="d-block w-100" />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="../Images/Images/hero17.jpg"
+              class="d-block w-100"
+              style="object-position: 0 65%"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselHero"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselHero"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </section>
-
 
     <!-- CLASSES SECTION -->
     <!-- In this section there wil be two boxes with images each side encapsulating a modal with a grid of columns with images representing every class that the group has -->
@@ -172,28 +250,47 @@
           <h2>Nossas Aulas</h2>
         </div>
         <div class="row">
-          <div class="col-md-6">
-            <div class="scroll-container" id="scroll-container1">
-              <!-- Images will be loaded here via Javascript -->
+          <div class="col-md-6 slider-track">
+            <div class="slide">
+              <img src="../Images/Classes/adults1.jpg" alt="" />
+            </div>
+            <div class="slide">
+              <img src="../Images/Classes/adults2.jpg" alt="" />
+            </div>
+            <div class="slide">
+              <img src="../Images/Classes/adults3.jpg" alt="" />
+            </div>
+            <div class="slide">
+              <img src="../Images/Classes/adults4.jpg" alt="" />
             </div>
           </div>
-          <div class="col-md-6">
-            <div class="scroll-container" id="scroll-container2">
-              <!-- Images will be loaded here via Javascript -->
+          <div class="col-md-6 slider-track">
+            <div class="slide">
+              <img src="../Images/Classes/kids5.jpg" alt="" />
+            </div>
+            <div class="slide">
+              <img src="../Images/Classes/kids6.jpg" alt="" />
+            </div>
+            <div class="slide">
+              <img src="../Images/Classes/kids7.jpg" alt="" />
+            </div>
+            <div class="slide">
+              <img src="../Images/Classes/kids8.jpg" alt="" />
             </div>
           </div>
         </div>
       </div>
     </section>
 
-
-
     <!-- Bootstrap Javascript Popper  -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
     <!-- Jquery F -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <!-- Javascript Script -->
     <script src="../Javascript/mainPage.js"></script>
-</body>
-
+  </body>
 </html>

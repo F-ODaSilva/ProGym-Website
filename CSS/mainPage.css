@@ -1,230 +1,251 @@
 html,
 body {
-    font-family: "Roboto Slab";
-    font-size: 15px;
-    line-height: 1.5;
-    box-sizing: border-box;
-    margin: 0;
-    top: 0;
-    left: 0;
-    
+  font-family: "Roboto Slab";
+  font-size: 15px;
+  line-height: 1.5;
+  box-sizing: border-box;
+  margin: 0;
+  top: 0;
+  left: 0;
 }
 
 body {
-    background-color: chocolate;
+  background-color: chocolate;
 }
-
 
 /* NAVIGATION AREA STARTS HERE */
-.navbar{
-    background-color: black!important;
+.navbar {
+  background-color: black !important;
 }
 
-.navbar .container-fluid .bi-list{
-    color: whitesmoke;
-    font-size: 30px;
-} 
+.navbar .container-fluid .bi-list {
+  color: whitesmoke;
+  font-size: 30px;
+}
 
 .navbar-brand img {
-    width: 200px;
+  width: 200px;
 }
 
-.navbar .container-fluid .nav-item .nav-link{
-    padding-top: 30px;
-    font-family: "Roboto Slab";
-    font-weight: 600;
-    color: lightgray;
+.navbar .container-fluid .nav-item .nav-link {
+  padding-top: 30px;
+  font-family: "Roboto Slab";
+  font-weight: 600;
+  color: lightgray;
 }
 
-.navbar .container-fluid .nav-item .nav-link:hover{
-    font-size: 17px;
-    text-decoration: overline #f58122ff 3px;
+.navbar .container-fluid .nav-item .nav-link:hover {
+  font-size: 17px;
+  text-decoration: overline #f58122ff 3px;
 }
 
-.navbar .container-fluid .nav-item .dropdown-menu{
-    background-color: black;
+.navbar .container-fluid .nav-item .dropdown-menu {
+  background-color: black;
 }
 
-.navbar .container-fluid .nav-item .dropdown-menu .dropdown-item{
-    color: whitesmoke;
-    font-size: 15px;
-    font-weight: 600;
+.navbar .container-fluid .nav-item .dropdown-menu .dropdown-item {
+  color: whitesmoke;
+  font-size: 15px;
+  font-weight: 600;
 }
 
 /* This will make the  */
-.navbar .container-fluid .nav-item .dropdown-menu .dropdown-item:hover{
-    background-color: #f58122ff;
+.navbar .container-fluid .nav-item .dropdown-menu .dropdown-item:hover {
+  background-color: #f58122ff;
 }
 
 /* This will make the nav-item with the dropdown menu be displayed when hovered in larger screens*/
 @media all and (min-width: 992px) {
-	.navbar .nav-item .dropdown-menu{ display: none; }
-	.navbar .nav-item:hover .dropdown-menu{ display: block; }
-	.navbar .nav-item .dropdown-menu{ margin-top:0; }
-}	
-
+  .navbar .nav-item .dropdown-menu {
+    display: none;
+  }
+  .navbar .nav-item:hover .dropdown-menu {
+    display: block;
+  }
+  .navbar .nav-item .dropdown-menu {
+    margin-top: 0;
+  }
+}
 
 /* This will make style the navbar when the display is above the set amount of pixels ( in this case large ) */
 @media screen and (min-width: 750px) {
-    .navbar-brand img {
-        width: 235px;
-        padding-top:  15px;
-        padding-bottom: 15px;
-    }
-    .navbar-brand {
-      margin-right: 0;
-      padding: 0 1em;
-    }
-    .navbar-nav .nav-item .nav-link:hover{
-        text-decoration: overline #f58122ff 3px;
-    }
+  .navbar-brand img {
+    width: 235px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .navbar-brand {
+    margin-right: 0;
+    padding: 0 1em;
+  }
+  .navbar-nav .nav-item .nav-link:hover {
+    text-decoration: overline #f58122ff 3px;
+  }
 }
 
 /* Navbar toggler made transparent */
-.navbar .container-fluid .navbar-toggler{
-    border: none transparent;
-    box-shadow: none;
+.navbar .container-fluid .navbar-toggler {
+  border: none transparent;
+  box-shadow: none;
 }
 
 /* NAVIGATION AREA ENDS HERE */
 
-
 /* HERO SECTION STARTS HERE */
 /*  In the next three blocks of code the height of the carousel inner is set to make the carousel-item fit 100% of the width and height so that the images can fit properly independtly of their sizes */
 
-.carousel .carousel-inner{
-    height: 87.2vh;
+.carousel .carousel-inner {
+  height: 87.2vh;
 }
 
-@media screen and (max-width: 1150px){
-    .carousel .carousel-inner{
-        height: 57vh;
-    }
+@media screen and (max-width: 1150px) {
+  .carousel .carousel-inner {
+    height: 57vh;
+  }
 }
-@media screen and (max-width: 700px){
-    .carousel .carousel-inner{
-        height: 38vh;
-    }
-}
-
-.carousel-item{ 
-    width: 100%;
-    height: 100%;
+@media screen and (max-width: 700px) {
+  .carousel .carousel-inner {
+    height: 38vh;
+  }
 }
 
-.carousel .carousel-inner .carousel-item img{
-    filter:brightness(0.8);
-    max-width: 100%;
-    max-height: 100%;
-    aspect-ratio: 5/3; /* this means that image as width five times more than the height*/
-    object-fit: cover; /* This will make the images cover the full space of the previous height*/
-    object-position: 0 50%; 
+.carousel-item {
+  width: 100%;
+  height: 100%;
 }
 
-.carousel-control-prev{
-    margin-bottom: 18rem;
-    margin-top: 18rem;
-    background-color: black;
-    border-radius: 100px;
-    width: 40px;
-    margin-left: 2rem;
-    height: 80px;
-}
-.carousel-control-next{
-    margin-bottom: 18rem;
-    margin-top: 18rem;
-    background-color: black;
-    border-radius: 100px;
-    width: 40px;
-    margin-right: 2rem;
-    height: 80px;
+.carousel .carousel-inner .carousel-item img {
+  filter: brightness(0.8);
+  max-width: 100%;
+  max-height: 100%;
+  aspect-ratio: 5/3; /* this means that image as width five times more than the height*/
+  object-fit: cover; /* This will make the images cover the full space of the previous height*/
+  object-position: 0 50%;
 }
 
-@media screen and (max-width: 1150px){
-    .carousel-control-next{
-        margin-bottom: 0;
-        margin-top: 12rem;
-        margin-right: 15px;
-    }
-    .carousel-control-prev{
-        margin-bottom: 0;
-        margin-top: 12rem;
-        margin-left: 15px;
-    }
+.carousel-control-prev {
+  margin-bottom: 18rem;
+  margin-top: 18rem;
+  background-color: black;
+  border-radius: 100px;
+  width: 40px;
+  margin-left: 2rem;
+  height: 80px;
+}
+.carousel-control-next {
+  margin-bottom: 18rem;
+  margin-top: 18rem;
+  background-color: black;
+  border-radius: 100px;
+  width: 40px;
+  margin-right: 2rem;
+  height: 80px;
 }
 
-@media screen and (max-width: 1120px){
-    .carousel-control-next{
-        margin-bottom: 0;
-        margin-top: 12rem;
-        margin-right: 15px;
-    }
-    .carousel-control-prev{
-        margin-bottom: 0;
-        margin-top: 12rem;
-        margin-left: 15px;
-    }
+@media screen and (max-width: 1150px) {
+  .carousel-control-next {
+    margin-bottom: 0;
+    margin-top: 12rem;
+    margin-right: 15px;
+  }
+  .carousel-control-prev {
+    margin-bottom: 0;
+    margin-top: 12rem;
+    margin-left: 15px;
+  }
 }
 
-
-@media screen and (max-width: 890px){
-    .carousel-control-next{
-        margin-bottom: 0;
-        margin-top: 11rem;
-    }
-    .carousel-control-prev{
-        margin-bottom: 0;
-        margin-top: 11rem;
-    }
-    .navbar .container-fluid .nav-item .nav-link{
-        font-size: 13px;
-        font-weight: 600;
-    }
-    .navbar .container-fluid .nav-item .dropdown-menu .dropdown-item{
-        font-size: 13px;
-    }
+@media screen and (max-width: 1120px) {
+  .carousel-control-next {
+    margin-bottom: 0;
+    margin-top: 12rem;
+    margin-right: 15px;
+  }
+  .carousel-control-prev {
+    margin-bottom: 0;
+    margin-top: 12rem;
+    margin-left: 15px;
+  }
 }
 
-@media screen and (max-width: 700px){
-    .carousel-control-next{
-        margin-bottom: 0;
-        margin-top: 7rem;
-    }
-    .carousel-control-prev{
-        margin-bottom: 0;
-        margin-top: 7rem;
-    }
+@media screen and (max-width: 890px) {
+  .carousel-control-next {
+    margin-bottom: 0;
+    margin-top: 11rem;
+  }
+  .carousel-control-prev {
+    margin-bottom: 0;
+    margin-top: 11rem;
+  }
+  .navbar .container-fluid .nav-item .nav-link {
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .navbar .container-fluid .nav-item .dropdown-menu .dropdown-item {
+    font-size: 13px;
+  }
 }
 
-@media screen and (max-width: 585px ) and (min-width: 500px){
-    .carousel-control-next{
-        margin-bottom: 0;
-        margin-top: 6rem;
-        width: 30px;
-        height: 60px;
-    }
-    .carousel-control-prev{
-        margin-bottom: 0;
-        margin-top: 6rem;
-        width: 30px;
-        height: 60px;
-    }
+@media screen and (max-width: 700px) {
+  .carousel-control-next {
+    margin-bottom: 0;
+    margin-top: 7rem;
+  }
+  .carousel-control-prev {
+    margin-bottom: 0;
+    margin-top: 7rem;
+  }
 }
 
-@media screen and (max-width: 450px){
-    .carousel-control-next{
-        margin-bottom: 0;
-        margin-top: 5rem;
-        width: 25px;
-        height: 60px;
-    }
-    .carousel-control-prev{
-        margin-bottom: 0;
-        margin-top: 5rem;
-        width: 25px;
-        height: 60px;
-    }
+@media screen and (max-width: 585px) and (min-width: 500px) {
+  .carousel-control-next {
+    margin-bottom: 0;
+    margin-top: 6rem;
+    width: 30px;
+    height: 60px;
+  }
+  .carousel-control-prev {
+    margin-bottom: 0;
+    margin-top: 6rem;
+    width: 30px;
+    height: 60px;
+  }
 }
 
+@media screen and (max-width: 450px) {
+  .carousel-control-next {
+    margin-bottom: 0;
+    margin-top: 5rem;
+    width: 25px;
+    height: 60px;
+  }
+  .carousel-control-prev {
+    margin-bottom: 0;
+    margin-top: 5rem;
+    width: 25px;
+    height: 60px;
+  }
+}
 
 /* OUR CLASSES SECTION */
+#classes .container-fluid {
+  height: 80vh;
+  margin: auto;
+  position: relative;
+  width: 90%;
+  display: grid;
+  place-items: center;
+}
+
+#classes .container-fluid .slide-track {
+  display: flex;
+  width: calc(420px * 16);
+  animation: scroll 50s linear infinite;
+}
+
+#classes .container-fluid .slide-track:hover {
+  animation-play-state: paused;
+}
+
+@keyframes scroll {
+}

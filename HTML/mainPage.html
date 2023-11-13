@@ -93,13 +93,14 @@
 
     <!-- HERO SECTION  -->
     <!-- In this section there will be a carousel slide containing several photos of the customers and gym enviorment and events -->
-    <section class="hero">
+    <section id="hero">
         <div id="carouselHero" class="carousel slide carousel-fade d-lg-flex d-md-flex d-sm-flex" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="../Images/Images/hero1.png" class="d-block w-100" style="object-position: 0 80%;">
+                <img src="../Images/Images/hero1.png" class="d-block w-100" style="object-position: 0 80%; filter: brightness(0.6);">
                 <div class="carousel-caption d-none d-md-block" style="top: 35%;">
                   <h1>Bemvindo a Familia ProGym</h1>
+                  <h4>Best Price <span>||</span> Best quality</h4>
                 </div>
               </div>
               <div class="carousel-item">
@@ -173,22 +174,41 @@
         </div>
         <div class="row">
           <div class="col-md-6">
-            <div class="col-heading text-center text-white fs-3 ">Adultos</div>
-            <div id="carouselClasses" class="carousel slide" data-bs-ride="carousel">
+            <div class="col-heading adults text-center fs-3 ">Adultos</div>
+            <div id="carouselAdults" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <button type="button" data-bs-toggle="modal" data-bs-target="adultsModal">
-                      <div class="card bg-dark text-white">
-                        <img src="../Images/Classes/adults1.jpg" alt="" class="card-img">
-                        <div class="card-img-overlay">
-                          <h5 class="card-title">Crossfit</h5>
-                          <p class="card-text">Treine sua resistência!</p>
-                        </div>
+                  <!-- CrossFit Modal -->
+                <button type="button" class="card-button" data-bs-toggle="modal" data-bs-target="#crossfitModal">
+                  <div class="card bg-dark text-white">
+                    <img src="../Images/Classes/adults1.jpg" alt="" class="card-img">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title">CrossFit</h5>
+                      <p class="card-text">Treine a sua resistência!</p>
+                    </div>
+                  </div>
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="crossfitModal" tabindex="-1" aria-labelledby="crossfitModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-xl modal-fullscreen-sm-down modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h4 class="modal-title" id="crossfitModalLabel">CrossFit</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
-                  </button>
+                      <div class="modal-body">
+                        
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
                 </div>
                 <div class="carousel-item">
-                  <button type="button" data-bs-toggle="modal" data-bs-target="adultsModal">
+                  <button class="card-button" type="button" data-bs-toggle="modal" data-bs-target="adultsModal">
                       <div class="card bg-dark text-white">
                         <img src="../Images/Classes/adults2.jpg" alt="" class="card-img">
                         <div class="card-img-overlay">
@@ -199,7 +219,18 @@
                   </button>
                 </div>
                 <div class="carousel-item">
-                  <button type="button" data-bs-toggle="modal" data-bs-target="adultsModal">
+                  <button class="card-button" type="button" data-bs-toggle="modal" data-bs-target="adultsModal">
+                      <div class="card bg-dark text-white">
+                        <img src="../Images/Classes/adults5.jpg" alt="" class="card-img">
+                        <div class="card-img-overlay">
+                          <h5 class="card-title">Zumba</h5>
+                          <p class="card-text">Queime calorias de uma forma divertida!</p>
+                        </div>
+                      </div>
+                  </button>
+                </div>
+                <div class="carousel-item">
+                  <button class="card-button" type="button" data-bs-toggle="modal" data-bs-target="adultsModal">
                       <div class="card bg-dark text-white">
                         <img src="../Images/Classes/adults3.jpg" alt="" class="card-img">
                         <div class="card-img-overlay">
@@ -210,81 +241,92 @@
                   </button>
                 </div>
                 <div class="carousel-item">
-                  <button type="button" data-bs-toggle="modal" data-bs-target="adultsModal">
+                  <button class="card-button" type="button" data-bs-toggle="modal" data-bs-target="adultsModal">
                       <div class="card bg-dark text-white">
-                        <img src="../Images/Classes/adults4.jpg" alt="" class="card-img">
+                        <img src="../Images/Classes/adults6.jpg" alt="" class="card-img">
                         <div class="card-img-overlay">
                           <h5 class="card-title">Spin</h5>
-                          <p class="card-text">Atinga seu destino!</p>
+                          <p class="card-text">Atinga o seu destino!</p>
+                        </div>
+                      </div>
+                  </button>
+                </div>
+                <div class="carousel-item">
+                  <button class="card-button" type="button" data-bs-toggle="modal" data-bs-target="adultsModal">
+                      <div class="card bg-dark text-white">
+                        <img src="../Images/Classes/adults7.jpg" alt="" class="card-img">
+                        <div class="card-img-overlay">
+                          <h5 class="card-title">Step</h5>
+                          <p class="card-text">Aprenda a dar novos passos!</p>
                         </div>
                       </div>
                   </button>
                 </div>
               </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselAdults" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
               </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselAdults" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
               </button>
             </div>
           </div>
           <div class="col-md-6">
-            <div class="col-heading text-center text-white fs-3">Kids</div>
-            <div id="carouselClasses" class="carousel slide" data-bs-ride="carousel">
+            <div class="col-heading kids text-center fs-3">Kids</div>
+            <div id="carouselKids" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <button type="button" data-bs-toggle="modal" data-bs-target="adultsModal">
+                  <button class="card-button" type="button" data-bs-toggle="modal" data-bs-target="kidsModal">
                       <div class="card bg-dark text-white">
                         <img src="../Images/Classes/kids1.jpg" alt="" class="card-img">
                         <div class="card-img-overlay">
-                          <h5 class="card-title">Crossfit</h5>
-                          <p class="card-text">Treine sua resistência!</p>
+                          <h5 class="card-title">Taekwondo</h5>
+                          <p class="card-text">Torne-se um mestre!</p>
                         </div>
                       </div>
                   </button>
                 </div>
                 <div class="carousel-item">
-                  <button type="button" data-bs-toggle="modal" data-bs-target="adultsModal">
+                  <button class="card-button" type="button" data-bs-toggle="modal" data-bs-target="kidsModal">
                       <div class="card bg-dark text-white">
                         <img src="../Images/Classes/kids2.jpg" alt="" class="card-img">
                         <div class="card-img-overlay">
-                          <h5 class="card-title">FatBurn</h5>
-                          <p class="card-text">Queime as gorduras rapido!</p>
+                          <h5 class="card-title">BasketBall</h5>
+                          <p class="card-text">Dribble, lançe, acerte!</p>
                         </div>
                       </div>
                   </button>
                 </div>
                 <div class="carousel-item">
-                  <button type="button" data-bs-toggle="modal" data-bs-target="adultsModal">
+                  <button class="card-button" type="button" data-bs-toggle="modal" data-bs-target="kidsModal">
                       <div class="card bg-dark text-white">
                         <img src="../Images/Classes/kids3.jpg" alt="" class="card-img">
                         <div class="card-img-overlay">
-                          <h5 class="card-title">Elite Boot Camp</h5>
-                          <p class="card-text">Supere os seus limites!</p>
+                          <h5 class="card-title">Mini Golf</h5>
+                          <p class="card-text">Acerte a todo custo!</p>
                         </div>
                       </div>
                   </button>
                 </div>
                 <div class="carousel-item">
-                  <button type="button" data-bs-toggle="modal" data-bs-target="adultsModal">
+                  <button class="card-button" type="button" data-bs-toggle="modal" data-bs-target="kidsModal">
                       <div class="card bg-dark text-white">
                         <img src="../Images/Classes/kids4.jpg" alt="" class="card-img">
                         <div class="card-img-overlay">
-                          <h5 class="card-title">Spin</h5>
-                          <p class="card-text">Atinga seu destino!</p>
+                          <h5 class="card-title">Pula Pula</h5>
+                          <p class="card-text">Salte sem parar!</p>
                         </div>
                       </div>
                   </button>
                 </div>
               </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselKids" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
               </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselKids" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
               </button>

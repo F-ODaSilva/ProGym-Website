@@ -123,6 +123,9 @@ body {
   object-position: 0 50%;
 }
 
+#hero .carousel span{
+  color: #f58122ff;
+}
 .carousel-control-prev {
   margin-bottom: 18rem;
   margin-top: 18rem;
@@ -406,6 +409,11 @@ body {
   #classes .kids{
     margin-top: 2rem;
   }
+
+  #classes .carousel-inner{
+    height: 32vh;
+  }
+
 }
  
 @media screen and (max-width: 680px) {
@@ -439,3 +447,4 @@ body {
     margin-top: 2rem;
   }
 }
+

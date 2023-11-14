@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Progym Fitness</title>
 
+    <!-- Tab Logo Fav-icon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="../Images/logo/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../Images/logo/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../Images/logo/favicon-16x16.png">
+    <link rel="manifest" href="../Images/logo/site.webmanifest">
+
+
     <!-- Font Awesome Kit Code Link -->
     <script src="https://kit.fontawesome.com/f7ccd0c567.js" crossorigin="anonymous"></script>
 
@@ -177,8 +184,8 @@
             <div class="col-heading adults text-center fs-3 ">Adultos</div>
             <div id="carouselAdults" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <!-- CrossFit Modal -->
+                <div class="carousel-item active" data-bs-interval="5000">
+                <!-- CrossFit Modal -->
                 <button type="button" class="card-button" data-bs-toggle="modal" data-bs-target="#crossfitModal">
                   <div class="card bg-dark text-white">
                     <img src="../Images/Classes/adults1.jpg" alt="" class="card-img">
@@ -191,19 +198,32 @@
 
                 <!-- Modal -->
                 <div class="modal fade" id="crossfitModal" tabindex="-1" aria-labelledby="crossfitModalLabel" aria-hidden="true">
-                  <div class="modal-dialog modal-lg modal-fullscreen-sm-down modal-dialog-centered">
+                  <div class="modal-dialog modal-xl modal-fullscreen-sm-down modal-dialog-centered">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h4 class="modal-title" id="crossfitModalLabel">CrossFit</h4>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <a href="../HTML/classesPage.html#crossFit">
+                          <h3 class="modal-title" id="crossfitModalLabel">CrossFit</h3>
+                        </a>
+                        <button type="button" class="btn-close btn-close-white pe-5" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
                         <div class="container-fluid">
                           <div class="row">
-                            <div class="col-md-8">
+                            <div class="col-md-8 col-lg-7 g-0">
                               <img .class="img-fluid" src="../Images/Classes/adults1.jpg" alt="">
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-4 col-lg-5">
+
+                              <h4>O que é Crossfit?</h4>
+                              <p>O CrossFit e uma modalidade desportiva que tem como objetivo melhorar a capacidade física, respiratória, o condicionamento e a resistência muscular por meio da combinação de diversos exercicios que são realizados em treinos de alta intensidade.</p>
+
+                              <h5>Beneficios</h5>
+                              <ol>
+                                <li>Estimula o espírito de equipa</li>
+                                <li>Tonificação muscular e ganho de massa magra e perda de gordura</li>
+                                <li>Diminiuição do stress/ansiedade</li>
+                                <li>Maior capacidade cardiorespiratória e de condicionamento físico</li>
+                              </ol>
                               
                             </div>
                           </div>
@@ -213,8 +233,9 @@
                   </div>
                 </div>
                 </div>
-                <div class="carousel-item">
-                  <button class="card-button" type="button" data-bs-toggle="modal" data-bs-target="adultsModal">
+                <div class="carousel-item" data-bs-interval="5000">
+                  <!-- FatBurn Modal -->
+                  <button class="card-button" type="button" data-bs-toggle="modal" data-bs-target="#fatburnModal">
                       <div class="card bg-dark text-white">
                         <img src="../Images/Classes/adults2.jpg" alt="" class="card-img">
                         <div class="card-img-overlay">
@@ -223,20 +244,50 @@
                         </div>
                       </div>
                   </button>
-                </div>
-                <div class="carousel-item">
-                  <button class="card-button" type="button" data-bs-toggle="modal" data-bs-target="adultsModal">
-                      <div class="card bg-dark text-white">
-                        <img src="../Images/Classes/adults5.jpg" alt="" class="card-img">
-                        <div class="card-img-overlay">
-                          <h5 class="card-title">Zumba</h5>
-                          <p class="card-text">Queime calorias de uma forma divertida!</p>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="fatburnModal" tabindex="-1" aria-labelledby="fatburnModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-xl modal-fullscreen-sm-down modal-dialog-centered">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <a href="../HTML/classesPage.html#fatBurn">
+                            <h3 class="modal-title" id="fatburnModalLabel">FatBurn</h3>
+                          </a>
+                          <button type="button" class="btn-close btn-close-white pe-5" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <div class="container-fluid">
+                            <div class="row">
+                              <div class="col-md-8 col-lg-7 g-0">
+                                <img .class="img-fluid" src="../Images/Classes/adults2.jpg" alt="">
+                              </div>
+                              <div class="col-md-4 col-lg-5">
+
+                                <h4>O que é FatBurn?</h4>
+                                <p>Esta aula é focada no emagracimento e condicionamento físico ela veio para transformar o seu corpo e mente, faz o uso de exercicios intensos e fundamentias de tempo variado, com foco nas areas do corpo humano onde tem mais tendência em reter gordura, recomendado para pessoas que estão acima de peso e que querem tonificar o seu corpo. </p>
+  
+                                <h5>Beneficios</h5>
+                                <ol>
+                                  <li>Queima e perda de gordura</li>
+                                  <li>Maior capacidade cardiorespiratória</li>
+                                  <li>Diminiuição de pressão arterial</li>
+                                  <li>Bem estar e ganho de fortitude mental</li>  
+                                  <li>Redução do colesterol mau</li>
+                                  <li>Redução do risco de doenças</li>
+                                </ol>
+                                
+                              </div>
+                            </div>
+                          </div>
                         </div>
                       </div>
-                  </button>
+                    </div>
+                  </div>
                 </div>
-                <div class="carousel-item">
-                  <button class="card-button" type="button" data-bs-toggle="modal" data-bs-target="adultsModal">
+
+                <div class="carousel-item" data-bs-interval="5000">
+                  <!-- Zumba Modal-->
+                  <button class="card-button" type="button" data-bs-toggle="modal" data-bs-target="#eliteModal">
                       <div class="card bg-dark text-white">
                         <img src="../Images/Classes/adults3.jpg" alt="" class="card-img">
                         <div class="card-img-overlay">
@@ -245,20 +296,103 @@
                         </div>
                       </div>
                   </button>
+              
+                  <!-- Modal -->
+                  <div class="modal fade" id="eliteModal" tabindex="-1" aria-labelledby="eliteModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-xl modal-fullscreen-sm-down modal-dialog-centered">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <a href="../HTML/classesPage.html#elite">
+                            <h3 class="modal-title" id="eliteModalLabel" style="padding-left: 31rem;">Elite Boot Camp</h3>
+                          </a>
+                          <button type="button" class="btn-close btn-close-white pe-5" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <div class="container-fluid">
+                            <div class="row">
+                              <div class="col-md-8 col-lg-7 g-0">
+                                <img .class="img-fluid" src="../Images/Classes/adults3.jpg" alt="">
+                              </div>
+                              <div class="col-md-4 col-lg-5">
+              
+                                <h4>O que é Elite Boot Camp?</h4>
+                                <p>O Elite Boot Camp é uma aula intensiva e imersiva para quem quer desenvolver e melhorar suas habilidades físicas, mentais e energéticas esta visa a procurar, atingir e ultrapassar os seus limites.Um teino de guerreiros para guerreiros.</p>
+              
+                                <h5>Beneficios</h5>
+                                <ol>
+                                  <li>Tonificação muscular e ganho de massa magra e perda de gordura</li>
+                                  <li>Maior capacidade cardiorespiratória e de condicionamento físico</li>
+                                  <li>Aumento na resistência e força</li>
+                                  <li>Estimula o espírito de equipa</li>
+                                  <li>Resilência</li>
+                                </ol>
+                                
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              
                 </div>
-                <div class="carousel-item">
-                  <button class="card-button" type="button" data-bs-toggle="modal" data-bs-target="adultsModal">
+              
+              
+                <div class="carousel-item" data-bs-interval="5000">
+                  <!-- Zumba Modal-->
+                  <button class="card-button" type="button" data-bs-toggle="modal" data-bs-target="#spinModal">
                       <div class="card bg-dark text-white">
                         <img src="../Images/Classes/adults6.jpg" alt="" class="card-img">
                         <div class="card-img-overlay">
                           <h5 class="card-title">Spin</h5>
-                          <p class="card-text">Atinga o seu destino!</p>
+                          <p class="card-text">Atinge o seu destino!</p>
                         </div>
                       </div>
                   </button>
+              
+                  <!-- Modal -->
+                  <div class="modal fade" id="spinModal" tabindex="-1" aria-labelledby="spinModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-xl modal-fullscreen-sm-down modal-dialog-centered">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <a href="../HTML/classesPage.html#crossFit">
+                            <h3 class="modal-title" id="spinModalLabel">Spin</h3>
+                          </a>
+                          <button type="button" class="btn-close btn-close-white pe-5" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <div class="container-fluid">
+                            <div class="row">
+                              <div class="col-md-8 col-lg-7 g-0">
+                                <img .class="img-fluid" src="../Images/Classes/adults6.jpg" alt="">
+                              </div>
+                              <div class="col-md-4 col-lg-5">
+              
+                                <h4>O que é Spin?</h4>
+                                <p>Conhecido como ciclismo indoor, é uma forma de fazer uma sequência de exercícios coreografados em em ritmos de músicas com ajuda do instrutor, simulando trajetos que envolvem descidas, subidas graças a bicicleta que consegue ser adaptada para diferentes níveis de esforço. Esta é uma aula energética e extremamente motivadora.</p>
+              
+                                <h5>Beneficios</h5>
+                                <ol>
+                                  <li>Grandes quantidades de queima de caloria</li>
+                                  <li>Fortalecimento muscular</li>
+                                  <li>Diminiuição do stress/ansiedade</li>
+                                  <li>Maior capacidade cardiorespiratória e de condicionamento físico</li>
+                                  <li>Definição dos membros inferiores</li>
+                                </ol>
+                                
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              
                 </div>
-                <div class="carousel-item">
-                  <button class="card-button" type="button" data-bs-toggle="modal" data-bs-target="adultsModal">
+              
+                <div class="carousel-item" data-bs-interval="5000">
+                  <!-- Zumba Modal-->
+                  <button class="card-button" type="button" data-bs-toggle="modal" data-bs-target="#stepModal">
                       <div class="card bg-dark text-white">
                         <img src="../Images/Classes/adults7.jpg" alt="" class="card-img">
                         <div class="card-img-overlay">
@@ -267,6 +401,45 @@
                         </div>
                       </div>
                   </button>
+              
+                  <!-- Modal -->
+                  <div class="modal fade" id="stepModal" tabindex="-1" aria-labelledby="stepModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-xl modal-fullscreen-sm-down modal-dialog-centered">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <a href="../HTML/classesPage.html#crossFit">
+                            <h3 class="modal-title" id="stepModalLabel">Step</h3>
+                          </a>
+                          <button type="button" class="btn-close btn-close-white pe-5" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <div class="container-fluid">
+                            <div class="row">
+                              <div class="col-md-8 col-lg-7 g-0">
+                                <img .class="img-fluid" src="../Images/Classes/adults7.jpg" alt="">
+                              </div>
+                              <div class="col-md-4 col-lg-5">
+              
+                                <h4 style="margin-top: 15px;">O que é Step?</h4>
+                                <p>As aulas de step consistem em fazer exercícios diversos utilizando o auxilio de um step(degrau).Esta modalidade inclui exercicios que movimentam os braços e as pernas, a dificuldade do movimento pode ser regulada pela altura do step e a intensidade de movimentos, a dificuldade progride com o tipo de musica e ajuda do instrutor que estará a conduzir a aula.</p>
+              
+                                <h5 style="margin-top:-18px;">Beneficios</h5>
+                                <ol>
+                                  <li>Exercita o corpo todo queimando e perdendo gorduras e tonificando o corpo</li>
+                                  <li>Aumenta consciência corporal</li>
+                                  <li>Fortalecimento dos ossos e ligações</li>
+                                  <li>Melhora a postura</li>
+                                  <li>Maior capacidade cardiorespiratória</li>
+                                </ol>
+                                
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              
                 </div>
               </div>
               <button class="carousel-control-prev" type="button" data-bs-target="#carouselAdults" data-bs-slide="prev">
@@ -283,7 +456,7 @@
             <div class="col-heading kids text-center fs-3">Kids</div>
             <div id="carouselKids" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-inner">
-                <div class="carousel-item active">
+                <div class="carousel-item active" data-bs-interval="5000">
                   <button class="card-button" type="button" data-bs-toggle="modal" data-bs-target="kidsModal">
                       <div class="card bg-dark text-white">
                         <img src="../Images/Classes/kids1.jpg" alt="" class="card-img">
@@ -294,7 +467,7 @@
                       </div>
                   </button>
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item" data-bs-interval="5000">
                   <button class="card-button" type="button" data-bs-toggle="modal" data-bs-target="kidsModal">
                       <div class="card bg-dark text-white">
                         <img src="../Images/Classes/kids2.jpg" alt="" class="card-img">
@@ -305,7 +478,7 @@
                       </div>
                   </button>
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item" data-bs-interval="5000">
                   <button class="card-button" type="button" data-bs-toggle="modal" data-bs-target="kidsModal">
                       <div class="card bg-dark text-white">
                         <img src="../Images/Classes/kids3.jpg" alt="" class="card-img">
@@ -316,7 +489,7 @@
                       </div>
                   </button>
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item" data-bs-interval="5000">
                   <button class="card-button" type="button" data-bs-toggle="modal" data-bs-target="kidsModal">
                       <div class="card bg-dark text-white">
                         <img src="../Images/Classes/kids4.jpg" alt="" class="card-img">

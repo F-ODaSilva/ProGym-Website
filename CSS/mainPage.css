@@ -448,3 +448,76 @@ body {
   }
 }
 
+/* MODAL CLASSES SECTION */
+#classes .modal .modal-content {
+  background-color: black;
+  border: #f58122ff 4px solid;
+}
+
+#classes .modal .modal-header {
+  border-bottom: solid 5px #f58122ff;
+}
+
+#classes .modal .modal-header a:link{
+  color: transparent;
+}
+
+#classes .modal .modal-header a:visited{
+  color: transparent;
+}
+
+#classes .modal .modal-header a:hover{
+  color: #f58122ff;
+}
+
+#classes .modal .modal-header a:active{
+  color: transparent;
+}
+
+#classes .modal .modal-header h3 {
+  padding-left: 33rem;
+  color: white;
+  font-weight: 600;
+  font-size: 35px;
+}
+
+#classes .modal .modal-body {
+  padding: 0;
+  background-color: #2f2e2e;
+}
+
+#classes .modal .container-fluid {
+   padding-left: 12px;
+}
+#classes .modal .col-md-4{
+  color: whitesmoke;
+}
+
+#classes .modal .col-md-4 h4{
+  text-align: center;
+  font-size: 25px;
+  margin-top: 20px;
+  color: #f58122ff;
+  font-weight: 600;
+}
+
+#classes .modal .col-md-4 h5{
+  text-align: center;
+  color: #f58122ff;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#classes .modal .col-md-4 p{
+  text-align: justify;
+}
+
+#classes .modal .col-md-4 ol{
+  text-align: center;
+  list-style: inside;
+  list-style-type: decimal;
+}
+
+#classes .modal .col-md-4 li::marker{
+  color: #f58122ff;
+}

@@ -238,6 +238,10 @@ body {
 
 
 /* OUR CLASSES SECTION */
+#classes{
+  background-image: url(../Images/Patterns/pattern2.png);
+}
+
 #classes .heading{
     text-align: center;
 }
@@ -286,8 +290,21 @@ body {
   font-weight: 600;
 }
 
+#classes .carousel-section .carousel-item{
+  border-radius: 28px;
+}
+
+#classes .carousel-section .card-img-overlay{
+  border-radius: 30px;
+}
+
+#classes .carousel-item .card {
+  border-radius: 28px;
+}
+
 #classes .carousel-item .card img{
   filter: brightness(0.7);
+  border-radius: 28px;
 }
 
 #classes .carousel-control-next{
@@ -449,6 +466,7 @@ body {
 }
 
 /* MODAL CLASSES SECTION */
+
 #classes .modal .modal-content {
   background-color: black;
   border: #f58122ff 4px solid;
@@ -513,11 +531,14 @@ body {
 }
 
 #classes .modal .col-md-4 ol{
-  text-align: center;
+  text-align: left;
   list-style: inside;
   list-style-type: decimal;
+  margin-left: -28px;
+  font-size: 13.5px;
 }
 
 #classes .modal .col-md-4 li::marker{
   color: #f58122ff;
 }
+

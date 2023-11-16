@@ -431,6 +431,11 @@ body {
     height: 32vh;
   }
 
+  #classes{
+    background-image: url(../Images/Patterns/pattern6.png);
+    background-position: 25% 48%;
+  }
+
 }
  
 @media screen and (max-width: 680px) {
@@ -462,6 +467,11 @@ body {
 
   #classes .kids{
     margin-top: 2rem;
+  }
+
+  #classes{
+    background-image: url(../Images/Patterns/pattern6.png);
+    background-position: 25% 48%;
   }
 }
 
@@ -542,3 +552,10 @@ body {
   color: #f58122ff;
 }
 
+
+#classes .col-md-6 .clickBox{
+  color: whitesmoke;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+}

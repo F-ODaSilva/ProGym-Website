@@ -1,231 +1,642 @@
 html,
 body {
-    font-family: "Roboto Slab";
-    font-size: 15px;
-    line-height: 1.5;
-    box-sizing: border-box;
-    margin: 0;
-    top: 0;
-    left: 0;
-    
+  font-family: "Roboto Slab";
+  font-size: 15px;
+  line-height: 1.5;
+  box-sizing: border-box;
+  margin: 0;
+  top: 0;
+  left: 0;
 }
 
 body {
-    background-color: chocolate;
+  background-color: black;
 }
-
 
 /* NAVIGATION AREA STARTS HERE */
-.navbar{
-    background-color: black!important;
+.navbar {
+  background-color: black !important;
 }
 
-.navbar .container-fluid .bi-list{
-    color: whitesmoke;
-    font-size: 30px;
-} 
+.navbar .container-fluid .bi-list {
+  color: whitesmoke;
+  font-size: 30px;
+}
 
 .navbar-brand img {
-    width: 200px;
+  width: 200px;
 }
 
-.navbar .container-fluid .nav-item .nav-link{
-    padding-top: 30px;
-    font-family: "Roboto Slab";
-    font-weight: 600;
-    color: lightgray;
+.navbar .container-fluid .nav-item .nav-link {
+  padding-top: 30px;
+  font-family: "Roboto Slab";
+  font-weight: 600;
+  color: lightgray;
 }
 
-.navbar .container-fluid .nav-item .nav-link:hover{
-    font-size: 17px;
-    text-decoration: overline #f58122ff 3px;
+.navbar .container-fluid .nav-item .nav-link:hover {
+  font-size: 17px;
+  text-decoration: overline #f58122ff 3px;
 }
 
-.navbar .container-fluid .nav-item .dropdown-menu{
-    background-color: black;
+.navbar .container-fluid .nav-item .dropdown-menu {
+  background-color: black;
 }
 
-.navbar .container-fluid .nav-item .dropdown-menu .dropdown-item{
-    color: whitesmoke;
-    font-size: 15px;
-    font-weight: 600;
+.navbar .container-fluid .nav-item .dropdown-menu .dropdown-item {
+  color: whitesmoke;
+  font-size: 15px;
+  font-weight: 600;
 }
 
 /* This will make the  */
-.navbar .container-fluid .nav-item .dropdown-menu .dropdown-item:hover{
-    background-color: #f58122ff;
+.navbar .container-fluid .nav-item .dropdown-menu .dropdown-item:hover {
+  background-color: #f58122ff;
 }
 
 /* This will make the nav-item with the dropdown menu be displayed when hovered in larger screens*/
 @media all and (min-width: 992px) {
-	.navbar .nav-item .dropdown-menu{ display: none; }
-	.navbar .nav-item:hover .dropdown-menu{ display: block; }
-	.navbar .nav-item .dropdown-menu{ margin-top:0; }
-}	
-
+  .navbar .nav-item .dropdown-menu {
+    display: none;
+  }
+  .navbar .nav-item:hover .dropdown-menu {
+    display: block;
+  }
+  .navbar .nav-item .dropdown-menu {
+    margin-top: 0;
+  }
+}
 
 /* This will make style the navbar when the display is above the set amount of pixels ( in this case large ) */
 @media screen and (min-width: 750px) {
-    .navbar-brand img {
-        width: 235px;
-        padding-top:  15px;
-        padding-bottom: 15px;
-    }
-    .navbar-brand {
-      margin-right: 0;
-      padding: 0 1em;
-    }
-    .navbar-nav .nav-item .nav-link:hover{
-        text-decoration: overline #f58122ff 3px;
-    }
+  .navbar-brand img {
+    width: 235px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .navbar-brand {
+    margin-right: 0;
+    padding: 0 1em;
+  }
+  .navbar-nav .nav-item .nav-link:hover {
+    text-decoration: overline #f58122ff 3px;
+  }
 }
 
 /* Navbar toggler made transparent */
-.navbar .container-fluid .navbar-toggler{
-    border: none transparent;
-    box-shadow: none;
+.navbar .container-fluid .navbar-toggler {
+  border: none transparent;
+  box-shadow: none;
 }
 
 /* NAVIGATION AREA ENDS HERE */
 
-
 /* HERO SECTION STARTS HERE */
 /*  In the next three blocks of code the height of the carousel inner is set to make the carousel-item fit 100% of the width and height so that the images can fit properly independtly of their sizes */
 
-.carousel .carousel-inner{
-    height: 87.2vh;
+.carousel .carousel-inner {
+  height: 87.2vh;
 }
 
-@media screen and (max-width: 1150px){
-    .carousel .carousel-inner{
-        height: 57vh;
-    }
+@media screen and (max-width: 1150px) {
+  .carousel .carousel-inner {
+    height: 57vh;
+  }
 }
-@media screen and (max-width: 700px){
-    .carousel .carousel-inner{
-        height: 38vh;
-    }
-}
-
-.carousel-item{ 
-    width: 100%;
-    height: 100%;
+@media screen and (max-width: 700px) {
+  .carousel .carousel-inner {
+    height: 38vh;
+  }
 }
 
-.carousel .carousel-inner .carousel-item img{
-    filter:brightness(0.8);
-    max-width: 100%;
-    max-height: 100%;
-    aspect-ratio: 5/3; /* this means that image as width five times more than the height*/
-    object-fit: cover; /* This will make the images cover the full space of the previous height*/
-    object-position: 0 50%; 
+.carousel-item {
+  width: 100%;
+  height: 100%;
 }
 
-.carousel-control-prev{
-    margin-bottom: 18rem;
-    margin-top: 18rem;
-    background-color: black;
-    border-radius: 100px;
-    width: 40px;
-    margin-left: 2rem;
-    height: 80px;
-}
-.carousel-control-next{
-    margin-bottom: 18rem;
-    margin-top: 18rem;
-    background-color: black;
-    border-radius: 100px;
-    width: 40px;
-    margin-right: 2rem;
-    height: 80px;
+.carousel .carousel-inner .carousel-item img {
+  filter: brightness(0.8);
+  max-width: 100%;
+  max-height: 100%;
+  aspect-ratio: 5/3; /* this means that image as width five times more than the height*/
+  object-fit: cover; /* This will make the images cover the full space of the previous height*/
+  object-position: 0 50%;
 }
 
-@media screen and (max-width: 1150px){
-    .carousel-control-next{
-        margin-bottom: 0;
-        margin-top: 12rem;
-        margin-right: 15px;
-    }
-    .carousel-control-prev{
-        margin-bottom: 0;
-        margin-top: 12rem;
-        margin-left: 15px;
-    }
+#hero .carousel span{
+  color: #f58122ff;
+}
+.carousel-control-prev {
+  margin-bottom: 18rem;
+  margin-top: 18rem;
+  background-color: black;
+  border-radius: 100px;
+  width: 40px;
+  margin-left: 2rem;
+  height: 80px;
+  border: 4px solid #f58122ff;
+}
+.carousel-control-next {
+  margin-bottom: 18rem;
+  margin-top: 18rem;
+  background-color: black;
+  border-radius: 100px;
+  width: 40px;
+  margin-right: 2rem;
+  height: 80px;
+  border: 4px solid #f58122ff;
 }
 
-@media screen and (max-width: 1120px){
-    .carousel-control-next{
-        margin-bottom: 0;
-        margin-top: 12rem;
-        margin-right: 15px;
-    }
-    .carousel-control-prev{
-        margin-bottom: 0;
-        margin-top: 12rem;
-        margin-left: 15px;
-    }
+/* Responsiveness part for the carousel buttons for medium screens */
+@media screen and (max-width: 1150px) {
+  .carousel-control-next {
+    margin-bottom: 0;
+    margin-top: 12rem;
+    margin-right: 15px;
+  }
+  .carousel-control-prev {
+    margin-bottom: 0;
+    margin-top: 12rem;
+    margin-left: 15px;
+  }
 }
 
-
-@media screen and (max-width: 890px){
-    .carousel-control-next{
-        margin-bottom: 0;
-        margin-top: 11rem;
-    }
-    .carousel-control-prev{
-        margin-bottom: 0;
-        margin-top: 11rem;
-    }
-    .navbar .container-fluid .nav-item .nav-link{
-        font-size: 13px;
-        font-weight: 600;
-    }
-    .navbar .container-fluid .nav-item .dropdown-menu .dropdown-item{
-        font-size: 13px;
-    }
+@media screen and (max-width: 1120px) {
+  .carousel-control-next {
+    margin-bottom: 0;
+    margin-top: 12rem;
+    margin-right: 15px;
+  }
+  .carousel-control-prev {
+    margin-bottom: 0;
+    margin-top: 12rem;
+    margin-left: 15px;
+  }
 }
 
-@media screen and (max-width: 700px){
-    .carousel-control-next{
-        margin-bottom: 0;
-        margin-top: 7rem;
-    }
-    .carousel-control-prev{
-        margin-bottom: 0;
-        margin-top: 7rem;
-    }
+/* Here is where the carousel buttons and nav-links and dropdown items will be responsive for tablets */
+@media screen and (max-width: 890px) {
+  .carousel-control-next {
+    margin-bottom: 0;
+    margin-top: 11rem;
+  }
+  .carousel-control-prev {
+    margin-bottom: 0;
+    margin-top: 11rem;
+  }
+  .navbar .container-fluid .nav-item .nav-link {
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .navbar .container-fluid .nav-item .dropdown-menu .dropdown-item {
+    font-size: 13px;
+  }
 }
 
-@media screen and (max-width: 585px ) and (min-width: 500px){
-    .carousel-control-next{
-        margin-bottom: 0;
-        margin-top: 6rem;
-        width: 30px;
-        height: 60px;
-    }
-    .carousel-control-prev{
-        margin-bottom: 0;
-        margin-top: 6rem;
-        width: 30px;
-        height: 60px;
-    }
+@media screen and (max-width: 700px) {
+  .carousel-control-next {
+    margin-bottom: 0;
+    margin-top: 7rem;
+  }
+  .carousel-control-prev {
+    margin-bottom: 0;
+    margin-top: 7rem;
+  }
 }
 
-@media screen and (max-width: 450px){
-    .carousel-control-next{
-        margin-bottom: 0;
-        margin-top: 5rem;
-        width: 25px;
-        height: 60px;
-    }
-    .carousel-control-prev{
-        margin-bottom: 0;
-        margin-top: 5rem;
-        width: 25px;
-        height: 60px;
-    }
+/* For smaller screens  */
+@media screen and (max-width: 585px) and (min-width: 500px) {
+  .carousel-control-next {
+    margin-bottom: 0;
+    margin-top: 6rem;
+    width: 30px;
+    height: 60px;
+  }
+  .carousel-control-prev {
+    margin-bottom: 0;
+    margin-top: 6rem;
+    width: 30px;
+    height: 60px;
+  }
 }
+
+@media screen and (max-width: 450px) {
+  .carousel-control-next {
+    margin-bottom: 0;
+    margin-top: 5rem;
+    width: 25px;
+    height: 60px;
+  }
+  .carousel-control-prev {
+    margin-bottom: 0;
+    margin-top: 5rem;
+    width: 25px;
+    height: 60px;
+  }
+}
+/* HERO SECTION ENDS HERE */
 
 
 /* OUR CLASSES SECTION */
-section .classes .heading .
+#classes{
+  background-image: url(../Images/Patterns/pattern4.png);
+}
+
+#classes .heading{
+    text-align: center;
+}
+
+#classes .heading h1{
+    font-size: 32px;
+    color: whitesmoke;
+    background-color: #f58122ff;
+    margin-right: 32rem;
+    margin-left: 32rem;
+    border-radius: 57px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-family: 'Roboto Slab';
+    font-weight: 700;
+
+}
+
+#classes .col-heading{
+  color: #f58122ff!important;
+  font-size: 22px!important;
+  background-color: whitesmoke;
+  border: solid gray 2.8px;
+  margin-left: 15rem;
+  margin-right: 15rem;
+  margin-bottom: 1rem;
+  border-radius: 2rem;
+  font-weight: 600;
+}
+
+#classes .col-md-6 .kids{
+  color: #50B1C4!important;
+}
+
+#classes .carousel-inner{
+  height: 57vh;
+}
+#classes .carousel-item .card-button{
+  background-color: transparent;
+	border: transparent;
+}
+
+#classes .carousel-item .card .card-title{
+  font-size: 40px;
+  padding-top: 9rem;
+  font-weight: 600;
+}
+
+#classes .carousel-section .carousel-item{
+  border-radius: 28px;
+}
+
+#classes .carousel-section .card-img-overlay{
+  border-radius: 30px;
+}
+
+#classes .carousel-item .card {
+  border-radius: 28px;
+}
+
+#classes .carousel-item .card img{
+  filter: brightness(0.7);
+  border-radius: 28px;
+}
+
+#classes .carousel-control-next{
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+#classes .carousel-control-prev{
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+@media screen and (max-width: 1300px){
+  #classes .heading h1{
+    margin-left: 24rem;
+    margin-right: 24rem;
+  }
+
+  #classes .col-heading{
+    margin-left: 12rem;
+    margin-right: 12rem;
+    font-size: 20px!important;
+  }
+  
+  #classes .carousel-inner{
+    height: 42vh;
+  }
+}
+
+@media screen and (max-width: 1200px){
+    #classes .heading h1{
+      margin-left: 25rem;
+      margin-right: 25rem;
+      font-size: 28px;
+    }
+  
+    #classes .col-heading{
+        margin-left: 12rem;
+        margin-right: 12rem;
+        font-size: 18px!important;
+    }
+
+    #classes .carousel-control-prev{
+      margin-top: 8rem;
+    }
+    #classes .carousel-control-next{
+      margin-top: 8rem;
+    }
+
+    #classes .card-title{
+      padding-top: 7rem!important;
+      font-size: 25px!important;
+    }
+}
+@media screen and (max-width: 1000px){
+  #classes .heading h1{
+    margin-left: 19rem;
+    margin-right: 19rem;
+  }
+
+  #classes .col-heading{
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+  
+  #classes .carousel-inner{
+    height: 32vh;
+  }
+
+  #classes .carousel-control-prev{
+    margin-top: 7rem;
+    width: 25px;
+  }
+  #classes .carousel-control-next{
+    margin-top: 7rem;
+    width: 25px;
+  }
+
+  #classes .card-title{
+    padding-top: 6rem!important ;
+    font-size: 25px!important;
+  }
+}
+
+@media screen and (max-width: 890px){
+  #classes .heading h1{
+    margin-left: 14rem;
+    margin-right: 14rem;
+  }
+  
+  #classes .col-heading{
+    margin-left: 8rem;
+    margin-right: 8rem;
+  }
+
+  #classes .carousel-control-next{
+    margin-top: 5rem;
+  }
+
+  #classes .carousel-control-prev{
+    margin-top: 5rem;
+  }
+
+  #classes .card-title{
+    padding-top: 4rem!important;
+  }
+}
+ 
+@media screen and (max-width: 766px) {
+  #classes .heading h1{
+    margin-left: 11rem;
+    margin-right: 11rem;
+  }
+  
+  #classes .col-heading{
+    margin-left: 18rem;
+    margin-right: 18rem;
+  }
+
+  #classes .kids{
+    margin-top: 2rem;
+  }
+
+  #classes .carousel-inner{
+    height: 32vh;
+  }
+
+  #classes{
+    background-image: url(../Images/Patterns/pattern6.png);
+    background-position: 25% 48%;
+  }
+
+}
+ 
+@media screen and (max-width: 680px) {
+  #classes .heading h1{
+    margin-left: 6rem;
+    margin-right: 6rem;
+  }
+  
+  #classes .col-heading{
+    margin-left: 12.5rem;
+    margin-right: 12.5rem;
+  }
+
+  #classes .kids{
+    margin-top: 2rem;
+  }
+}
+ 
+@media screen and (max-width: 500px) and (min-width:350px) {
+  #classes .heading h1{
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+  
+  #classes .col-heading{
+    margin-left: 8rem;
+    margin-right: 8rem;
+  }
+
+  #classes .kids{
+    margin-top: 2rem;
+  }
+
+  #classes{
+    background-image: url(../Images/Patterns/pattern6.png);
+    background-position: 25% 48%;
+  }
+}
+
+/* MODAL CLASSES SECTION */
+
+#classes .modal .modal-content {
+  background-color: black;
+  border: #f58122ff 4px solid;
+}
+
+#classes .modal .modal-header {
+  border-bottom: solid 5px #f58122ff;
+}
+
+#classes .modal .modal-header a:link{
+  color: transparent;
+}
+
+#classes .modal .modal-header a:visited{
+  color: transparent;
+}
+
+#classes .modal .modal-header a:hover{
+  color: #f58122ff;
+}
+
+#classes .modal .modal-header a:active{
+  color: transparent;
+}
+
+#classes .modal .modal-header h3 {
+  padding-left: 33rem;
+  color: white;
+  font-weight: 600;
+  font-size: 35px;
+}
+
+#classes .modal .modal-body {
+  padding: 0;
+  background-color: #2f2e2e;
+}
+
+#classes .modal .container-fluid {
+   padding-left: 12px;
+}
+#classes .modal .col-md-4{
+  color: whitesmoke;
+}
+
+#classes .modal .col-md-4 h4{
+  text-align: center;
+  font-size: 25px;
+  margin-top: 20px;
+  color: #f58122ff;
+  font-weight: 600;
+}
+
+#classes .modal .col-md-4 h5{
+  text-align: center;
+  color: #f58122ff;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#classes .modal .col-md-4 p{
+  text-align: justify;
+}
+
+#classes .modal .col-md-4 ol{
+  text-align: left;
+  list-style: inside;
+  list-style-type: decimal;
+  margin-left: -28px;
+  font-size: 13.5px;
+}
+
+#classes .modal .col-md-4 li::marker{
+  color: #f58122ff;
+}
+
+
+#classes .col-md-6 .clickBox{
+  color: whitesmoke;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+
+@media screen and (max-width: 1200px ){
+  #classes .modal .modal-header h3{
+    padding-left: 19rem;
+  }
+}
+
+@media screen and (max-width: 950px ){
+  #classes .modal .modal-header h3{
+    padding-left: 7rem!important;
+  }
+  
+  #classes .modal #spinModalLabel{
+    padding-left: 12rem!important;
+  }
+
+  #classes .modal #fatburnModalLabel{
+    padding-left: 12rem!important;
+  }
+
+  #classes .modal #stepModalLabel{
+    padding-left: 13rem!important;
+  }
+
+  #classes .modal #zumbaModalLabel{
+    padding-left: 12rem!important;
+  }
+
+  #classes .modal #runModalLabel{
+    padding-left: 13rem!important;
+  }
+
+  #classes .modal #coreModalLabel{
+    padding-left: 13rem!important;
+  }
+
+  #classes .modal #aeroModalLabel{
+    padding-left: 11rem!important;
+  }
+
+  #classes .modal #flowModalLabel{
+    padding-left: 13rem!important;
+  }
+
+  #classes .modal #tabataModalLabel{
+    padding-left: 12rem!important;
+  }
+
+  #classes .modal #glutesModalLabel{
+    padding-left: 10rem!important;
+  }
+
+  #classes .modal #taekModalLabel{
+    padding-left: 9rem!important;
+  }
+
+  #classes .modal #basketModalLabel{
+    padding-left: 9rem!important;
+  }
+
+  #classes .modal #basketModalLabel{
+    padding-left: 9rem!important;
+  }
+
+  #classes .modal #pulaModalLabel{
+    padding-left: 10rem!important;
+  }
+
+  #classes .modal #crossModalLabel{
+    padding-left: 10rem!important;
+  }
+
+  #classes .modal #golfModalLabel{
+    padding-left: 10rem!important;
+  }
+
+  #classes .modal #futsalModalLabel{
+    padding-left: 12rem!important;
+  }
+}

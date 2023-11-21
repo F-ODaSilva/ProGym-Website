@@ -640,3 +640,85 @@ body {
     padding-left: 12rem!important;
   }
 }
+
+/* PROMOTIONS SECTION STARTS HERE */
+
+#promotions .container{
+  margin: 7rem;
+  /* top and bottom | left and right */
+}
+
+#promotions img{
+  filter: brightness(0.7);
+}
+
+#promotions .container .card-title{
+  margin: -3rem 12rem 2rem 12rem;
+  background-color: #f58122ff;
+  font-weight: 700;
+  padding: 4px 20px;
+  border-radius: 15px
+}
+
+#promotions .container .card .pay{
+  font-size: 60px;
+  padding-left: 20rem;
+  margin-top: -3rem;
+  font-weight: 700;
+}
+
+#promotions .container .card .three{
+  font-size: 75px;
+  font-weight: 700;
+  padding-left: 23rem;
+  margin-top: -2.8rem;
+  color: #f58122ff;
+}
+
+#promotions .container .card .months{
+  padding-left: 19.2rem;
+  margin-top: -3.5rem;
+  font-size: 55px;
+  font-weight: 700;
+}
+
+#promotions .container .card .win{
+  padding-left: 20.2rem;
+  margin-top: -2.8rem;
+  font-size: 42px;
+  font-weight: 700;
+  color: #50B1C4;
+}
+
+#promotions .container .card .one{
+  padding-left: 23.4rem;
+  margin-top: -2.7rem;
+  font-size: 60px;
+  font-weight: 700;
+  color: #f58122ff;
+}
+
+#promotions .container .card .month{
+  margin-left: 17rem;
+  font-size: 43px;
+  font-weight: 700;
+  margin-top: -3rem;
+}
+
+#promotions .col-6{
+  margin-left: 20rem!important;
+}
+
+#promotions .card{
+  border: 4px solid white;
+  border-radius: 20px;
+}
+
+#promotions .card-img{
+  border-radius: 20px;
+}
+
+#promotions .card-title span{
+  font-size: 50px;
+  color: #f58122ff;
+}

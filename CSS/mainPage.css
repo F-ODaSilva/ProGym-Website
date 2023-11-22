@@ -240,6 +240,7 @@ body {
 /* OUR CLASSES SECTION */
 #classes{
   background-image: url(../Images/Patterns/pattern4.png);
+  background-position: 40% 81%;
 }
 
 #classes .heading{
@@ -317,6 +318,10 @@ body {
   margin-bottom: 10rem;
 }
 @media screen and (max-width: 1300px){
+  #classes{
+    background-position: 40% 81%;
+   }
+  
   #classes .heading h1{
     margin-left: 24rem;
     margin-right: 24rem;
@@ -334,6 +339,10 @@ body {
 }
 
 @media screen and (max-width: 1200px){
+  #classes{
+    background-position: 40% 81%;
+   }
+  
     #classes .heading h1{
       margin-left: 25rem;
       margin-right: 25rem;
@@ -359,6 +368,10 @@ body {
     }
 }
 @media screen and (max-width: 1000px){
+ #classes{
+  background-position: 40% 81%;
+ }
+ 
   #classes .heading h1{
     margin-left: 19rem;
     margin-right: 19rem;
@@ -705,4 +718,171 @@ body {
   color: #50B1C4;
   font-size: 53px;
   margin-top: -5rem;
+}
+
+
+/* Responsiveness */
+
+/* Large screens to medium screens */
+
+@media screen and (max-width:1480px) {
+  #promotions .container-fluid .col-md-5 .card-title{
+    font-size: 70px;
+  }
+
+  #promotions .container-fluid .col-md-5 .pay{
+    font-size: 60px;
+  }
+
+  #promotions .container-fluid .col-md-5 .number-1{
+    font-size: 100px;
+    padding-left: 7.7rem;
+  }
+
+  #promotions .container-fluid .col-md-5 .months{
+    margin-top: -7.5rem;
+    padding-left: 11rem;
+  }
+
+  #promotions .container-fluid .col-md-5 .number-2{
+    padding-left: 15rem;
+  }
+
+  #promotions .container-fluid .col-md-5 .month{
+    font-size: 40px;
+    margin-left: -3rem
+  }
+}
+
+
+@media screen and (max-width:1281px) {
+    #promotions .container-fluid .col-md-5 .card-title{
+      font-size: 60px
+    }
+    
+    #promotions .container-fluid .col-md-5 .pay{
+      font-size: 55px;
+      padding-left: 18px;
+      margin-top: -20px;
+    }
+
+    #promotions .container-fluid .col-md-5 .number-1{
+      padding-left: 7rem;
+      font-size: 130px;
+      margin-top: -4.8rem;
+    }
+
+    #promotions .container-fluid .col-md-5 .months{
+      margin-top: -10rem;
+      padding-left: 12rem;
+    }
+
+    #promotions .container-fluid .col-md-5 .win{
+      margin-top: -1rem;
+      font-size: 50px;
+      padding-left: 3rem;
+    }
+
+    #promotions .container-fluid .col-md-5 .plus{
+      margin-top: -3rem;
+      padding-left: 14rem;
+    }
+
+    #promotions .container-fluid .col-md-5 .number-2{
+      font-size: 120px;
+      margin-top: -8rem; 
+      margin-left: 2rem
+    }
+
+    #promotions .container-fluid .col-md-5 .month{
+      font-size: 32px;
+      margin-left: -20px;
+    }
+}
+
+@media screen and (1070px <= width <= 1170px) {
+  #promotions .container-fluid .col-md-5 .card-title{
+    font-size: 60px
+  }
+
+  #promotions .container-fluid .col-md-5 .pay{
+    font-size: 45px;
+  }
+
+  #promotions .container-fluid .col-md-5 .number-1{
+    font-size: 100px;
+    margin-top: -4rem;
+  }
+
+  #promotions .container-fluid .col-md-5 .months{
+    margin-top: -9rem;
+    padding-left: 11rem;
+  }
+
+  #promotions .container-fluid .col-md-5 .plus{
+    padding-left: 12rem;
+  }
+
+  #promotions .container-fluid .col-md-5 .number-2{
+    padding-left: 12rem;
+  }
+
+  #promotions .container-fluid .col-md-5 .month{
+    padding-left: 19rem;
+  }
+}
+
+@media screen and (980px <= width <= 1070px) {
+  #promotions .container-fluid .col-md-5 .card-title{
+    font-size: 48px;
+  }
+
+  #promotions .container-fluid .col-md-5 .pay{
+    font-size: 40px;
+  }
+
+  #promotions .container-fluid .col-md-5 .number-1{
+    font-size: 90px;
+    margin-top: -4rem;
+  }
+
+  #promotions .container-fluid .col-md-5 .months{
+    margin-top: -8rem;
+    padding-left: 11rem;
+  }
+
+  #promotions .container-fluid .col-md-5 .win{
+    padding-left: 2rem;
+    margin-top: -2rem;
+  }
+
+  #promotions .container-fluid .col-md-5 .plus{
+    padding-left: 8rem;
+    padding-top: 1rem;
+  }
+
+  #promotions .container-fluid .col-md-5 .number-2{
+    padding-left: 7.8rem;
+    font-size: 90px;
+    margin-top: -7.3rem;
+  }
+
+  #promotions .container-fluid .col-md-5 .month{
+    padding-left: 14rem;
+    font-size: 40px;
+  }
+}
+
+@media screen and (800px <= width <= 980px) {
+  #promotions .container-fluid .col-md-5 .card-title{
+    font-size: 45px
+  }
+
+  #promotions .container-fluid .col-md-5 .pay{
+    font-size: 40px;
+  }
+
+  #promotions .container-fluid .col-md-5 .number-1{
+    
+  }
 }

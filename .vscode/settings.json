@@ -1,0 +1,18 @@
+{
+    "editor.fontFamily": "CasckaydiaCove NF",
+    "peacock.color": "#8019cf",
+    "peacock.lightForegroundColor": "#e7e7e7",
+    "workbench.colorCustomizations": {
+        "commandCenter.border": "#e7e7e799",
+        "sash.hoverBorder": "#9934e7",
+        "statusBar.background": "#8019cf",
+        "statusBar.foreground": "#e7e7e7",
+        "statusBarItem.hoverBackground": "#9934e7",
+        "statusBarItem.remoteBackground": "#8019cf",
+        "statusBarItem.remoteForeground": "#e7e7e7",
+        "titleBar.activeBackground": "#8019cf",
+        "titleBar.activeForeground": "#e7e7e7",
+        "titleBar.inactiveBackground": "#8019cf99",
+        "titleBar.inactiveForeground": "#e7e7e799"
+    }
+}

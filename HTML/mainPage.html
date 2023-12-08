@@ -28,6 +28,9 @@
     <!-- Bootstrap CDN Icon Link -->
     <!-- Option 1: Include in HTML -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+    <!-- Animation On Scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     
     <!-- CSS Stylesheet Link -->
     <link rel="stylesheet" href="../CSS/mainPage.css">
@@ -106,8 +109,8 @@
               <div class="carousel-item active">
                 <img src="../Images/Images/hero1.png" class="d-block w-100" style="object-position: 0 80%; filter: brightness(0.6);">
                 <div class="carousel-caption d-none d-md-block" style="top: 35%;">
-                  <h1>Bemvindo a Familia ProGym</h1>
-                  <h4>Best Price <span>||</span> Best quality</h4>
+                  <h1 data-aos="zoom-out" data-aos-duration="2000" data-aos-easing="ease-in-sine">Bemvindo a Familia ProGym</h1>
+                  <h4 data-aos="zoom-in" data-aos-duration="2200" data-aos-easing="ease-in-sine">Best Price <span>||</span> Best quality</h4>
                 </div>
               </div>
               <div class="carousel-item" data-bs-interval="3500">
@@ -180,14 +183,14 @@
     <section id="classes">
       <div class="container-fluid pt-5 pb-5">
         <div class="heading mb-5">
-          <h1>Nossas Aulas</h1>
+          <h1 data-aos="zoom-in" data-aos-duration="3000">Nossas Aulas</h1>
         </div>
         <div class="row">
           <div class="col-md-6">
-            <div class="col-heading adults text-center fs-3 ">Adultos</div>
+            <div class="col-heading adults text-center fs-3" data-aos="zoom-out-right" data-aos-duration="1000" data-aos-easing="linear">Adultos</div>
             <div id="carouselAdults" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="5000">
+                <div class="carousel-item active" data-bs-interval="7000">
                 <!-- CrossFit Modal -->
                 <button type="button" class="card-button" data-bs-toggle="modal" data-bs-target="#crossfitModal">
                   <div class="card bg-dark text-white">
@@ -893,10 +896,10 @@
           </div>
           
           <div class="col-md-6">
-            <div class="col-heading kids text-center fs-3">Kids</div>
+            <div class="col-heading kids text-center fs-3" data-aos="zoom-out-left" data-aos-duration="1000" data-aos-easing="linear">Kids</div>
             <div id="carouselKids" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="5000">
+                <div class="carousel-item active" data-bs-interval="7000">
                   <!-- Taekwondo Modal -->
                   <button class="card-button" type="button" data-bs-toggle="modal" data-bs-target="#taekModal">
                       <div class="card bg-dark text-white">
@@ -1380,9 +1383,14 @@
 
     <!-- Bootstrap Javascript Popper  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <!-- Jquery F -->
+    <!-- Jquery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <!-- Javascript Script -->
+    <!-- Animation On Scroll Script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init()
+    </script>
+    <!-- Javascript Script -->    
     <script src="../Javascript/mainPage.js"></script>
 </body>
 

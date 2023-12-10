@@ -1,0 +1,96 @@
+html,
+body {
+  font-family: "Roboto Slab";
+  font-size: 15px;
+  line-height: 1.5;
+  box-sizing: border-box;
+  margin: 0;
+  top: 0;
+  left: 0;
+  background-color: #FEE140;
+  background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 39%, #ffffff 50%, #17debc 67%, #000000 100%);
+  background-position: 41% 25%;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: black;
+}
+
+/* NAVIGATION AREA STARTS HERE */
+.navbar {
+  background-color: black !important;
+}
+
+.navbar .container-fluid .bi-list {
+  color: whitesmoke;
+  font-size: 30px;
+}
+
+.navbar-brand img {
+  width: 200px;
+}
+
+.navbar .container-fluid .nav-item .nav-link {
+  padding-top: 30px;
+  font-family: "Roboto Slab";
+  font-weight: 600;
+  color: lightgray;
+}
+
+.navbar .container-fluid .nav-item .nav-link:hover {
+  font-size: 17px;
+  text-decoration: overline #f58122ff 3px;
+}
+
+.navbar .container-fluid .nav-item .dropdown-menu {
+  background-color: black;
+}
+
+.navbar .container-fluid .nav-item .dropdown-menu .dropdown-item {
+  color: whitesmoke;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+/* This will make the  */
+.navbar .container-fluid .nav-item .dropdown-menu .dropdown-item:hover {
+  background-color: #f58122ff;
+}
+
+/* This will make the nav-item with the dropdown menu be displayed when hovered in larger screens*/
+@media all and (min-width: 992px) {
+  .navbar .nav-item .dropdown-menu {
+    display: none;
+  }
+  .navbar .nav-item:hover .dropdown-menu {
+    display: block;
+  }
+  .navbar .nav-item .dropdown-menu {
+    margin-top: 0;
+  }
+}
+
+/* This will make style the navbar when the display is above the set amount of pixels ( in this case large ) */
+@media screen and (min-width: 750px) {
+  .navbar-brand img {
+    width: 235px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .navbar-brand {
+    margin-right: 0;
+    padding: 0 1em;
+  }
+  .navbar-nav .nav-item .nav-link:hover {
+    text-decoration: overline #f58122ff 3px;
+  }
+}
+
+/* Navbar toggler made transparent */
+.navbar .container-fluid .navbar-toggler {
+  border: none transparent;
+  box-shadow: none;
+}
+
+/* NAVIGATION AREA ENDS HERE */

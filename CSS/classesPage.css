@@ -99,4 +99,13 @@ body {
 
 /* HERO SECTION STARTS HERE */
 
-.container-fluid
+#grid .container-fluid{
+  height: 85.5vh;
+  background-color: #ff8308;
+  padding: 5rem
+}
+
+#grid .row{
+  background-color: lightblue;
+  height: 70vh;
+}

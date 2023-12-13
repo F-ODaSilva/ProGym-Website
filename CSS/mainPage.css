@@ -126,7 +126,7 @@ body {
   object-position: 0 50%;
 }
 
-#hero .carousel span{
+#hero .carousel span {
   color: #f58122ff;
 }
 .carousel-control-prev {
@@ -239,34 +239,32 @@ body {
 }
 /* HERO SECTION ENDS HERE */
 
-
 /* OUR CLASSES SECTION */
-#classes{
+#classes {
   background-image: url(../Images/Patterns/pattern4.png);
   background-position: 40% 81%;
 }
 
-#classes .heading{
-    text-align: center;
+#classes .heading {
+  text-align: center;
 }
 
-#classes .heading h1{
-    font-size: 32px;
-    color: whitesmoke;
-    background-color: #f58122ff;
-    margin-right: 32rem;
-    margin-left: 32rem;
-    border-radius: 57px;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    font-family: 'Roboto Slab';
-    font-weight: 700;
-
+#classes .heading h1 {
+  font-size: 32px;
+  color: whitesmoke;
+  background-color: #f58122ff;
+  margin-right: 32rem;
+  margin-left: 32rem;
+  border-radius: 57px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-family: "Roboto Slab";
+  font-weight: 700;
 }
 
-#classes .col-heading{
-  color: #f58122ff!important;
-  font-size: 22px!important;
+#classes .col-heading {
+  color: #f58122ff !important;
+  font-size: 22px !important;
   background-color: whitesmoke;
   border: solid gray 2.8px;
   margin-left: 15rem;
@@ -276,29 +274,29 @@ body {
   font-weight: 600;
 }
 
-#classes .col-md-6 .kids{
-  color: #50B1C4!important;
+#classes .col-md-6 .kids {
+  color: #50b1c4 !important;
 }
 
-#classes .carousel-inner{
+#classes .carousel-inner {
   height: 57vh;
 }
-#classes .carousel-item .card-button{
+#classes .carousel-item .card-button {
   background-color: transparent;
-	border: transparent;
+  border: transparent;
 }
 
-#classes .carousel-item .card .card-title{
+#classes .carousel-item .card .card-title {
   font-size: 40px;
   padding-top: 9rem;
   font-weight: 600;
 }
 
-#classes .carousel-section .carousel-item{
+#classes .carousel-section .carousel-item {
   border-radius: 28px;
 }
 
-#classes .carousel-section .card-img-overlay{
+#classes .carousel-section .card-img-overlay {
   border-radius: 30px;
 }
 
@@ -306,191 +304,189 @@ body {
   border-radius: 28px;
 }
 
-#classes .carousel-item .card img{
+#classes .carousel-item .card img {
   filter: brightness(0.7);
   border-radius: 28px;
 }
 
-#classes .carousel-control-next{
+#classes .carousel-control-next {
   margin-top: 10rem;
   margin-bottom: 10rem;
 }
 
-#classes .carousel-control-prev{
+#classes .carousel-control-prev {
   margin-top: 10rem;
   margin-bottom: 10rem;
 }
 
 /* Classes Section Responsiveness */
 
-@media screen and (max-width: 1300px){
-  #classes{
+@media screen and (max-width: 1300px) {
+  #classes {
     background-position: 40% 81%;
-   }
-  
-  #classes .heading h1{
+  }
+
+  #classes .heading h1 {
     margin-left: 24rem;
     margin-right: 24rem;
   }
 
-  #classes .col-heading{
+  #classes .col-heading {
     margin-left: 12rem;
     margin-right: 12rem;
-    font-size: 20px!important;
+    font-size: 20px !important;
   }
-  
-  #classes .carousel-inner{
+
+  #classes .carousel-inner {
     height: 42vh;
   }
 }
 
-@media screen and (max-width: 1200px){
-  #classes{
+@media screen and (max-width: 1200px) {
+  #classes {
     background-position: 40% 81%;
-   }
-  
-    #classes .heading h1{
-      margin-left: 25rem;
-      margin-right: 25rem;
-      font-size: 28px;
-    }
-  
-    #classes .col-heading{
-        margin-left: 12rem;
-        margin-right: 12rem;
-        font-size: 18px!important;
-    }
+  }
 
-    #classes .carousel-control-prev{
-      margin-top: 8rem;
-    }
-    #classes .carousel-control-next{
-      margin-top: 8rem;
-    }
+  #classes .heading h1 {
+    margin-left: 25rem;
+    margin-right: 25rem;
+    font-size: 28px;
+  }
 
-    #classes .card-title{
-      padding-top: 7rem!important;
-      font-size: 25px!important;
-    }
+  #classes .col-heading {
+    margin-left: 12rem;
+    margin-right: 12rem;
+    font-size: 18px !important;
+  }
+
+  #classes .carousel-control-prev {
+    margin-top: 8rem;
+  }
+  #classes .carousel-control-next {
+    margin-top: 8rem;
+  }
+
+  #classes .card-title {
+    padding-top: 7rem !important;
+    font-size: 25px !important;
+  }
 }
 
-@media screen and (max-width: 1000px){
- #classes{
-  background-position: 40% 81%;
- }
- 
-  #classes .heading h1{
+@media screen and (max-width: 1000px) {
+  #classes {
+    background-position: 40% 81%;
+  }
+
+  #classes .heading h1 {
     margin-left: 19rem;
     margin-right: 19rem;
   }
 
-  #classes .col-heading{
+  #classes .col-heading {
     margin-left: 10rem;
     margin-right: 10rem;
   }
-  
-  #classes .carousel-inner{
+
+  #classes .carousel-inner {
     height: 32vh;
   }
 
-  #classes .carousel-control-prev{
+  #classes .carousel-control-prev {
     margin-top: 7rem;
     width: 25px;
   }
-  #classes .carousel-control-next{
+  #classes .carousel-control-next {
     margin-top: 7rem;
     width: 25px;
   }
 
-  #classes .card-title{
-    padding-top: 6rem!important ;
-    font-size: 25px!important;
+  #classes .card-title {
+    padding-top: 6rem !important ;
+    font-size: 25px !important;
   }
 }
 
-@media screen and (max-width: 890px){
-  #classes .heading h1{
+@media screen and (max-width: 890px) {
+  #classes .heading h1 {
     margin-left: 14rem;
     margin-right: 14rem;
   }
-  
-  #classes .col-heading{
+
+  #classes .col-heading {
     margin-left: 8rem;
     margin-right: 8rem;
   }
 
-  #classes .carousel-control-next{
+  #classes .carousel-control-next {
     margin-top: 5rem;
   }
 
-  #classes .carousel-control-prev{
+  #classes .carousel-control-prev {
     margin-top: 5rem;
   }
 
-  #classes .card-title{
-    padding-top: 4rem!important;
+  #classes .card-title {
+    padding-top: 4rem !important;
   }
 }
- 
+
 @media screen and (max-width: 766px) {
-  #classes .heading h1{
+  #classes .heading h1 {
     margin-left: 11rem;
     margin-right: 11rem;
   }
-  
-  #classes .col-heading{
+
+  #classes .col-heading {
     margin-left: 18rem;
     margin-right: 18rem;
   }
 
-  #classes .kids{
+  #classes .kids {
     margin-top: 2rem;
   }
 
-  #classes .carousel-inner{
+  #classes .carousel-inner {
     height: 32vh;
   }
 
-  #classes{
+  #classes {
     background-image: url(../Images/Patterns/pattern6.png);
     background-position: 25% 48%;
   }
-
 }
 
-
 @media screen and (max-width: 680px) {
-  #classes .heading h1{
+  #classes .heading h1 {
     margin-left: 6rem;
     margin-right: 6rem;
   }
-  
-  #classes .col-heading{
+
+  #classes .col-heading {
     margin-left: 12.5rem;
     margin-right: 12.5rem;
   }
 
-  #classes .kids{
+  #classes .kids {
     margin-top: 2rem;
   }
 }
- 
-@media screen and (max-width: 500px) and (min-width:350px) {
-  #classes .heading h1{
+
+@media screen and (max-width: 500px) and (min-width: 350px) {
+  #classes .heading h1 {
     margin-left: 3rem;
     margin-right: 3rem;
   }
-  
-  #classes .col-heading{
+
+  #classes .col-heading {
     margin-left: 8rem;
     margin-right: 8rem;
   }
 
-  #classes .kids{
+  #classes .kids {
     margin-top: 2rem;
   }
 
-  #classes{
+  #classes {
     background-image: url(../Images/Patterns/pattern6.png);
     background-position: 25% 48%;
   }
@@ -507,19 +503,19 @@ body {
   border-bottom: solid 5px #f58122ff;
 }
 
-#classes .modal .modal-header a:link{
+#classes .modal .modal-header a:link {
   color: transparent;
 }
 
-#classes .modal .modal-header a:visited{
+#classes .modal .modal-header a:visited {
   color: transparent;
 }
 
-#classes .modal .modal-header a:hover{
+#classes .modal .modal-header a:hover {
   color: #f58122ff;
 }
 
-#classes .modal .modal-header a:active{
+#classes .modal .modal-header a:active {
   color: transparent;
 }
 
@@ -536,13 +532,13 @@ body {
 }
 
 #classes .modal .container-fluid {
-   padding-left: 12px;
+  padding-left: 12px;
 }
-#classes .modal .col-md-4{
+#classes .modal .col-md-4 {
   color: whitesmoke;
 }
 
-#classes .modal .col-md-4 h4{
+#classes .modal .col-md-4 h4 {
   text-align: center;
   font-size: 25px;
   margin-top: 20px;
@@ -550,18 +546,18 @@ body {
   font-weight: 600;
 }
 
-#classes .modal .col-md-4 h5{
+#classes .modal .col-md-4 h5 {
   text-align: center;
   color: #f58122ff;
   font-size: 20px;
   font-weight: 600;
 }
 
-#classes .modal .col-md-4 p{
+#classes .modal .col-md-4 p {
   text-align: justify;
 }
 
-#classes .modal .col-md-4 ol{
+#classes .modal .col-md-4 ol {
   text-align: left;
   list-style: inside;
   list-style-type: decimal;
@@ -569,12 +565,11 @@ body {
   font-size: 13.5px;
 }
 
-#classes .modal .col-md-4 li::marker{
+#classes .modal .col-md-4 li::marker {
   color: #f58122ff;
 }
 
-
-#classes .col-md-6 .clickBox{
+#classes .col-md-6 .clickBox {
   color: whitesmoke;
   text-align: center;
   font-size: 12px;
@@ -583,385 +578,380 @@ body {
 
 /* Modal boxes responsiveness */
 
-@media screen and (max-width: 1200px ){
-  #classes .modal .modal-header h3{
+@media screen and (max-width: 1200px) {
+  #classes .modal .modal-header h3 {
     padding-left: 19rem;
   }
 }
 
-@media screen and (max-width: 950px ){
-  #classes .modal .modal-header h3{
-    padding-left: 7rem!important;
-  }
-  
-  #classes .modal #spinModalLabel{
-    padding-left: 12rem!important;
+@media screen and (max-width: 950px) {
+  #classes .modal .modal-header h3 {
+    padding-left: 7rem !important;
   }
 
-  #classes .modal #fatburnModalLabel{
-    padding-left: 12rem!important;
+  #classes .modal #spinModalLabel {
+    padding-left: 12rem !important;
   }
 
-  #classes .modal #stepModalLabel{
-    padding-left: 13rem!important;
+  #classes .modal #fatburnModalLabel {
+    padding-left: 12rem !important;
   }
 
-  #classes .modal #zumbaModalLabel{
-    padding-left: 12rem!important;
+  #classes .modal #stepModalLabel {
+    padding-left: 13rem !important;
   }
 
-  #classes .modal #runModalLabel{
-    padding-left: 13rem!important;
+  #classes .modal #zumbaModalLabel {
+    padding-left: 12rem !important;
   }
 
-  #classes .modal #coreModalLabel{
-    padding-left: 13rem!important;
+  #classes .modal #runModalLabel {
+    padding-left: 13rem !important;
   }
 
-  #classes .modal #aeroModalLabel{
-    padding-left: 11rem!important;
+  #classes .modal #coreModalLabel {
+    padding-left: 13rem !important;
   }
 
-  #classes .modal #flowModalLabel{
-    padding-left: 13rem!important;
+  #classes .modal #aeroModalLabel {
+    padding-left: 11rem !important;
   }
 
-  #classes .modal #tabataModalLabel{
-    padding-left: 12rem!important;
+  #classes .modal #flowModalLabel {
+    padding-left: 13rem !important;
   }
 
-  #classes .modal #glutesModalLabel{
-    padding-left: 10rem!important;
+  #classes .modal #tabataModalLabel {
+    padding-left: 12rem !important;
   }
 
-  #classes .modal #taekModalLabel{
-    padding-left: 9rem!important;
+  #classes .modal #glutesModalLabel {
+    padding-left: 10rem !important;
   }
 
-  #classes .modal #basketModalLabel{
-    padding-left: 9rem!important;
+  #classes .modal #taekModalLabel {
+    padding-left: 9rem !important;
   }
 
-  #classes .modal #basketModalLabel{
-    padding-left: 9rem!important;
+  #classes .modal #basketModalLabel {
+    padding-left: 9rem !important;
   }
 
-  #classes .modal #pulaModalLabel{
-    padding-left: 10rem!important;
+  #classes .modal #basketModalLabel {
+    padding-left: 9rem !important;
   }
 
-  #classes .modal #crossModalLabel{
-    padding-left: 10rem!important;
+  #classes .modal #pulaModalLabel {
+    padding-left: 10rem !important;
   }
 
-  #classes .modal #golfModalLabel{
-    padding-left: 10rem!important;
+  #classes .modal #crossModalLabel {
+    padding-left: 10rem !important;
   }
 
-  #classes .modal #futsalModalLabel{
-    padding-left: 12rem!important;
+  #classes .modal #golfModalLabel {
+    padding-left: 10rem !important;
+  }
+
+  #classes .modal #futsalModalLabel {
+    padding-left: 12rem !important;
   }
 }
 
 /* PROMTIONS SECTION STARTS HERE */
 @media screen and (min-width: 567px) {
-  #promotions .container-fluid .col-md-5{
+  #promotions .container-fluid .col-md-5 {
     background-color: rgb(34, 34, 35);
   }
 }
-#promotions .container-fluid .col-md-5{
+#promotions .container-fluid .col-md-5 {
   border-left: solid #f58122ff 10px;
 }
 
-#promotions .container-fluid .col-md-5 .card-title{
+#promotions .container-fluid .col-md-5 .card-title {
   font-size: 89px;
   font-weight: 700;
 }
 
-#promotions img{
+#promotions img {
   filter: brightness(0.8);
 }
 
-#promotions .container-fluid .col-md-5 .pay{
+#promotions .container-fluid .col-md-5 .pay {
   font-size: 60px;
   padding-left: 16px;
-  color:#f58122ff;
+  color: #f58122ff;
 }
 
-#promotions .container-fluid .col-md-5 .number-1{
+#promotions .container-fluid .col-md-5 .number-1 {
   font-size: 80px;
   padding-left: 10rem;
   margin-top: -3rem;
   color: #f58122ff;
 }
 
-#promotions .container-fluid .col-md-5 .months{
+#promotions .container-fluid .col-md-5 .months {
   padding-left: 14rem;
   font-size: 55px;
-	margin-top: -6rem;
-	color: #f58122ff;
-
+  margin-top: -6rem;
+  color: #f58122ff;
 }
 
-#promotions .container-fluid .col-md-5 .win{
-	padding-left: 4rem;
-	color: #50b1c4;
-	font-size: 60px;
-	margin-top: -3rem;
+#promotions .container-fluid .col-md-5 .win {
+  padding-left: 4rem;
+  color: #50b1c4;
+  font-size: 60px;
+  margin-top: -3rem;
 }
 
-#promotions .container-fluid .col-md-5 .plus{
-  	padding-left: 12rem;
-    font-size: 50px;
-    margin-top: -1rem;
-    color: #50b1c4;
+#promotions .container-fluid .col-md-5 .plus {
+  padding-left: 12rem;
+  font-size: 50px;
+  margin-top: -1rem;
+  color: #50b1c4;
 }
 
-#promotions .container-fluid .col-md-5 .number-2{
+#promotions .container-fluid .col-md-5 .number-2 {
   font-size: 118px;
   padding-left: 17rem;
   margin-top: -10rem;
-  color: #50B1C4;
+  color: #50b1c4;
 }
 
-
-#promotions .container-fluid .col-md-5 .month{
+#promotions .container-fluid .col-md-5 .month {
   padding-left: 22rem;
-  color: #50B1C4;
+  color: #50b1c4;
   font-size: 53px;
   margin-top: -5rem;
 }
 
-
 /* Promotions Section Respnsiveness */
 
-@media screen and (max-width:1480px) {
-  #promotions .container-fluid .col-md-5 .card-title{
+@media screen and (max-width: 1480px) {
+  #promotions .container-fluid .col-md-5 .card-title {
     font-size: 70px;
   }
 
-  #promotions .container-fluid .col-md-5 .pay{
+  #promotions .container-fluid .col-md-5 .pay {
     font-size: 60px;
   }
 
-  #promotions .container-fluid .col-md-5 .number-1{
+  #promotions .container-fluid .col-md-5 .number-1 {
     font-size: 100px;
     padding-left: 7.7rem;
   }
 
-  #promotions .container-fluid .col-md-5 .months{
+  #promotions .container-fluid .col-md-5 .months {
     margin-top: -7.5rem;
     padding-left: 11rem;
   }
 
-  #promotions .container-fluid .col-md-5 .number-2{
+  #promotions .container-fluid .col-md-5 .number-2 {
     padding-left: 15rem;
   }
 
-  #promotions .container-fluid .col-md-5 .month{
+  #promotions .container-fluid .col-md-5 .month {
     font-size: 40px;
-    margin-left: -3rem
+    margin-left: -3rem;
   }
 }
 
+@media screen and (max-width: 1281px) {
+  #promotions .container-fluid .col-md-5 .card-title {
+    font-size: 60px;
+  }
 
-@media screen and (max-width:1281px) {
-    #promotions .container-fluid .col-md-5 .card-title{
-      font-size: 60px
-    }
-    
-    #promotions .container-fluid .col-md-5 .pay{
-      font-size: 55px;
-      padding-left: 18px;
-      margin-top: -40px;
-    }
+  #promotions .container-fluid .col-md-5 .pay {
+    font-size: 55px;
+    padding-left: 18px;
+    margin-top: -40px;
+  }
 
-    #promotions .container-fluid .col-md-5 .number-1{
-      padding-left: 7rem;
-      font-size: 130px;
-      margin-top: -4.8rem;
-    }
+  #promotions .container-fluid .col-md-5 .number-1 {
+    padding-left: 7rem;
+    font-size: 130px;
+    margin-top: -4.8rem;
+  }
 
-    #promotions .container-fluid .col-md-5 .months{
-      margin-top: -10rem;
-      padding-left: 12rem;
-    }
+  #promotions .container-fluid .col-md-5 .months {
+    margin-top: -10rem;
+    padding-left: 12rem;
+  }
 
-    #promotions .container-fluid .col-md-5 .win{
-      margin-top: -1rem;
-      font-size: 50px;
-      padding-left: 3rem;
-    }
+  #promotions .container-fluid .col-md-5 .win {
+    margin-top: -1rem;
+    font-size: 50px;
+    padding-left: 3rem;
+  }
 
-    #promotions .container-fluid .col-md-5 .plus{
-      margin-top: -3rem;
-      padding-left: 12rem;
-    }
+  #promotions .container-fluid .col-md-5 .plus {
+    margin-top: -3rem;
+    padding-left: 12rem;
+  }
 
-    #promotions .container-fluid .col-md-5 .number-2{
-      font-size: 120px;
-      margin-top: -8rem; 
-      margin-left: 1rem
-    }
+  #promotions .container-fluid .col-md-5 .number-2 {
+    font-size: 120px;
+    margin-top: -8rem;
+    margin-left: 1rem;
+  }
 
-    #promotions .container-fluid .col-md-5 .month{
-      font-size: 32px;
-      margin-left: -28px;
-      margin-top: -7rem;
-    }
+  #promotions .container-fluid .col-md-5 .month {
+    font-size: 32px;
+    margin-left: -28px;
+    margin-top: -7rem;
+  }
 }
 
 @media screen and (1070px <= width <= 1170px) {
-  #promotions .container-fluid .col-md-5 .card-title{
-    font-size: 60px
+  #promotions .container-fluid .col-md-5 .card-title {
+    font-size: 60px;
   }
 
-  #promotions .container-fluid .col-md-5 .pay{
+  #promotions .container-fluid .col-md-5 .pay {
     font-size: 45px;
   }
 
-  #promotions .container-fluid .col-md-5 .number-1{
+  #promotions .container-fluid .col-md-5 .number-1 {
     font-size: 100px;
     margin-top: -4rem;
   }
 
-  #promotions .container-fluid .col-md-5 .months{
+  #promotions .container-fluid .col-md-5 .months {
     margin-top: -9rem;
     padding-left: 11rem;
   }
 
-  #promotions .container-fluid .col-md-5 .plus{
+  #promotions .container-fluid .col-md-5 .plus {
     padding-left: 12rem;
   }
 
-  #promotions .container-fluid .col-md-5 .number-2{
+  #promotions .container-fluid .col-md-5 .number-2 {
     padding-left: 12rem;
   }
 
-  #promotions .container-fluid .col-md-5 .month{
+  #promotions .container-fluid .col-md-5 .month {
     padding-left: 19rem;
   }
 }
 
 @media screen and (980px <= width <= 1070px) {
-  #promotions .container-fluid .col-md-5 .card-title{
+  #promotions .container-fluid .col-md-5 .card-title {
     font-size: 48px;
   }
 
-  #promotions .container-fluid .col-md-5 .pay{
+  #promotions .container-fluid .col-md-5 .pay {
     font-size: 40px;
   }
 
-  #promotions .container-fluid .col-md-5 .number-1{
+  #promotions .container-fluid .col-md-5 .number-1 {
     font-size: 90px;
     margin-top: -4rem;
   }
 
-  #promotions .container-fluid .col-md-5 .months{
+  #promotions .container-fluid .col-md-5 .months {
     margin-top: -8rem;
     padding-left: 11rem;
   }
 
-  #promotions .container-fluid .col-md-5 .win{
+  #promotions .container-fluid .col-md-5 .win {
     padding-left: 2rem;
     margin-top: -2rem;
   }
 
-  #promotions .container-fluid .col-md-5 .plus{
+  #promotions .container-fluid .col-md-5 .plus {
     padding-left: 8rem;
     padding-top: 1rem;
   }
 
-  #promotions .container-fluid .col-md-5 .number-2{
+  #promotions .container-fluid .col-md-5 .number-2 {
     padding-left: 7.8rem;
     font-size: 90px;
     margin-top: -7.3rem;
   }
 
-  #promotions .container-fluid .col-md-5 .month{
+  #promotions .container-fluid .col-md-5 .month {
     padding-left: 14rem;
     font-size: 40px;
   }
 }
 
 @media screen and (924px <= width <= 980px) {
-  #promotions .container-fluid .col-md-5 .card-title{
-    font-size: 45px
+  #promotions .container-fluid .col-md-5 .card-title {
+    font-size: 45px;
   }
 
-  #promotions .container-fluid .col-md-5 .pay{
+  #promotions .container-fluid .col-md-5 .pay {
     font-size: 40px;
   }
 
-  #promotions .container-fluid .col-md-5 .number-1{
+  #promotions .container-fluid .col-md-5 .number-1 {
     font-size: 80px;
     margin-top: -4rem;
   }
-  
-  #promotions .container-fluid .col-md-5 .months{
+
+  #promotions .container-fluid .col-md-5 .months {
     padding-left: 10.5rem;
     margin-top: -7rem;
     font-size: 40px;
   }
 
-  #promotions .container-fluid .col-md-5 .win{
+  #promotions .container-fluid .col-md-5 .win {
     padding-left: 1rem;
     font-size: 40px;
   }
 
-  #promotions .container-fluid .col-md-5 .plus{
+  #promotions .container-fluid .col-md-5 .plus {
     margin-top: -2rem;
     padding-left: 7rem;
   }
 
-  #promotions .container-fluid .col-md-5 .number-2{
+  #promotions .container-fluid .col-md-5 .number-2 {
     padding-left: 7rem;
-    font-size: 90px
+    font-size: 90px;
   }
 
-  #promotions .container-fluid .col-md-5 .month{
+  #promotions .container-fluid .col-md-5 .month {
     padding-left: 14rem;
     font-size: 35px;
   }
-
 }
 
-@media screen and (794 <= width <= 920px){
-  #promotions .container-fluid .col-md-5 .card-title{
-    font-size: 45px
+@media screen and (794 <= width <= 920px) {
+  #promotions .container-fluid .col-md-5 .card-title {
+    font-size: 45px;
   }
 
-  #promotions .container-fluid .col-md-5 .pay{
+  #promotions .container-fluid .col-md-5 .pay {
     font-size: 40px;
   }
 
-  #promotions .container-fluid .col-md-5 .number-1{
+  #promotions .container-fluid .col-md-5 .number-1 {
     font-size: 80px;
     margin-top: -4rem;
   }
-  
-  #promotions .container-fluid .col-md-5 .months{
+
+  #promotions .container-fluid .col-md-5 .months {
     padding-left: 10.5rem;
     margin-top: -7rem;
     font-size: 40px;
   }
 
-  #promotions .container-fluid .col-md-5 .win{
+  #promotions .container-fluid .col-md-5 .win {
     padding-left: 1rem;
     font-size: 40px;
   }
 
-  #promotions .container-fluid .col-md-5 .plus{
+  #promotions .container-fluid .col-md-5 .plus {
     margin-top: -2rem;
     padding-left: 7rem;
   }
 
-  #promotions .container-fluid .col-md-5 .number-2{
+  #promotions .container-fluid .col-md-5 .number-2 {
     padding-left: 7rem;
-    font-size: 90px
+    font-size: 90px;
   }
-  
-  #promotions .container-fluid .col-md-5 .month{
+
+  #promotions .container-fluid .col-md-5 .month {
     font-size: 25px;
     padding-left: 14rem;
   }
@@ -971,157 +961,153 @@ body {
   }
 }
 
-
-@media screen and (847px <= width <= 923px ){
-  #promotions .container-fluid .col-md-5 .card-title{
+@media screen and (847px <= width <= 923px) {
+  #promotions .container-fluid .col-md-5 .card-title {
     font-size: 40px;
   }
 
-  #promotions .container-fluid .col-md-5 .pay{
+  #promotions .container-fluid .col-md-5 .pay {
     font-size: 35px;
     padding-left: 15px;
     margin-top: -20px;
   }
 
-  #promotions .container-fluid .col-md-5 .number-1{
+  #promotions .container-fluid .col-md-5 .number-1 {
     padding-left: 6rem;
     font-size: 90px;
     margin-top: -3.8rem;
   }
 
-  #promotions .container-fluid .col-md-5 .months{
+  #promotions .container-fluid .col-md-5 .months {
     margin-top: -8rem;
     padding-left: 9.5rem;
     font-size: 45px;
   }
 
-  #promotions .container-fluid .col-md-5 .win{
+  #promotions .container-fluid .col-md-5 .win {
     margin-top: -1rem;
-	  font-size: 40px;
-	  padding-left: 1rem;
+    font-size: 40px;
+    padding-left: 1rem;
   }
 
-  #promotions .container-fluid .col-md-5 .plus{
-     margin-top: -3rem;
-     padding-left:  7rem;
+  #promotions .container-fluid .col-md-5 .plus {
+    margin-top: -3rem;
+    padding-left: 7rem;
   }
 
-  #promotions .container-fluid .col-md-5 .number-2{
+  #promotions .container-fluid .col-md-5 .number-2 {
     font-size: 100px;
-	  margin-top: -8rem;
-	  margin-left: -6rem;
+    margin-top: -8rem;
+    margin-left: -6rem;
   }
 
-  #promotions .container-fluid .col-md-5 .month{ 
+  #promotions .container-fluid .col-md-5 .month {
     font-size: 25px;
     padding-left: 14rem;
   }
 }
 
-@media screen and (770px <= width <= 846px){
-  #promotions .container-fluid .col-md-5 .card-title{
+@media screen and (770px <= width <= 846px) {
+  #promotions .container-fluid .col-md-5 .card-title {
     font-size: 36px;
   }
 
-  #promotions .container-fluid .col-md-5 .pay{
+  #promotions .container-fluid .col-md-5 .pay {
     font-size: 32px;
   }
 
-  #promotions .container-fluid .col-md-5 .number-1{
+  #promotions .container-fluid .col-md-5 .number-1 {
     font-size: 70px;
     padding-left: 6rem;
     margin-top: -3.5rem;
   }
 
-  #promotions .container-fluid .col-md-5 .months{
+  #promotions .container-fluid .col-md-5 .months {
     margin-top: -6.5rem;
     font-size: 37px;
     padding-left: 8.7rem;
   }
 
-  #promotions .container-fluid .col-md-5 .win{
+  #promotions .container-fluid .col-md-5 .win {
     font-size: 35px;
     padding-left: 1.8rem;
   }
 
-  #promotions .container-fluid .col-md-5 .plus{
+  #promotions .container-fluid .col-md-5 .plus {
     padding-left: 6.7rem;
   }
 
-  #promotions .container-fluid .col-md-5 .number-2{
+  #promotions .container-fluid .col-md-5 .number-2 {
     font-size: 70px;
     padding-left: 6.8rem;
     margin-top: -6rem;
   }
-  #promotions .container-fluid .col-md-5 .month{
+  #promotions .container-fluid .col-md-5 .month {
     font-size: 25px;
     padding-left: 12rem;
     margin-top: -4rem;
   }
-
 }
 
 @media screen and (576px<= width <= 769px) {
- #promotions .container-fluid .col-md-5 .card-title{
-  font-size: 30px;
- }
+  #promotions .container-fluid .col-md-5 .card-title {
+    font-size: 30px;
+  }
 
- #promotions .container-fluid .col-md-5 .pay{
-  font-size: 20px;
-  margin-top: -2rem;
-  padding-left: 12px;  
- }
+  #promotions .container-fluid .col-md-5 .pay {
+    font-size: 20px;
+    margin-top: -2rem;
+    padding-left: 12px;
+  }
 
- #promotions .container-fluid .col-md-5 .number-1{
-  font-size: 50px;
-  padding-left: 4rem;
-  margin-top: -3rem;
- }
+  #promotions .container-fluid .col-md-5 .number-1 {
+    font-size: 50px;
+    padding-left: 4rem;
+    margin-top: -3rem;
+  }
 
- #promotions .container-fluid .col-md-5 .months{
-  font-size: 24px;
-  padding-left: 6rem;
-  margin-top: -5rem;
- }
+  #promotions .container-fluid .col-md-5 .months {
+    font-size: 24px;
+    padding-left: 6rem;
+    margin-top: -5rem;
+  }
 
- #promotions .container-fluid .col-md-5 .win{
-  padding-left: 0.7rem;
-  font-size: 23px;
- }
+  #promotions .container-fluid .col-md-5 .win {
+    padding-left: 0.7rem;
+    font-size: 23px;
+  }
 
- #promotions .container-fluid .col-md-5 .plus{
-  padding-left: 3rem;
-  font-size: 28px;
-  margin-top: -2rem;
- }
+  #promotions .container-fluid .col-md-5 .plus {
+    padding-left: 3rem;
+    font-size: 28px;
+    margin-top: -2rem;
+  }
 
- #promotions .container-fluid .col-md-5 .number-2{
-  padding-left: 3rem;
-  font-size: 70px;
-  margin-top: -5rem
- }
+  #promotions .container-fluid .col-md-5 .number-2 {
+    padding-left: 3rem;
+    font-size: 70px;
+    margin-top: -5rem;
+  }
 
- #promotions .container-fluid .col-md-5 .month{
-  margin-top: -5rem;
-  padding-left: 8rem;
-  font-size: 18px;
- }
-
+  #promotions .container-fluid .col-md-5 .month {
+    margin-top: -5rem;
+    padding-left: 8rem;
+    font-size: 18px;
+  }
 }
-
 
 /* FOOTER STARTS HERE  */
-#footer footer{
-  background-color: #000000!important
+#footer footer {
+  background-color: #000000 !important;
 }
-#footer .container-fluid{
+#footer .container-fluid {
   padding: 0;
 }
-#footer .container-fluid .fa-brands{
+#footer .container-fluid .fa-brands {
   font-size: 21px;
 }
 
-#footer .container-fluid .fa-instagram{
+#footer .container-fluid .fa-instagram {
   border-radius: 6px;
   color: whitesmoke;
   padding: 3px;
@@ -1131,62 +1117,60 @@ body {
   margin-left: -4px;
 }
 
-#footer .container-fluid a{
+#footer .container-fluid a {
   border-color: transparent;
   border-radius: 30px;
   height: 35px;
   width: 45px;
 }
 
-#footer .container-fluid a img{
+#footer .container-fluid a img {
   width: 33px;
   margin-left: -5px;
   margin-top: -4px;
 }
 
-.bar{
+.bar {
   background-color: #f58122ff;
   height: 0.5px;
   display: flex;
   margin: -3px 14rem 4px;
 }
 
-.bar-2{
+.bar-2 {
   background-color: #f58122ff;
   height: 0.5px;
   display: flex;
   margin: -5px 14rem 4px;
-
 }
 
-.bar-3{
+.bar-3 {
   background-color: #f58122ff;
   height: 0.5px;
   display: flex;
   margin: -5px 14rem 4px;
-
 }
 
-#footer .container-fluid .row .col-lg-4 a{
+#footer .container-fluid .row .col-lg-4 a {
   text-decoration: none;
   line-height: 30px;
 }
 
-#footer .container-fluid .row .col-lg-4 a:hover{
+#footer .container-fluid .row .col-lg-4 a:hover {
   padding-left: 25px;
-  color: #f58122ff!important;
+  color: #f58122ff !important;
   text-decoration: underline #f58122ff 15%;
   font-size: 18px;
 }
 
-#footer .container-fluid .row .col-lg-4{
+#footer .container-fluid .row .col-lg-4 {
   border-left: solid #f58122ff 1px;
 }
 
-#footer .container-fluid .row .col-lg-4{
+#footer .container-fluid .row .col-lg-4 {
   border-left: solid #f58122ff 1px;
 }
 
-#footer .container-fluid .row .col-lg-4 .contacts{
+#footer .container-fluid .row .col-lg-4 .contacts {
   line-height: 50px;
 }

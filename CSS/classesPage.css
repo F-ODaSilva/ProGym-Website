@@ -7,8 +7,15 @@ body {
   margin: 0;
   top: 0;
   left: 0;
-  background-color: #FEE140;
-  background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 39%, #ffffff 50%, #17debc 67%, #000000 100%);
+  background-color: #fee140;
+  background-image: linear-gradient(
+    90deg,
+    #fee140 0%,
+    #fa709a 39%,
+    #ffffff 50%,
+    #17debc 67%,
+    #000000 100%
+  );
   background-position: 41% 25%;
   overflow-x: hidden;
 }
@@ -95,34 +102,29 @@ body {
 
 /* NAVIGATION AREA ENDS HERE */
 
-
-
 /* HERO SECTION STARTS HERE */
-#grid .container-fluid{
+#grid .container-fluid {
   padding: 2rem 0;
 }
 
-#grid .row{
+#grid .row {
   margin: 2rem;
-  background-color: #17debc;
 }
 
 /* HERO SECTION ENDS HERE */
 
-
-
 /* FOOTER STARTS HERE  */
-#footer footer{
-  background-color: #000000!important
+#footer footer {
+  background-color: #000000 !important;
 }
-#footer .container-fluid{
+#footer .container-fluid {
   padding: 0;
 }
-#footer .container-fluid .fa-brands{
+#footer .container-fluid .fa-brands {
   font-size: 21px;
 }
 
-#footer .container-fluid .fa-instagram{
+#footer .container-fluid .fa-instagram {
   border-radius: 6px;
   color: whitesmoke;
   padding: 3px;
@@ -132,62 +134,60 @@ body {
   margin-left: -4px;
 }
 
-#footer .container-fluid a{
+#footer .container-fluid a {
   border-color: transparent;
   border-radius: 30px;
   height: 35px;
   width: 45px;
 }
 
-#footer .container-fluid a img{
+#footer .container-fluid a img {
   width: 33px;
   margin-left: -5px;
   margin-top: -4px;
 }
 
-.bar{
+.bar {
   background-color: #f58122ff;
   height: 0.5px;
   display: flex;
   margin: -3px 14rem 4px;
 }
 
-.bar-2{
+.bar-2 {
   background-color: #f58122ff;
   height: 0.5px;
   display: flex;
   margin: -5px 14rem 4px;
-
 }
 
-.bar-3{
+.bar-3 {
   background-color: #f58122ff;
   height: 0.5px;
   display: flex;
   margin: -5px 14rem 4px;
-
 }
 
-#footer .container-fluid .row .col-lg-4 a{
+#footer .container-fluid .row .col-lg-4 a {
   text-decoration: none;
   line-height: 30px;
 }
 
-#footer .container-fluid .row .col-lg-4 a:hover{
+#footer .container-fluid .row .col-lg-4 a:hover {
   padding-left: 25px;
-  color: #f58122ff!important;
+  color: #f58122ff !important;
   text-decoration: underline #f58122ff 15%;
   font-size: 18px;
 }
 
-#footer .container-fluid .row .col-lg-4{
+#footer .container-fluid .row .col-lg-4 {
   border-left: solid #f58122ff 1px;
 }
 
-#footer .container-fluid .row .col-lg-4{
+#footer .container-fluid .row .col-lg-4 {
   border-left: solid #f58122ff 1px;
 }
 
-#footer .container-fluid .row .col-lg-4 .contacts{
+#footer .container-fluid .row .col-lg-4 .contacts {
   line-height: 50px;
 }

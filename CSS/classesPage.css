@@ -111,6 +111,38 @@ body {
   margin: 2rem;
 }
 
+#grid img {
+  filter: brightness(0.8);
+}
+
+#grid .col-3 .card img{
+  object-fit: cover;
+  height: 100%;
+}
+
+#grid .col-12 {
+  height: 239px
+}
+
+#grid .col-12 .card{
+  height: 239px
+}
+
+#grid .col-12 img{
+  height: 100%
+}
+
+#grid .col-12 iframe{
+  height: 234px;
+  width: 333.5px;
+}
+
+#grid .card-title{
+  color: #f58122ff;
+  font-weight: 800;
+  text-align: end;
+}
+
 /* HERO SECTION ENDS HERE */
 
 /* FOOTER STARTS HERE  */

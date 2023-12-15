@@ -1,0 +1,65 @@
+nav {
+    background-color: black !important;
+}
+
+nav .navbar-nav.main {
+    margin-left: 18rem !important;
+}
+
+nav .navbar-nav .nav-link {
+    color: whitesmoke;
+    font-weight: 600;
+    font-family: "Roboto Slab";
+    font-size: 14px;
+}
+
+nav .navbar-nav .nav-link:hover {
+    text-decoration: overline 2px #f5812f;
+    font-size: 15px;
+}
+
+nav .navbar-nav .navbar-brand {
+    padding: 0;
+    margin-right: 0;
+}
+
+nav .navbar-nav.right-end {
+    margin-top: -14px !important;
+}
+
+nav .navbar-nav .nav-item .dropdown-menu {
+    background-color: black;
+    margin-top: -10px;
+}
+
+nav .navbar-nav .nav-item .dropdown-menu .dropdown-item {
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Roboto Slab";
+}
+
+nav .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
+    background-color: rgba(245, 129, 34, 0.936);
+}
+
+@media all and (min-width: 992px) {
+    nav .navbar .nav-item .dropdown-menu {
+        display: none;
+    }
+
+    nav .navbar .nav-item:hover .dropdown-menu {
+        display: block;
+    }
+}
+
+/* Navbar toggler made transparent */
+nav .navbar .container-fluid .navbar-toggler {
+    border: none transparent;
+    box-shadow: none;
+}
+
+.navbar .container-fluid .bi-list {
+    color: whitesmoke;
+    font-size: 30px;
+}

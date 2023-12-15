@@ -112,10 +112,14 @@ body {
 }
 
 #grid img {
-  filter: brightness(0.8);
+  filter: brightness(1);
 }
 
-#grid .col-3 .card img{
+#grid .card {
+  filter: contrast(1.1)
+} 
+
+#grid .col-3 .card img {
   object-fit: cover;
   height: 100%;
 }
@@ -143,6 +147,55 @@ body {
   text-align: end;
 }
 
+/* Modal Installations Styling */
+#grid #insMares{
+  background-color: #000000b3;
+}
+
+#grid .col-12 .modal .modal-body .btn-close-white{
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+  z-index: 1;
+  font-size: 22px;
+}
+
+#grid .col-12 .modal .modal-content{
+  border-radius: 25px;
+}
+
+#grid .col-12 .modal .modal-content img{
+  border-radius: 23px;
+}
+
+#grid .col-12 .modal .modal-content .carousel-control-next,
+.carousel-control-prev{
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  opacity: 0;
+}
+
+#grid .col-12 .modal .modal-content .carousel-control-next:hover{
+  opacity: 1;
+}
+
+
+/* Modal Schedule Styling */
+#grid #horaMares{
+  background-color: #000000b3;
+}
+
+#grid #horaMares .modal-content{
+  top: -1rem;
+}
+
+#grid .col-6 .modal .modal-body .btn-close{
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+  z-index: 1;
+  font-size: 22px;
+}
 /* HERO SECTION ENDS HERE */
 
 /* FOOTER STARTS HERE  */

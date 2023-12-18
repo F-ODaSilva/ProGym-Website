@@ -134,7 +134,7 @@ body {
   margin-top: 18rem;
   background-color: black;
   border-radius: 100px;
-  width: 40px;
+  width: 33px;
   margin-left: 2rem;
   height: 80px;
   border: 4px solid #f58122ff;
@@ -144,7 +144,7 @@ body {
   margin-top: 18rem;
   background-color: black;
   border-radius: 100px;
-  width: 40px;
+  width: 33px;
   margin-right: 2rem;
   height: 80px;
   border: 4px solid #f58122ff;
@@ -247,11 +247,20 @@ body {
   position: relative;
 }
 
-#categories{
-  background-color: #000000;
+#categories .heading h1{
+  font-size: 25px;
+  border: solid 0px;
+  background-color: #f58122ff;
+  border-radius: 25px;
+  margin: 0 32rem;
 }
 
-#categories .col .carousel-inner h3{
+#categories{
+  background-color: #000000;
+  padding: 2rem 0;
+}
+
+#categories .col .carousel-inner h2{
     z-index: 1;
     position: absolute; 
     left: 25px;
@@ -290,6 +299,7 @@ body {
 
 #categories .carousel-item .card {
   border-radius: 28px;
+  border: none;
 }
 
 #categories .carousel-item .card img {
@@ -298,21 +308,17 @@ body {
 }
 
 #categories .carousel-control-next {
-  margin-top: 10rem;
-  margin-bottom: 10rem;
+  margin-top: 8rem;
+  margin-bottom: 8rem;
 }
 
-/* 
-#categories .carousel-control-next .carousel-control-next-icon,.carousel-control-prev-icon{
-    background-color: black;
-    border-radius: 28px;
-    height: 80px;
-    border: solid 3px #f58122ff;
-} */
-
 #categories .carousel-control-prev {
-  margin-top: 10rem;
-  margin-bottom: 10rem;
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
+
+#categories .carousel-control-prev-icon,.carousel-control-next-icon{
+  width: 25px;
 }
 
 #categories .modal .modal-content {

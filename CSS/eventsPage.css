@@ -3,7 +3,7 @@ nav {
 }
 
 nav .navbar-nav.main {
-    margin-left: 18rem !important;
+    margin-left: 16rem !important;
 }
 
 nav .navbar-nav .nav-link {
@@ -59,7 +59,54 @@ nav .navbar .container-fluid .navbar-toggler {
     box-shadow: none;
 }
 
-.navbar .container-fluid .bi-list {
+nav .navbar .container-fluid .bi-list {
     color: whitesmoke;
     font-size: 30px;
 }
+
+
+
+#categories .col {
+    width: 40%;
+    left: 7rem;
+    position: relative;
+}
+
+
+#categories .carousel-item .card-button {
+    background-color: transparent;
+    border: transparent;
+  }
+  
+  #categories .carousel-item .card .card-title {
+    font-size: 40px;
+    padding-top: 9rem;
+    font-weight: 600;
+  }
+  
+  #categories .carousel-section .carousel-item {
+    border-radius: 28px;
+  }
+  
+  #categories .carousel-section .card-img-overlay {
+    border-radius: 30px;
+  }
+  
+  #categories .carousel-item .card {
+    border-radius: 28px;
+  }
+  
+  #categories .carousel-item .card img {
+    filter: brightness(0.7);
+    border-radius: 28px;
+  }
+  
+  #categories .carousel-control-next {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+  }
+  
+  #categories .carousel-control-prev {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+  }

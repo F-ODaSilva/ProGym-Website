@@ -21,6 +21,14 @@ body {
   background-color: black !important;
 }
 
+.navbar-nav.main {
+  margin-left: 16rem!important;
+}
+
+.navbar-nav.right-end {
+  margin-top: -14px!important;
+}
+
 .navbar .container-fluid .bi-list {
   color: whitesmoke;
   font-size: 30px;
@@ -31,14 +39,14 @@ body {
 }
 
 .navbar .container-fluid .nav-item .nav-link {
-  padding-top: 30px;
   font-family: "Roboto Slab";
   font-weight: 600;
   color: lightgray;
+  font-size: 15px!important;
 }
 
 .navbar .container-fluid .nav-item .nav-link:hover {
-  font-size: 17px;
+  font-size: 17px!important;
   text-decoration: overline #f58122ff 3px;
 }
 
@@ -74,8 +82,6 @@ body {
 @media screen and (min-width: 750px) {
   .navbar-brand img {
     width: 235px;
-    padding-top: 15px;
-    padding-bottom: 15px;
   }
   .navbar-brand {
     margin-right: 0;
@@ -90,6 +96,10 @@ body {
 .navbar .container-fluid .navbar-toggler {
   border: none transparent;
   box-shadow: none;
+}
+
+.navbar-nav .nav-item .language{
+  cursor: pointer;
 }
 
 /* NAVIGATION AREA ENDS HERE */
@@ -255,9 +265,13 @@ body {
   margin: 0 32rem;
 }
 
+#categories .heading {
+  margin-right: 5rem;
+}
+
 #categories{
   background-color: #000000;
-  padding: 2rem 0;
+  padding: 4rem 0;
 }
 
 #categories .col .carousel-inner h2{
@@ -310,6 +324,7 @@ body {
 #categories .carousel-control-next {
   margin-top: 8rem;
   margin-bottom: 8rem;
+  left: 29.5rem;
 }
 
 #categories .carousel-control-prev {

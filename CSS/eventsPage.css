@@ -1,297 +1,124 @@
-nav {
-  background-color: black !important;
+#trigger.btn.btn-primary {
+    position: absolute;
+    top: 50%;
+    left: 40%;
 }
 
-nav .navbar-nav.main {
-  margin-left: 16rem !important;
-}
-
-nav .navbar-nav .nav-link {
-  color: whitesmoke;
-  font-weight: 600;
-  font-family: "Roboto Slab";
-  font-size: 14px;
-}
-
-nav .navbar-nav .nav-link:hover {
-  text-decoration: overline 2px #f5812f;
-  font-size: 15px;
-}
-
-nav .navbar-nav .navbar-brand {
-  padding: 0;
-  margin-right: 0;
-}
-
-nav .navbar-nav.right-end {
-  margin-top: -14px !important;
-}
-
-nav .navbar-nav .nav-item .dropdown-menu {
-  background-color: black;
-  margin-top: -10px;
-}
-
-nav .navbar-nav .nav-item .dropdown-menu .dropdown-item {
-  color: white;
-  font-size: 14px;
-  font-weight: 600;
+.modal {
+  background-color: #00000073;
   font-family: "Roboto Slab";
 }
 
-nav .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
-  background-color: rgba(245, 129, 34, 0.936);
+.modal-header {
+  border-bottom: 0;
 }
 
-@media all and (min-width: 992px) {
-  nav .navbar .nav-item .dropdown-menu {
-    display: none;
-  }
-
-  nav .navbar .nav-item:hover .dropdown-menu {
-    display: block;
-  }
+.modal-header button{
+  background-color: transparent;
+  border: none;
 }
-
-/* Navbar toggler made transparent */
-nav .navbar .container-fluid .navbar-toggler {
-  border: none transparent;
-  box-shadow: none;
-}
-
-nav .navbar .container-fluid .bi-list {
+.modal-header button .fa-xmark{
   color: whitesmoke;
   font-size: 30px;
 }
-
-#categories .col {
-  width: 40%;
-  left: 7rem;
-  position: relative;
+.modal-content{
+  border-radius: 50px!important;
+  background: rgb(0, 0, 0);
 }
 
-#categories .col .carousel-inner h3{
-    z-index: 1;
-    position: absolute; 
-    left: 25px;
-    font-size: 20px;
-    padding-top: 20px;
-}
-
-#categories .col .carousel-item .card {
-    padding-top: 0rem;
-    height: 330px;
-}
-
-#categories .col .carousel-item .card img{
-    height: 100%;
-    object-fit: cover;
-}
-
-#categories .carousel-item .card-button {
-  background-color: transparent;
-  border: transparent;
-}
-
-#categories .carousel-item .card .card-title {
-  font-size: 40px;
-  padding-top: 7rem;
+.modal .modal-title{
+  margin-left: 24rem;
   font-weight: 600;
-}
-
-#categories .carousel-section .carousel-item {
-  border-radius: 28px;
-}
-
-#categories .carousel-section .card-img-overlay {
-  border-radius: 30px;
-}
-
-#categories .carousel-item .card {
-  border-radius: 28px;
-}
-
-#categories .carousel-item .card img {
-  filter: brightness(0.7);
-  border-radius: 28px;
-}
-
-#categories .carousel-control-next {
-  margin-top: 10rem;
-  margin-bottom: 10rem;
-}
-#categories .carousel-control-next .carousel-control-next-icon,.carousel-control-prev-icon{
-    background-color: black;
-    border-radius: 28px;
-    height: 80px;
-    border: solid 3px #f58122ff;
-}
-
-#categories .carousel-control-prev {
-  margin-top: 10rem;
-  margin-bottom: 10rem;
-}
-
-#categories .modal .modal-content {
-  background-color: black;
-  border: #f58122ff 4px solid;
-}
-
-#categories .modal .modal-header {
-  border-bottom: solid 5px #f58122ff;
-}
-
-#categories .modal .modal-header a:link {
-  color: transparent;
-}
-
-#categories .modal .modal-header a:visited {
-  color: transparent;
-}
-
-#categories .modal .modal-header a:hover {
-  color: #f58122ff;
-}
-
-#categories .modal .modal-header a:active {
-  color: transparent;
-}
-
-#categories .modal .modal-header h3 {
-  padding-left: 33rem;
-  color: white;
-  font-weight: 600;
-  font-size: 35px;
-}
-
-#categories .modal .modal-body {
-  padding: 0;
-  background-color: #2f2e2e;
-}
-
-#categories .modal .container-fluid {
-  padding-left: 12px;
-}
-#categories .modal .col-md-4 {
   color: whitesmoke;
 }
 
-#categories .modal .col-md-4 h4 {
+.modal .modal-footer{
+  border-top: 0;
+}
+
+.modal .btn-close{
+ margin: 0.5rem 1.5rem 0.5rem auto;
+}
+
+.modal-body{
+  padding: 0 0.7rem;
+}
+
+.modal-body .row .col-md-3{
+  border-bottom-left-radius: 35px;
+  border-right: 3px solid #f58122ff;
+}
+
+.modal-body .row .col-md-3:nth-last-child(1){
+  border-right: 0;
+}
+
+.modal-body .row .col-md-3 a {
+  border: none;
+  margin: 0 6rem 1rem;
+  border-radius: 45px;
+  padding: 12px 12px;
+}
+
+.modal-body .row .col-md-3 a.facebook{
+  margin-bottom: 9px;
+  margin-left: 5.9rem;
+}
+
+.modal-body .row .col-md-3 a.instagram{
+  margin-left: 90px;
+  margin-top: -5px;
+  margin-bottom: 1px;
+}
+
+.modal-body .row .col-md-3 a.whatsapp{
+    margin-bottom: 0px;
+}
+
+.modal-body .row .col-md-3 a.youtube{
+    margin-top: 10px;
+    margin-bottom: 3px;
+    margin-left: 5.8rem;
+    padding: 7px;
+}
+
+.modal-body .row .col-md-3 .fa-brands {
+  font-size: 60px;;
+}
+
+.modal-body .row .col-md-3 .fa-brands.fa-whatsapp {
+  font-size: 68px;;
+  padding-bottom: 0rem!important;
+  margin-top: -5px;
+}
+
+.modal-body .row .col-md-3 .fa-brands.fa-instagram {
+  padding: 8px;
+  border-radius: 40px;
+}
+
+.modal-body .row .col-md-3 .popText {
   text-align: center;
-  font-size: 25px;
-  margin-top: 20px;
-  color: #f58122ff;
+  font-size: 14px;
+  line-height: 18px;
+  padding-top: 35px;
+  color: white!important;
+  font-weight: 500;
+}
+
+.modal-body .row .col-md-3 .follow {
+  margin: 0 6.2rem 3rem;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  font-size: 15px;
   font-weight: 600;
 }
 
-#categories .modal .col-md-4 h5 {
-  text-align: center;
-  color: #f58122ff;
-  font-size: 20px;
-  font-weight: 600;
+.modal-body .row .col-md-3 .follow:nth-child(){
+  margin-bottom: 5rem;
 }
 
-#categories .modal .col-md-4 p {
-  text-align: justify;
-}
-
-#categories .modal .col-md-4 ol {
-  text-align: left;
-  list-style: inside;
-  list-style-type: decimal;
-  margin-left: -28px;
-  font-size: 13.5px;
-}
-
-#categories .modal .col-md-4 li::marker {
-  color: #f58122ff;
-}
-
-#categories .col-md-6 .clickBox {
-  color: whitesmoke;
-  text-align: center;
-  font-size: 12px;
-  font-weight: 700;
-}
-
-/* Modal boxes responsiveness */
-
-@media screen and (max-width: 1200px) {
-  #categories .modal .modal-header h3 {
-    padding-left: 19rem;
-  }
-}
-
-@media screen and (max-width: 950px) {
-  #categories .modal .modal-header h3 {
-    padding-left: 7rem !important;
-  }
-
-  #categories .modal #spinModalLabel {
-    padding-left: 12rem !important;
-  }
-
-  #categories .modal #fatburnModalLabel {
-    padding-left: 12rem !important;
-  }
-
-  #categories .modal #stepModalLabel {
-    padding-left: 13rem !important;
-  }
-
-  #categories .modal #zumbaModalLabel {
-    padding-left: 12rem !important;
-  }
-
-  #categories .modal #runModalLabel {
-    padding-left: 13rem !important;
-  }
-
-  #categories .modal #coreModalLabel {
-    padding-left: 13rem !important;
-  }
-
-  #categories .modal #aeroModalLabel {
-    padding-left: 11rem !important;
-  }
-
-  #categories .modal #flowModalLabel {
-    padding-left: 13rem !important;
-  }
-
-  #categories .modal #tabataModalLabel {
-    padding-left: 12rem !important;
-  }
-
-  #categories .modal #glutesModalLabel {
-    padding-left: 10rem !important;
-  }
-
-  #categories .modal #taekModalLabel {
-    padding-left: 9rem !important;
-  }
-
-  #categories .modal #basketModalLabel {
-    padding-left: 9rem !important;
-  }
-
-  #categories .modal #basketModalLabel {
-    padding-left: 9rem !important;
-  }
-
-  #categories .modal #pulaModalLabel {
-    padding-left: 10rem !important;
-  }
-
-  #categories .modal #crossModalLabel {
-    padding-left: 10rem !important;
-  }
-
-  #categories .modal #golfModalLabel {
-    padding-left: 10rem !important;
-  }
-
-  #categories .modal #futsalModalLabel {
-    padding-left: 12rem !important;
-  }
+.modal-body .row .col-md-3 .qrfCode{
+  width: 35%;
+  margin-left: 5.5rem;
 }

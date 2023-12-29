@@ -2,247 +2,371 @@
 <html lang="pt">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Progym Fitness</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Progym Fitness</title>
 
-  <!-- Tab Logo Fav-icon -->
-  <link rel="apple-touch-icon" sizes="180x180" href="../Images/logo/apple-touch-icon.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="../Images/logo/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="../Images/logo/favicon-16x16.png" />
-  <link rel="manifest" href="../Images/logo/site.webmanifest" />
+    <!-- Tab Logo Fav-icon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="../Images/logo/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="../Images/logo/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="../Images/logo/favicon-16x16.png" />
+    <link rel="manifest" href="../Images/logo/site.webmanifest" />
 
-  <!-- Font Awesome Kit Code Link -->
-  <script src="https://kit.fontawesome.com/f7ccd0c567.js" crossorigin="anonymous"></script>
+    <!-- Font Awesome Kit Code Link -->
+    <script src="https://kit.fontawesome.com/f7ccd0c567.js" crossorigin="anonymous"></script>
 
-  <!-- Google Fonts CDN Link -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian:wght@300&family=Roboto+Slab&display=swap"
-    rel="stylesheet" />
+    <!-- Google Fonts CDN Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian:wght@300&family=Roboto+Slab&display=swap"
+        rel="stylesheet" />
 
-  <!-- Bootstrap Stylesheet Link -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-  <!-- Bootstrap CDN Icon Link -->
-  <!-- Option 1: Include in HTML -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+    <!-- Bootstrap Stylesheet Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <!-- Bootstrap CDN Icon Link -->
+    <!-- Option 1: Include in HTML -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
 
-  <!-- Animation On Scroll -->
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Animation On Scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
-  <!-- CSS Stylesheet Link -->
-  <link rel="stylesheet" href="../CSS/mainPage.css" />
+    <!-- CSS Stylesheet Link -->
+    <link rel="stylesheet" href="../CSS/mainPage.css" />
 </head>
 
 <body>
-  <!-- NAVIGATION BAR -->
-  <!-- In this section the navbar will have the logo/navbar-brand in the middle with the nav tabs around it on the large screens and smaller screens the logo/navbar-brand will be on the left  and it will have a toggler button on the right-->
- 
-  <nav class="navbar navbar-expand-md ">
-    <div class="container-fluid">
-        <a class="navbar-brand d-md-none" href="../HTML/mainPage.html">
-            <img src="../Images/logo/logoProgym.jpg" alt="ProGym Logo" style="width: 180px;" />
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="bi bi-list"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav main mx-auto">
-                <li class="nav-item px-3">
-                    <a class="nav-link" href="#">Inicio</a>
-                </li>
-                <li class="nav-item px-3 dropdown px-md-0 ">
-                    <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownClass" role="button"
-                        data-bs-toggle="dropdown">Aulas</a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownClass">
-                        <li>
-                            <a href="../HTML/classesPage.html#mares" class="dropdown-item">Marés</a>
-                        </li>
-                        <li>
-                            <a href="../HTML/classesPage.html#matola" class="dropdown-item">Matola</a>
-                        </li>
-                        <li>
-                            <a href="../HTML/classesPage.html#altoMae" class="dropdown-item">Alto Maé</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="nav-item px-3">
-                    <a class="nav-link" href="#">Preços</a>
-                </li>
-                <li class="nav-item px-3 dropdown px-md-0">
-                    <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownServices" role="button"
-                        data-bs-toggle="dropdown">Serviços</a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownServices">
-                        <li>
-                            <a href="../HTML/classesPage.html#personal" class="dropdown-item">Personal Trainer</a>
-                        </li>
-                        <li>
-                            <a href="../HTML/classesPage.html#fisica" class="dropdown-item">Avaliação Física</a>
-                        </li>
-                        <li>
-                            <a href="../HTML/classesPage.html#nutri" class="dropdown-item">Nutricionista</a>
-                        </li>
-                        <li>
-                            <a href="../HTML/classesPage.html#fisio" class="dropdown-item">Fisioterapia</a>
-                        </li>
-                    </ul>
-                </li>
-                <!-- Logo Starts Here -->
-                <a class="navbar-brand d-none d-md-block" href="../HTML/mainPage.html">
-                    <img src="../Images/logo/logoProgym.jpg" style="width: 220px;" alt="">
-                </a>
-                <!-- logo Ends Here -->
-                <li class="nav-item px-3 dropdown px-md-0">
-                    <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownGyms" role="button"
-                        data-bs-toggle="dropdown">Ginásios</a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownGyms">
-                        <li>
-                            <a href="../HTML/gymsPage.html#mares" class="dropdown-item">Marés</a>
-                        </li>
-                        <li>
-                            <a href="../HTML/gymsPage.html#fisica" class="dropdown-item">Matola</a>
-                        </li>
-                        <li>
-                            <a href="../HTML/gyms.html#nutri" class="dropdown-item">Alto Maé</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="nav-item px-3">
-                    <a class="nav-link" href="#">Events</a>
-                </li>
-                <li class="nav-item px-3 dropdown px-md-0">
-                    <a href="#" class="nav-link dropdown-toggle px-0" id="navbarDropdownCompany" role="button"
-                        data-bs-toggle="dropdown">Compania Serviços</a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownCompany">
-                        <li>
-                            <a href="../HTML/classesPage.html#tvMarketing" class="dropdown-item">Tv Marketing</a>
-                        </li>
-                        <li>
-                            <a href="../HTML/classesPage.html#webMarketing" class="dropdown-item">Website
-                                Marketing</a>
-                        </li>
-                        <li>
-                            <a href="../HTML/classesPage.html#manuEquip" class="dropdown-item">Manutenção de
-                                Equipamento</a>
-                        </li>
-                        <li>
-                            <a href="../HTML/classesPage.html#setUpGym" class="dropdown-item">Set Up de Ginásios</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="nav-item px-3">
-                    <a class="nav-link" href="#">Sobre nós</a>
-                </li>
-            </ul>
-            <ul class="navbar-nav right-end ">
-                <li class="nav-item px-2">
-                    <a class="nav-link" href="#">Loja</a>
-                </li>
-                <li class="nav-item px-2">
-                    <img src="../Images/logo/english-flag.png" width="25px" class="mt-2 me-2 languag d-none"
-                        id="english" alt="">
-                    <img src="../Images/logo/portuguese-flag.png" width="38px" class="mt-2 language" id="portugal"
-                        alt="">
-                </li>
-            </ul>
+
+    <!-- SOCIAL MEDIA POP UP-->
+    <div class="modal fade" id="popUpStart" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="socialPopUp" aria-hidden="true" style="display: none;">
+        <div class="modal-dialog modal-dialog-centered modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title" id="socialPopUp">Siga-nos Nas Nossas Redes Sociais</h1>
+                    <button type="button" data-bs-dismiss="modal" aria-label="Close">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row text-white">
+                        <div class="col-md-3 h-100 ">
+
+                            <p class="popText">
+                                Veja as publicações mais recentes e fique atualizado as novas informações.
+                            </p>
+
+                            <!-- Facebook link -->
+                            <a href="https://facebook.com/mozprogym"
+                                class="btn btn-outline-light btn-floating facebook">
+                                <i class="fa-brands fa-facebook" style="color: #0742f2"></i>
+                            </a>
+
+                            <button type="button" class="btn follow">Seguir</button>
+
+                            <img src="../Images/logo/facebookQRF.png" alt="" class="qrfCode">
+
+                        </div>
+
+                        <div class="col-md-3 h-100 ">
+
+                            <p class="popText">
+                                Veja as publicações mais recentes e fique atualizado as novas informações.
+                            </p>
+
+                            <!-- Facebook link -->
+                            <a href="https://www.instagram.com/mozprogym/"
+                                class="btn btn-outline-light btn-floating instagram">
+                                <i class="fa-brands fa-instagram" style="
+                                                         background: linear-gradient(
+                                                           210deg,
+                                                           #f9ce34,
+                                                           #ee2a7b,
+                                                           #6228d7
+                                                         );
+                                                       ">
+                                </i>
+                            </a>
+
+                            <button type="button" class="btn follow">Seguir</button>
+
+                            <img src="../Images/logo/instagramQRF.png" alt="" class="qrfCode">
+
+
+                        </div>
+
+                        <div class="col-md-3 h-100 ">
+
+                            <p class="popText">
+                                Veja as publicações mais recentes e fique atualizado as novas informações.
+                            </p>
+
+                            <!-- Facebook link -->
+                            <a href="https://wa.me/+258844414441" class="btn btn-outline-light btn-floating whatsapp">
+                                <i class="fa-brands fa-whatsapp" style="color: limegreen"></i>
+                            </a>
+
+                            <button type="button" class="btn follow">Seguir</button>
+
+                            <img src="../Images/logo/whatsappQRF.png" alt="" class="qrfCode">
+
+
+                        </div>
+
+                        <div class="col-md-3 h-100 ">
+
+                            <p class="popText">
+                                Veja as publicações mais recentes e fique atualizado as novas informações.
+                            </p>
+
+                            <!-- Youtube Link -->
+                            <a href="https://www.youtube.com/@MozProGym"
+                                class="btn btn-outline-light btn-floating youtube">
+                                <i class="fa-brands fa-youtube" style="color: red"></i>
+                            </a>
+
+
+                            <button type="button" class="btn follow">Seguir</button>
+
+                            <img src="../Images/logo/youtubeQRF.png" alt="" class="qrfCode">
+
+
+                        </div>
+
+                    </div>
+                    <div class="row visually-hidden text-white">
+                        <div class="col-md-3 bg-success h-100">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Veniam sed eveniet nulla ullam, animi assumenda modi fugiat neque consequuntur esse illum,
+                            doloribus id quas sequi. Similique tempore deleniti a consectetur, recusandae reiciendis
+                            facilis quia quod quis odio, id nulla at!</div>
+                        <div class="col-md-3 bg-success h-100">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Veniam sed eveniet nulla ullam, animi assumenda modi fugiat neque consequuntur esse illum,
+                            doloribus id quas sequi. Similique tempore deleniti a consectetur, recusandae reiciendis
+                            facilis quia quod quis odio, id nulla at!</div>
+                        <div class="col-md-3 bg-success h-100">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Veniam sed eveniet nulla ullam, animi assumenda modi fugiat neque consequuntur esse illum,
+                            doloribus id quas sequi. Similique tempore deleniti a consectetur, recusandae reiciendis
+                            facilis quia quod quis odio, id nulla at!</div>
+                        <div class="col-md-3 bg-success h-100">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Veniam sed eveniet nulla ullam, animi assumenda modi fugiat neque consequuntur esse illum,
+                            doloribus id quas sequi. Similique tempore deleniti a consectetur, recusandae reiciendis
+                            facilis quia quod quis odio, id nulla at!</div>
+                    </div>
+                </div>
+                <div class="modal-footer"></div>
+            </div>
         </div>
     </div>
-  </nav>
+
+
+    <!-- NAVIGATION BAR -->
+    <!-- In this section the navbar will have the logo/navbar-brand in the middle with the nav tabs around it on the large screens and smaller screens the logo/navbar-brand will be on the left  and it will have a toggler button on the right-->
+
+    <nav class="navbar navbar-expand-md fixed-top scrolling-navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand d-md-none" href="../HTML/mainPage.html">
+                <img src="../Images/logo/logoProgym.jpg" alt="ProGym Logo" style="width: 180px;" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="bi bi-list"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav main mx-auto">
+                    <li class="nav-item px-3">
+                        <a class="nav-link" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item px-3 dropdown px-md-0 ">
+                        <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownClass" role="button"
+                            data-bs-toggle="dropdown">Aulas</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownClass">
+                            <li>
+                                <a href="../HTML/classesPage.html#mares" class="dropdown-item">Marés</a>
+                            </li>
+                            <li>
+                                <a href="../HTML/classesPage.html#matola" class="dropdown-item">Matola</a>
+                            </li>
+                            <li>
+                                <a href="../HTML/classesPage.html#altoMae" class="dropdown-item">Alto Maé</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link" href="#">Preços</a>
+                    </li>
+                    <li class="nav-item px-3 dropdown px-md-0">
+                        <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownServices" role="button"
+                            data-bs-toggle="dropdown">Serviços</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownServices">
+                            <li>
+                                <a href="../HTML/classesPage.html#personal" class="dropdown-item">Personal Trainer</a>
+                            </li>
+                            <li>
+                                <a href="../HTML/classesPage.html#fisica" class="dropdown-item">Avaliação Física</a>
+                            </li>
+                            <li>
+                                <a href="../HTML/classesPage.html#nutri" class="dropdown-item">Nutricionista</a>
+                            </li>
+                            <li>
+                                <a href="../HTML/classesPage.html#fisio" class="dropdown-item">Fisioterapia</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- Logo Starts Here -->
+                    <a class="navbar-brand d-none d-md-block" href="../HTML/mainPage.html">
+                        <img src="../Images/logo/logoProgym.jpg" style="width: 220px;" alt="">
+                    </a>
+                    <!-- logo Ends Here -->
+                    <li class="nav-item px-3 dropdown px-md-0">
+                        <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownGyms" role="button"
+                            data-bs-toggle="dropdown">Ginásios</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownGyms">
+                            <li>
+                                <a href="../HTML/gymsPage.html#mares" class="dropdown-item">Marés</a>
+                            </li>
+                            <li>
+                                <a href="../HTML/gymsPage.html#fisica" class="dropdown-item">Matola</a>
+                            </li>
+                            <li>
+                                <a href="../HTML/gyms.html#nutri" class="dropdown-item">Alto Maé</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link" href="#">Events</a>
+                    </li>
+                    <li class="nav-item px-3 dropdown px-md-0">
+                        <a href="#" class="nav-link dropdown-toggle px-0" id="navbarDropdownCompany" role="button"
+                            data-bs-toggle="dropdown">Compania Serviços</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownCompany">
+                            <li>
+                                <a href="../HTML/classesPage.html#tvMarketing" class="dropdown-item">Tv Marketing</a>
+                            </li>
+                            <li>
+                                <a href="../HTML/classesPage.html#webMarketing" class="dropdown-item">Website
+                                    Marketing</a>
+                            </li>
+                            <li>
+                                <a href="../HTML/classesPage.html#manuEquip" class="dropdown-item">Manutenção de
+                                    Equipamento</a>
+                            </li>
+                            <li>
+                                <a href="../HTML/classesPage.html#setUpGym" class="dropdown-item">Set Up de Ginásios</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link" href="#">Sobre nós</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav right-end ">
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="#">Loja</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <img src="../Images/logo/english-flag.png" width="25px" class="mt-2 me-2 languag d-none"
+                            id="english" alt="">
+                        <img src="../Images/logo/portuguese-flag.png" width="38px" class="mt-2 language" id="portugal"
+                            alt="">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
 
 
-  <!-- HERO SECTION  -->
-  <!-- In this section there will be a carousel slide containing several photos of the customers and gym enviorment and events -->
-  <section id="hero">
-    <div id="carouselHero" class="carousel slide carousel-fade d-lg-flex d-md-flex d-sm-flex" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="../Images/Images/hero1.png" class="d-block w-100"
-            style="object-position: 0 80%; filter: brightness(0.6)" />
-          <div class="carousel-caption d-none d-md-block" style="top: 35%">
-            <h1 data-aos="zoom-out" data-aos-duration="2000" data-aos-easing="ease-in-sine">
-              Bemvindo a Familia ProGym
-            </h1>
-            <h4 data-aos="zoom-in" data-aos-duration="2200" data-aos-easing="ease-in-sine">
-              Best Price <span>||</span> Best Quality
-            </h4>
-          </div>
+    <!-- HERO SECTION  -->
+    <!-- In this section there will be a carousel slide containing several photos of the customers and gym enviorment and events -->
+    <section id="hero">
+        <div id="carouselHero" class="carousel slide carousel-fade d-lg-flex d-md-flex d-sm-flex"
+            data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../Images/Images/hero1.png" class="d-block w-100"
+                        style="object-position: 0 80%; filter: brightness(0.6)" />
+                    <div class="carousel-caption d-none d-md-block" style="top: 35%">
+                        <h1 data-aos="zoom-out" data-aos-duration="2000" data-aos-easing="ease-in-sine">
+                            Bemvindo a Familia ProGym
+                        </h1>
+                        <h4 data-aos="zoom-in" data-aos-duration="2200" data-aos-easing="ease-in-sine">
+                            Best Price <span>||</span> Best Quality
+                        </h4>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="3500">
+                    <img src="../Images/Images/hero2.jpg" class="d-block w-100" />
+                </div>
+                <div class="carousel-item" data-bs-interval="3500">
+                    <img src="../Images/Images/hero3.jpg" class="d-block w-100" />
+                </div>
+                <div class="carousel-item" data-bs-interval="3500">
+                    <img src="../Images/Images/hero4.jpg" class="d-block w-100" />
+                </div>
+                <div class="carousel-item" data-bs-interval="3500">
+                    <img src="../Images/Images/hero5.jpg" class="d-block w-100" />
+                </div>
+                <div class="carousel-item" data-bs-interval="3500">
+                    <img src="../Images/Images/hero6.jpg" class="d-block w-100" />
+                </div>
+                <div class="carousel-item" data-bs-interval="3500">
+                    <img src="../Images/Images/hero7.jpg" class="d-block w-100" />
+                </div>
+                <div class="carousel-item" data-bs-interval="3500">
+                    <img src="../Images/Images/hero8.jpg" class="d-block w-100" />
+                </div>
+                <div class="carousel-item" data-bs-interval="3500">
+                    <img src="../Images/Images/hero9.jpg" class="d-block w-100" />
+                </div>
+                <div class="carousel-item" data-bs-interval="3500">
+                    <img src="../Images/Images/hero10.jpg" class="d-block w-100" />
+                </div>
+                <div class="carousel-item" data-bs-interval="3500">
+                    <img src="../Images/Images/hero11.jpg" class="d-block w-100" />
+                </div>
+                <div class="carousel-item" data-bs-interval="3500">
+                    <img src="../Images/Images/hero12.jpg" class="d-block w-100" />
+                </div>
+                <div class="carousel-item" data-bs-interval="3500">
+                    <img src="../Images/Images/hero13.jpg" class="d-block w-100" />
+                </div>
+                <div class="carousel-item" data-bs-interval="3500">
+                    <img src="../Images/Images/hero14.jpg" class="d-block w-100" style="object-position: 0 20%" />
+                </div>
+                <div class="carousel-item" data-bs-interval="3500">
+                    <img src="../Images/Images/hero15.jpg" class="d-block w-100" />
+                </div>
+                <div class="carousel-item" data-bs-interval="3500">
+                    <img src="../Images/Images/hero16.jpg" class="d-block w-100" />
+                </div>
+                <div class="carousel-item" data-bs-interval="3500">
+                    <img src="../Images/Images/hero17.jpg" class="d-block w-100" style="object-position: 0 65%" />
+                </div>
+                <div class="carousel-item">
+                    <img src="../Images/Images/hero18.jpg" class="d-block w-100" />
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselHero" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselHero" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-        <div class="carousel-item" data-bs-interval="3500">
-          <img src="../Images/Images/hero2.jpg" class="d-block w-100" />
-        </div>
-        <div class="carousel-item" data-bs-interval="3500">
-          <img src="../Images/Images/hero3.jpg" class="d-block w-100" />
-        </div>
-        <div class="carousel-item" data-bs-interval="3500">
-          <img src="../Images/Images/hero4.jpg" class="d-block w-100" />
-        </div>
-        <div class="carousel-item" data-bs-interval="3500">
-          <img src="../Images/Images/hero5.jpg" class="d-block w-100" />
-        </div>
-        <div class="carousel-item" data-bs-interval="3500">
-          <img src="../Images/Images/hero6.jpg" class="d-block w-100" />
-        </div>
-        <div class="carousel-item" data-bs-interval="3500">
-          <img src="../Images/Images/hero7.jpg" class="d-block w-100" />
-        </div>
-        <div class="carousel-item" data-bs-interval="3500">
-          <img src="../Images/Images/hero8.jpg" class="d-block w-100" />
-        </div>
-        <div class="carousel-item" data-bs-interval="3500">
-          <img src="../Images/Images/hero9.jpg" class="d-block w-100" />
-        </div>
-        <div class="carousel-item" data-bs-interval="3500">
-          <img src="../Images/Images/hero10.jpg" class="d-block w-100" />
-        </div>
-        <div class="carousel-item" data-bs-interval="3500">
-          <img src="../Images/Images/hero11.jpg" class="d-block w-100" />
-        </div>
-        <div class="carousel-item" data-bs-interval="3500">
-          <img src="../Images/Images/hero12.jpg" class="d-block w-100" />
-        </div>
-        <div class="carousel-item" data-bs-interval="3500">
-          <img src="../Images/Images/hero13.jpg" class="d-block w-100" />
-        </div>
-        <div class="carousel-item" data-bs-interval="3500">
-          <img src="../Images/Images/hero14.jpg" class="d-block w-100" style="object-position: 0 20%" />
-        </div>
-        <div class="carousel-item" data-bs-interval="3500">
-          <img src="../Images/Images/hero15.jpg" class="d-block w-100" />
-        </div>
-        <div class="carousel-item" data-bs-interval="3500">
-          <img src="../Images/Images/hero16.jpg" class="d-block w-100" />
-        </div>
-        <div class="carousel-item" data-bs-interval="3500">
-          <img src="../Images/Images/hero17.jpg" class="d-block w-100" style="object-position: 0 65%" />
-        </div>
-        <div class="carousel-item">
-          <img src="../Images/Images/hero18.jpg" class="d-block w-100" />
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselHero" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselHero" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-  </section>
+    </section>
 
-  <!-- CLASSES SECTION -->
-  <!-- In this section there wil be two boxes with images each side encapsulating a modal with a grid of columns with images representing every class that the group has -->
-   <section id="categories">
+    <!-- CLASSES SECTION -->
+    <!-- In this section there wil be two boxes with images each side encapsulating a modal with a grid of columns with images representing every class that the group has -->
+    <section id="categories">
 
         <div class="container">
-          <div class="heading mb-3 text-center text-white">
-            <h1 data-aos="zoom-in" data-aos-duration="3000">Nossas Aulas</h1>
-          </div>
+            <div class="heading mb-3 text-center text-white">
+                <h1 data-aos="zoom-in" data-aos-duration="3000">Nossos Serviços</h1>
+            </div>
             <div class="row row-cols-1 row-cols-lg-2 g-3">
-                <div class="col">
+                <div class="col" data-aos="fade-down-right" data-aos-easing="linear" data-aos-duration="1100">
                     <div class=" text-white p-0 custom-height">
                         <div id="carouselAdults" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
@@ -777,7 +901,7 @@
                                 </div>
                                 <div class="carousel-item">
                                     <button type="button" class="card-button p-0 rounded-3" data-bs-toggle="modal"
-                                        data-bs-target="#Modal">
+                                        data-bs-target="#coreModal">
                                         <div class="card  text-white">
                                             <img src="../Images/Classes/adults12.jpg" alt="" class="card-img" />
                                             <div class="card-img-overlay">
@@ -846,7 +970,7 @@
                                 </div>
                                 <div class="carousel-item">
                                     <button type="button" class="card-button p-0 rounded-3" data-bs-toggle="modal"
-                                        data-bs-target="#crossfitModal">
+                                        data-bs-target="#aeroModal">
                                         <div class="card  text-white">
                                             <img src="../Images/Classes/adults9.jpg" alt="" class="card-img" />
                                             <div class="card-img-overlay">
@@ -985,7 +1109,7 @@
                                 </div>
                                 <div class="carousel-item">
                                     <button type="button" class="card-button p-0 rounded-3" data-bs-toggle="modal"
-                                        data-bs-target="#flowModal">
+                                        data-bs-target="#tabataModal">
                                         <div class="card  text-white">
                                             <img src="../Images/Classes/adults10.jpg" alt="" class="card-img" />
                                             <div class="card-img-overlay">
@@ -1131,7 +1255,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col" data-aos="fade-down-left" data-aos-easing="linear" data-aos-duration="1100">
                     <div class=" text-white p-0 custom-height">
                         <div id="carouselServices" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
@@ -1147,7 +1271,67 @@
                                             </div>
                                         </div>
                                     </button>
+
+
+                                    <div class="modal fade" id="trainerModal" tabindex="-1"
+                                        aria-labelledby="trainerModalLabel" aria-hidden="true">
+                                        <div
+                                            class="modal-dialog modal-xl modal-fullscreen-sm-down modal-dialog-centered">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <a href="../HTML/classesPage.html#trainer">
+                                                        <h3 class="modal-title" id="trainerModalLabel">
+                                                            Personal Trainer
+                                                        </h3>
+                                                    </a>
+                                                    <button type="button" class="btn-close btn-close-white pe-5"
+                                                        data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+
+                                                <div class="modal-body">
+                                                    <div class="container-fluid">
+                                                        <div class="row">
+                                                            <div class="col-md-8 col-lg-7 g-0">
+                                                                <img .class="img-fluid"
+                                                                    src="../Images/Images/personal1.jpg" alt="" />
+                                                            </div>
+                                                            <div class="col-md-4 col-lg-5">
+                                                                <h4>O que é Personal Trainer?</h4>
+                                                                <p>
+                                                                    Um personal trainer/treinador pessoal, é um
+                                                                    profissional da área de Educação Física que atua com
+                                                                    seus clientes de forma individualizada, elebarando e
+                                                                    supervisionando treinamentos físicos especificos
+                                                                    para cada um de forma segura e eficaz. Eles motivam
+                                                                    os clientes colaborando para definir metas e
+                                                                    alcança-las da melhor forma possivel.
+
+                                                                </p>
+
+                                                                <h5>Beneficios</h5>
+                                                                <ol>
+                                                                    <li>Proporcionar mais resultado em menos tempo</li>
+                                                                    <li>Proporciona</li>
+                                                                    <li>
+                                                                        Reduz o risco de lesões
+                                                                    </li>
+                                                                    <li>Reduz o risco de lesões</li>
+                                                                    <li>
+                                                                        Alinha a expectativa a sua realidade
+                                                                    </li>
+                                                                    <li>Mantém a motivação</li>
+                                                                </ol>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
                                 </div>
+
+
                                 <div class="carousel-item">
                                     <button type="button" class="card-button p-0 rounded-3" data-bs-toggle="modal"
                                         data-bs-target="#nutriModal">
@@ -1159,7 +1343,67 @@
                                             </div>
                                         </div>
                                     </button>
+
+
+                                    <div class="modal fade" id="nutriModal" tabindex="-1"
+                                        aria-labelledby="nutriModalLabel" aria-hidden="true">
+                                        <div
+                                            class="modal-dialog modal-xl modal-fullscreen-sm-down modal-dialog-centered">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <a href="../HTML/classesPage.html#nutri">
+                                                        <h3 class="modal-title" id="nutriModalLabel">
+                                                            Nutricionista
+                                                        </h3>
+                                                    </a>
+                                                    <button type="button" class="btn-close btn-close-white pe-5"
+                                                        data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+
+                                                <div class="modal-body">
+                                                    <div class="container-fluid">
+                                                        <div class="row">
+                                                            <div class="col-md-8 col-lg-7 g-0">
+                                                                <img .class="img-fluid"
+                                                                    src="../Images/Images/nutri1.jpg" alt="" />
+                                                            </div>
+                                                            <div class="col-md-4 col-lg-5">
+                                                                <h4>O que é um Nutricionista?</h4>
+                                                                <p>
+                                                                    Um nutricionista é um profissional que orienta e
+                                                                    aconselha pacientes sobre hábitos alimentares com o
+                                                                    uso de avaliações físicas, levando em consideração a
+                                                                    idade, peso, altura e histórico de saude e estilo de
+                                                                    vida do paciente com o objetivo de promover a saúde
+                                                                    e o bem-estar. Sua principal função é auxiliar as
+                                                                    pessoas a alcançarem uma alimentação equilibrada e
+                                                                    saudável, adequada às suas necessidades individuais.
+                                                                </p>
+
+                                                                <h5>Beneficios</h5>
+                                                                <ol>
+                                                                    <li>Proporcionar mais resultado em menos tempo</li>
+                                                                    <li>Ajuda na prevenção de doenças</li>
+                                                                    <li>
+                                                                        Melhoramento do funcionamento do intestino
+                                                                    </li>
+                                                                    <li>Proporciona um envelhecimento tranquilo</li>
+                                                                    <li>
+                                                                        Mudanças nos habitos alimentares
+                                                                    </li>
+                                                                    <li>Consciência alimentar</li>
+                                                                </ol>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
                                 </div>
+
+
                                 <div class="carousel-item">
                                     <button type="button" class="card-button p-0 rounded-3" data-bs-toggle="modal"
                                         data-bs-target="#fisioModal">
@@ -1171,7 +1415,66 @@
                                             </div>
                                         </div>
                                     </button>
+
+                                    <div class="modal fade" id="fisioModal" tabindex="-1"
+                                        aria-labelledby="fisioModalLabel" aria-hidden="true">
+                                        <div
+                                            class="modal-dialog modal-xl modal-fullscreen-sm-down modal-dialog-centered">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <a href="../HTML/classesPage.html#fisio">
+                                                        <h3 class="modal-title" id="fisioModalLabel">
+                                                            Fisioterapia
+                                                        </h3>
+                                                    </a>
+                                                    <button type="button" class="btn-close btn-close-white pe-5"
+                                                        data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+
+                                                <div class="modal-body">
+                                                    <div class="container-fluid">
+                                                        <div class="row">
+                                                            <div class="col-md-8 col-lg-7 g-0">
+                                                                <img .class="img-fluid"
+                                                                    src="../Images/Images/fisio1.jpg" alt="" />
+                                                            </div>
+                                                            <div class="col-md-4 col-lg-5">
+                                                                <h4>O que é um Fisioterapeuta?</h4>
+                                                                <p>
+                                                                    Um fisioterapeuta é um profissional da área de saude
+                                                                    que avalia lesões de pacientes e a partir do seu
+                                                                    diagnóstico fisioterapêutico, aplica e gerencia um
+                                                                    tratamento utilizando meios físicos
+                                                                    (exercícios,correntes elétricas, laser terapêutico)
+                                                                    que trabalham determinados músculos, pele,
+                                                                    articulações para recuperar movimentos ou disfunções
+                                                                    em áreas específicas.
+                                                                    Após os isso ele faz o acompanhapento do paciente
+                                                                    consoante as suas necessidades e problemas.
+                                                                </p>
+
+                                                                <h5>Beneficios</h5>
+                                                                <ol>
+                                                                    <li style="margin-top: -5px" ;>Maior nivel e menor
+                                                                        tempo de recuperação</li>
+                                                                    <li>Evita problemas circulatórios e de postura</li>
+                                                                    <li>
+                                                                        Tratamento de lesões e problemas posturais
+                                                                    </li>
+                                                                    <li>Melhora a coordenação motora</li>
+                                                                    <li>Cuidar de pessoas com mobilidade reduzida</li>
+                                                                </ol>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
                                 </div>
+
+
                                 <div class="carousel-item">
                                     <button type="button" class="card-button p-0 rounded-3" data-bs-toggle="modal"
                                         data-bs-target="#fisicaModal">
@@ -1183,6 +1486,62 @@
                                             </div>
                                         </div>
                                     </button>
+
+                                    <div class="modal fade" id="fisicaModal" tabindex="-1"
+                                        aria-labelledby="fisicaModalLabel" aria-hidden="true">
+                                        <div
+                                            class="modal-dialog modal-xl modal-fullscreen-sm-down modal-dialog-centered">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <a href="../HTML/classesPage.html#fisica">
+                                                        <h3 class="modal-title" id="fisicaModalLabel">
+                                                            Avaliação Física
+                                                        </h3>
+                                                    </a>
+                                                    <button type="button" class="btn-close btn-close-white pe-5"
+                                                        data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+
+                                                <div class="modal-body">
+                                                    <div class="container-fluid">
+                                                        <div class="row">
+                                                            <div class="col-md-8 col-lg-7 g-0">
+                                                                <img .class="img-fluid"
+                                                                    src="../Images/Images/avalia1.jpg" alt="" />
+                                                            </div>
+                                                            <div class="col-md-4 col-lg-5">
+                                                                <h4>O que é uma Avaliação Física?</h4>
+                                                                <p>
+                                                                    Uma avalição físcia é um procedimento essencial no
+                                                                    trabalho do profissional de eduacação física.
+                                                                    Através dela é possivel reunir elementos para
+                                                                    fundamentar a sua decisão sobre o método, tipo de
+                                                                    exercício e demais procedimentos a serem adotados
+                                                                    para a prescrição de exercícios físicos e
+                                                                    desportivos.
+                                                                </p>
+
+                                                                <h5>Beneficios</h5>
+                                                                <ol>
+                                                                    <li>Anamnese(Histórico dos familiares, doenças, e
+                                                                        costumes)</li>
+                                                                    <li>Antropometria(composição corporal)</li>
+                                                                    <li>
+                                                                        Dobras Cutâneas(medição da espessura de duas
+                                                                        camadas de pele e gordura)
+                                                                    </li>
+                                                                    <li>Avaliação de flexibilidade</li>
+                                                                    <li>Avaliação postural</li>
+                                                                    <li>Avaliação cardiorespiratória</li>
+                                                                </ol>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
                                 </div>
                             </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#carouselServices"
@@ -1198,7 +1557,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col" data-aos="fade-up-right" data-aos-easing="linear" data-aos-duration="1100">
                     <div class=" text-white p-0 custom-height">
                         <div id="carouselKids" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
@@ -1214,6 +1573,69 @@
                                             </div>
                                         </div>
                                     </button>
+                                    <!-- Taekwondo Modal -->
+                                    <div class="modal fade" id="taekModal" tabindex="-1"
+                                        aria-labelledby="taekModalLabel" aria-hidden="true">
+                                        <div
+                                            class="modal-dialog modal-xl modal-fullscreen-sm-down modal-dialog-centered">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <a href="../HTML/classesPage.html#taekClasses">
+                                                        <h3 class="modal-title" id="taekModalLabel">
+                                                            Taekwondo
+                                                        </h3>
+                                                    </a>
+                                                    <button type="button" class="btn-close btn-close-white pe-5"
+                                                        data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="container-fluid">
+                                                        <div class="row">
+                                                            <div class="col-md-8 col-lg-7 g-0">
+                                                                <img .class="img-fluid"
+                                                                    src="../Images/Classes/kids1.jpg" alt="" />
+                                                            </div>
+                                                            <div class="col-md-4 col-lg-5">
+                                                                <h4 style="margin-top: 15px">
+                                                                    O que é Taekwondo?
+                                                                </h4>
+                                                                <p>
+                                                                    Ele é uma arte marial de origem coreana que
+                                                                    utiliza movimentos de ataqu e defesa com os
+                                                                    pés e as mãos. Entre as capacidades físicas
+                                                                    trabalhadas estão a força, o equilibrio a
+                                                                    potência e a flexibilidade.
+                                                                </p>
+
+                                                                <h5>Beneficios</h5>
+                                                                <ol>
+                                                                    <li>
+                                                                        Melhora a coordenação física e motora,
+                                                                        flexibilidade e equilibrio e concentração
+                                                                    </li>
+                                                                    <li>Promove a boa forma física</li>
+                                                                    <li>Promove a disciplina</li>
+                                                                    <li>
+                                                                        Desenvolve a autodisciplina atraves da
+                                                                        definição de objetivos
+                                                                    </li>
+                                                                    <li>
+                                                                        Ensina a cortesia e o respeito pelo
+                                                                        instrutor pelos colegas e por si própio
+                                                                    </li>
+                                                                    <li>
+                                                                        Maior capacidade cardiorespiratória e
+                                                                        condicionamento físico
+                                                                    </li>
+                                                                </ol>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
                                 </div>
                                 <div class="carousel-item">
                                     <button type="button" class="card-button p-0 rounded-3" data-bs-toggle="modal"
@@ -1226,6 +1648,69 @@
                                             </div>
                                         </div>
                                     </button>
+                                    <!-- Basketball Modal -->
+                                    <div class="modal fade" id="taekModal" tabindex="-1"
+                                        aria-labelledby="basketModalLabel" aria-hidden="true">
+                                        <div
+                                            class="modal-dialog modal-xl modal-fullscreen-sm-down modal-dialog-centered">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <a href="../HTML/classesPage.html#basketClasses">
+                                                        <h3 class="modal-title" id="basketModalLabel">
+                                                            Taekwondo
+                                                        </h3>
+                                                    </a>
+                                                    <button type="button" class="btn-close btn-close-white pe-5"
+                                                        data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="container-fluid">
+                                                        <div class="row">
+                                                            <div class="col-md-8 col-lg-7 g-0">
+                                                                <img .class="img-fluid"
+                                                                    src="../Images/Classes/kids9.jpg" alt="" />
+                                                            </div>
+                                                            <div class="col-md-4 col-lg-5">
+                                                                <h4 style="margin-top: 15px">
+                                                                    O que é Taekwondo?
+                                                                </h4>
+                                                                <p>
+                                                                    Ele é uma arte marial de origem coreana que
+                                                                    utiliza movimentos de ataqu e defesa com os
+                                                                    pés e as mãos. Entre as capacidades físicas
+                                                                    trabalhadas estão a força, o equilibrio a
+                                                                    potência e a flexibilidade.
+                                                                </p>
+
+                                                                <h5>Beneficios</h5>
+                                                                <ol>
+                                                                    <li>
+                                                                        Melhora a coordenação física e motora,
+                                                                        flexibilidade e equilibrio e concentração
+                                                                    </li>
+                                                                    <li>Promove a boa forma física</li>
+                                                                    <li>Promove a disciplina</li>
+                                                                    <li>
+                                                                        Desenvolve a autodisciplina atraves da
+                                                                        definição de objetivos
+                                                                    </li>
+                                                                    <li>
+                                                                        Ensina a cortesia e o respeito pelo
+                                                                        instrutor pelos colegas e por si própio
+                                                                    </li>
+                                                                    <li>
+                                                                        Maior capacidade cardiorespiratória e
+                                                                        condicionamento físico
+                                                                    </li>
+                                                                </ol>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
                                 </div>
                                 <div class="carousel-item">
                                     <button type="button" class="card-button p-0 rounded-3" data-bs-toggle="modal"
@@ -1289,54 +1774,54 @@
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col" data-aos="fade-up-left" data-aos-easing="linear" data-aos-duration="1100">
                     <div class=" text-white p-0 custom-height">
-                        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                        <div id="carouselStore" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
-                                <h2 class="store">Loja</h2>
+                                <h2 class="store">Loja(em construção)</h2>
                                 <div class="carousel-item active">
                                     <button type="button" class="card-button p-0 rounded-3" data-bs-toggle="modal"
-                                        data-bs-target="#crossfitModal">
+                                        data-bs-target="#hardUSNModal">
                                         <div class="card  text-white">
                                             <img src="../Images/Store/IMG_0080.JPG" alt="" class="card-img" />
                                             <div class="card-img-overlay">
                                                 <h5 class="card-title fs-2">Hardcore Whey GH | USN</h5>
-                                                <p class="card-text">Brevemente</p>
+                                                <!-- <p class="card-text">Brevemente</p> -->
                                             </div>
                                         </div>
                                     </button>
                                 </div>
                                 <div class="carousel-item">
                                     <button type="button" class="card-button p-0 rounded-3" data-bs-toggle="modal"
-                                        data-bs-target="#crossfitModal">
+                                        data-bs-target="#hushModal">
                                         <div class="card  text-white">
                                             <img src="../Images/Store/IMG_0087.JPG" alt="" class="card-img" />
                                             <div class="card-img-overlay">
                                                 <h5 class="card-title">QHusH</h5>
-                                                <p class="card-text">Brevemente</p>
+                                                <!-- <p class="card-text">Brevemente</p> -->
                                             </div>
                                         </div>
                                     </button>
                                 </div>
                                 <div class="carousel-item">
                                     <button type="button" class="card-button p-0 rounded-3" data-bs-toggle="modal"
-                                        data-bs-target="#crossfitModal">
+                                        data-bs-target="#toalhasModal">
                                         <div class="card  text-white">
                                             <img src="../Images/Store/IMG_0105.JPG" alt="" class="card-img" />
                                             <div class="card-img-overlay">
                                                 <h5 class="card-title">Toalhas</h5>
-                                                <p class="card-text">Brevemente</p>
+                                                <!-- <p class="card-text">Brevemente</p> -->
                                             </div>
                                         </div>
                                     </button>
                                 </div>
                             </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselStore"
                                 data-bs-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Previous</span>
                             </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselStore"
                                 data-bs-slide="next">
                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Next</span>
@@ -1348,53 +1833,54 @@
         </div>
 
     </section>
-   
 
-  <!-- PROMOTIONS SECTION STARTS HERE -->
-  <!-- In this section will hold the promotional part -->
-  <section id="promotions">
-    <div class="container-fluid g-0">
-      <div class="row g-0">
-        <div class="col-md-7 col-sm-8 g-0">
-          <img src="../Images/Images/promotions.jpg" alt="promotional side" class="img-fluid" />
+
+    <!-- PROMOTIONS SECTION STARTS HERE -->
+    <!-- In this section will hold the promotional part -->
+    <section id="promotions">
+        <div class="container-fluid g-0">
+            <div class="row g-0">
+                <div class="col-md-7 col-sm-8 g-0">
+                    <img src="../Images/Images/promotions.jpg" alt="promotional side" class="img-fluid" />
+                </div>
+                <div class="col-md-5 col-sm-4 g-0">
+                    <div class="card-body text-white">
+                        <h2 class="card-title">Novo Membro</h2>
+                    </div>
+                    <p class="card-text pay">Paga</p>
+                    <p class="number-1">3</p>
+                    <p class="card-text months">Meses</p>
+                    <p class="card-text win">Ganhe</p>
+                    <p class="card-text plus">+</p>
+                    <p class="number-2">1</p>
+                    <p class="card-text month">Mês Gratis</p>
+                </div>
+            </div>
         </div>
-        <div class="col-md-5 col-sm-4 g-0">
-          <div class="card-body text-white">
-            <h2 class="card-title">Novo Membro</h2>
-          </div>
-          <p class="card-text pay">Paga</p>
-          <p class="number-1">3</p>
-          <p class="card-text months">Meses</p>
-          <p class="card-text win">Ganhe</p>
-          <p class="card-text plus">+</p>
-          <p class="number-2">1</p>
-          <p class="card-text month">Mês Gratis</p>
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- FOOTER SECTION STARTS HERE -->
-  <section id="footer">
-    <div class="container-fluid">
-      <footer class="bg-dark text-center text-white">
-        <div class="container-fluid pt-4">
-          <!-- Social Media Section Starts Here -->
-          <div class="row">
-            <section class="social-media">
-              <!-- Facebook link -->
-              <a href="https://facebook.com/mozprogym" class="btn btn-outline-light btn-floating m-1">
-                <i class="fa-brands fa-facebook" style="color: #0742f2"></i>
-              </a>
+    <!-- FOOTER SECTION STARTS HERE -->
+    <section id="footer">
+        <div class="container-fluid">
+            <footer class="bg-dark text-center text-white">
+                <div class="container-fluid pt-4">
+                    <!-- Social Media Section Starts Here -->
+                    <div class="row">
+                        <section class="social-media">
+                            <!-- Facebook link -->
+                            <a href="https://facebook.com/mozprogym" class="btn btn-outline-light btn-floating m-1">
+                                <i class="fa-brands fa-facebook" style="color: #0742f2"></i>
+                            </a>
 
-              <!-- Whats App Link -->
-              <a href="https://wa.me/+258844414441" class="btn btn-outline-light btn-floating m-1">
-                <i class="fa-brands fa-whatsapp" style="color: limegreen"></i>
-              </a>
+                            <!-- Whats App Link -->
+                            <a href="https://wa.me/+258844414441" class="btn btn-outline-light btn-floating m-1">
+                                <i class="fa-brands fa-whatsapp" style="color: limegreen"></i>
+                            </a>
 
-              <!-- Instagram link -->
-              <a href="https://www.instagram.com/mozprogym/" class="btn btn-outline-light btn-floating m-1">
-                <i class="fa-brands fa-instagram" style="
+                            <!-- Instagram link -->
+                            <a href="https://www.instagram.com/mozprogym/"
+                                class="btn btn-outline-light btn-floating m-1">
+                                <i class="fa-brands fa-instagram" style="
                       background: linear-gradient(
                         210deg,
                         #f9ce34,
@@ -1402,124 +1888,124 @@
                         #6228d7
                       );
                     "></i>
-              </a>
+                            </a>
 
-              <!-- Youtube Link -->
-              <a href="https://www.youtube.com/@MozProGym" class="btn btn-outline-light btn-floating m-1">
-                <i class="fa-brands fa-youtube" style="color: red"></i>
-              </a>
+                            <!-- Youtube Link -->
+                            <a href="https://www.youtube.com/@MozProGym" class="btn btn-outline-light btn-floating m-1">
+                                <i class="fa-brands fa-youtube" style="color: red"></i>
+                            </a>
 
-              <!-- Gmail Link -->
-              <a href="mailto:info@progym.com" class="btn btn-outline-light btn-floating m-1">
-                <img src="../Images/logo/gmailIcon-removebg-preview.png" />
-              </a>
+                            <!-- Gmail Link -->
+                            <a href="mailto:info@progym.com" class="btn btn-outline-light btn-floating m-1">
+                                <img src="../Images/logo/gmailIcon-removebg-preview.png" />
+                            </a>
 
-              <!-- Tik Tok Link -->
-              <a href="https://www.tiktok.com/@mozprogym" class="btn btn-outline-light btn-floating m-1">
-                <i class="fa-brands fa-tiktok"></i>
-              </a>
-            </section>
-          </div>
-          <!-- Social Media Section Ends Here -->
+                            <!-- Tik Tok Link -->
+                            <a href="https://www.tiktok.com/@mozprogym" class="btn btn-outline-light btn-floating m-1">
+                                <i class="fa-brands fa-tiktok"></i>
+                            </a>
+                        </section>
+                    </div>
+                    <!-- Social Media Section Ends Here -->
 
-          <div class="row mt-4">
-            <!-- Navigation List Section Starts Here -->
-            <div class="col-lg-4 col-md-4">
-              <h3 class="title">Navegação</h3>
-              <span class="bar"></span>
-              <div class="row">
-                <div class="col-6">
-                  <ul class="list-unstyled">
-                    <li>
-                      <a href="#" class="text-white">Inicio</a>
-                    </li>
-                    <li>
-                      <a href="../HTML/classesPage.html" class="text-white">Aulas</a>
-                    </li>
-                    <li>
-                      <a href="../HTML/pricesPage.html" class="text-white">Preços</a>
-                    </li>
-                    <li>
-                      <a href="../HTML/servicesPage.html" class="text-white">Serviços</a>
-                    </li>
-                  </ul>
+                    <div class="row mt-4">
+                        <!-- Navigation List Section Starts Here -->
+                        <div class="col-lg-4 col-md-4">
+                            <h3 class="title">Navegação</h3>
+                            <span class="bar"></span>
+                            <div class="row">
+                                <div class="col-6">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a href="#" class="text-white">Inicio</a>
+                                        </li>
+                                        <li>
+                                            <a href="../HTML/classesPage.html" class="text-white">Aulas</a>
+                                        </li>
+                                        <li>
+                                            <a href="../HTML/pricesPage.html" class="text-white">Preços</a>
+                                        </li>
+                                        <li>
+                                            <a href="../HTML/servicesPage.html" class="text-white">Serviços</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-6">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a href="#" class="text-white">Ginásios</a>
+                                        </li>
+                                        <li>
+                                            <a href="../HTML/classesPage.html" class="text-white">Eventos</a>
+                                        </li>
+                                        <li>
+                                            <a href="../HTML/pricesPage.html" class="text-white">Tv Marketing</a>
+                                        </li>
+                                        <li>
+                                            <a href="../HTML/servicesPage.html" class="text-white">Loja</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Navigation List Section Starts Here -->
+
+                        <!-- Description Section Starts Here -->
+                        <div class="col-lg-4 col-md-4">
+                            <h3 class="title">Sobre Nós</h3>
+                            <span class="bar-2"></span>
+                            <p class="description-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. In
+                                voluptatem at maxime eos accusantium quas saepe, asperiores
+                                recusandae id exercitationem, illo sint maiores molestias
+                                ipsam eveniet, minima fugiat quo. Eum excepturi dolor vitae
+                                veniam consectetur!
+                            </p>
+                        </div>
+                        <!-- Description Section Ends Here -->
+
+                        <div class="col-lg-4 col-md-4">
+                            <div class="contacts">
+                                <h3 class="title">Contatos</h3>
+                                <span class="bar-3"></span>
+                                <ul class="list-unstyled">
+                                    <li>+258844414441</li>
+                                    <li>info@progym.co.mz</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mt-5">
+                        <div class="col-lg-12 col-md-12 text-center p-3">
+                            <p class="copyright">
+                                Copyright © 2023 Todos direitos reservados a ProGym Fitness
+                                <span class="divider" style="color: #f58122ff">|</span> Este
+                                website foi feito com
+                                <i class="bi bi-suit-heart-fill" style="color: red"></i> pela
+                                <span class="creator" style="color: lightblue">Dahls Consulting</span>
+                            </p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-6">
-                  <ul class="list-unstyled">
-                    <li>
-                      <a href="#" class="text-white">Ginásios</a>
-                    </li>
-                    <li>
-                      <a href="../HTML/classesPage.html" class="text-white">Eventos</a>
-                    </li>
-                    <li>
-                      <a href="../HTML/pricesPage.html" class="text-white">Tv Marketing</a>
-                    </li>
-                    <li>
-                      <a href="../HTML/servicesPage.html" class="text-white">Loja</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <!-- Navigation List Section Starts Here -->
-
-            <!-- Description Section Starts Here -->
-            <div class="col-lg-4 col-md-4">
-              <h3 class="title">Sobre Nós</h3>
-              <span class="bar-2"></span>
-              <p class="description-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. In
-                voluptatem at maxime eos accusantium quas saepe, asperiores
-                recusandae id exercitationem, illo sint maiores molestias
-                ipsam eveniet, minima fugiat quo. Eum excepturi dolor vitae
-                veniam consectetur!
-              </p>
-            </div>
-            <!-- Description Section Ends Here -->
-
-            <div class="col-lg-4 col-md-4">
-              <div class="contacts">
-                <h3 class="title">Contatos</h3>
-                <span class="bar-3"></span>
-                <ul class="list-unstyled">
-                  <li>+258844414441</li>
-                  <li>info@progym.co.mz</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div class="row mt-5">
-            <div class="col-lg-12 col-md-12 text-center p-3">
-              <p class="copyright">
-                Copyright © 2023 Todos direitos reservados a ProGym Fitness
-                <span class="divider" style="color: #f58122ff">|</span> Este
-                website foi feito com
-                <i class="bi bi-suit-heart-fill" style="color: red"></i> pela
-                <span class="creator" style="color: lightblue">Dahls Consulting</span>
-              </p>
-            </div>
-          </div>
+            </footer>
         </div>
-      </footer>
-    </div>
-  </section>
-  <!-- FOOTER SECTION ENDS HERE -->
+    </section>
+    <!-- FOOTER SECTION ENDS HERE -->
 
-  <!-- Bootstrap Javascript Popper  -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
-  <!-- Jquery -->
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <!-- Animation On Scroll Script -->
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
-  <!-- Javascript Script -->
-  <script src="../Javascript/mainPage.js"></script>
+    <!-- Bootstrap Javascript Popper  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Animation On Scroll Script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- Javascript Script -->
+    <script src="../Javascript/mainPage.js"></script>
 </body>
 
 </html>

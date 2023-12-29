@@ -30,46 +30,6 @@ window.addEventListener("scroll", function () {
 
 // CAROUSEL MODAL CLICK EVENT
 
-/*
-document.addEventListener("DOMContentLoaded", function () {
-  const carouselAdults = document.querySelectorAll("#carouselAdults .carousel-item");
-  const carouselServices = document.querySelectorAll("#carouselServices .carousel-item");
-  const carouselKids = document.querySelectorAll("#carouselKids .carousel-item");
-  const carouselStore = document.querySelectorAll("#carouselStore .carousel-item");
-
-
-  carouselAdults.forEach(function (item) {
-    item.addEventListener("click", function () {
-      let column = document.querySelector(".col");
-      column.removeAttribute("data-aos");
-    });
-  });
-
-  carouselServices.forEach(function (item) {
-    item.addEventListener("click", function () {
-      let column = document.querySelector(".col");
-      column.removeAttribute("data-aos");
-    });
-  });
-
-  carouselKids.forEach(function (item) {
-    item.addEventListener("click", function () {
-      let column = document.querySelector(".col");
-      column.removeAttribute("data-aos");
-    });
-  });
-
-  carouselStore.forEach(function (item) {
-    item.addEventListener("click", function () {
-      let column = document.querySelector(".col");
-      column.removeAttribute("data-aos");
-    });
-  });
-
-});
-
-*/
-
 document.addEventListener("DOMContentLoaded", function () {
   const carousels = document.querySelectorAll("#categories .carousel-item");
 
@@ -84,22 +44,22 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-  const carousels = document.querySelectorAll('#categories .carousel');
+  const carousels = document.querySelectorAll("#categories .carousel");
 
   carousels.forEach(function (carousel) {
-    carousel.addEventListener('hidden.bs.modal', function (event) {
-      const column = carousel.closest('.col');
-      const dataAOSValue = column.getAttribute('data-aos-initial'); // Store initial data-aos value
+    carousel.addEventListener("hidden.bs.modal", function (event) {
+      const column = carousel.closest(".col");
+      const dataAOSValue = column.getAttribute("data-aos-initial"); // Store initial data-aos value
 
       if (column && dataAOSValue) {
-        column.setAttribute('data-aos', dataAOSValue);
+        column.setAttribute("data-aos", dataAOSValue);
       }
     });
 
     // Store initial data-aos value for each column
-    const column = carousel.closest('.col');
+    const column = carousel.closest(".col");
     if (column) {
-      column.setAttribute('data-aos-initial', column.getAttribute('data-aos'));
+      column.setAttribute("data-aos-initial", column.getAttribute("data-aos"));
     }
   });
 });

@@ -23,15 +23,15 @@ body {
   font-family: "Roboto Slab";
 }
 
-#popUpStart  .modal-fullscreen{
+#popUpStart .modal-fullscreen {
   z-index: 5;
-	margin-top: 5rem;
-	position: fixed;
-	padding: 7rem;
-	background-color: #000000bd;
+  margin-top: 5rem;
+  position: fixed;
+  padding: 7rem;
+  background-color: #000000bd;
 }
 
-#popUpStart .modal-content{
+#popUpStart .modal-content {
   border: solid 10px #4b525a;
 }
 
@@ -39,46 +39,46 @@ body {
   border-bottom: 0;
 }
 
-#popUpStart .modal-header button{
+#popUpStart .modal-header button {
   background-color: transparent;
   border: none;
 }
 
-#popUpStart .modal-header button .fa-xmark{
+#popUpStart .modal-header button .fa-xmark {
   color: whitesmoke;
   font-size: 45px;
   padding-right: 2rem;
 }
 
-#popUpStart .modal-content{
-  border-radius: 50px!important;
+#popUpStart .modal-content {
+  border-radius: 50px !important;
   background: rgb(0, 0, 0);
 }
 
-#popUpStart .modal-content .modal-title{
+#popUpStart .modal-content .modal-title {
   padding-left: 23rem;
   font-weight: 600;
-  color: whitesmoke!important;
+  color: whitesmoke !important;
 }
 
-#popUpStart .modal-content .modal-footer{
+#popUpStart .modal-content .modal-footer {
   border-top: 0;
 }
 
-#popUpStart .modal .btn-close{
- margin: 0.5rem 1.5rem 0.5rem auto;
+#popUpStart .modal .btn-close {
+  margin: 0.5rem 1.5rem 0.5rem auto;
 }
 
-#popUpStart .modal-body{
+#popUpStart .modal-body {
   padding: 0 0.7rem;
 }
 
-#popUpStart .modal-body .row .col-md-3{
+#popUpStart .modal-body .row .col-md-3 {
   border-bottom-left-radius: 35px;
   border-right: 3px solid #f58122ff;
 }
 
-#popUpStart .modal-body .row .col-md-3:nth-last-child(1){
+#popUpStart .modal-body .row .col-md-3:nth-last-child(1) {
   border-right: 0;
 }
 
@@ -89,37 +89,37 @@ body {
   padding: 12px 12px;
 }
 
-#popUpStart .modal-body .row .col-md-3 a.facebook{
+#popUpStart .modal-body .row .col-md-3 a.facebook {
   margin-left: 6.9rem;
   margin-bottom: 0;
 }
 
-#popUpStart .modal-body .row .col-md-3 a.instagram{
+#popUpStart .modal-body .row .col-md-3 a.instagram {
   margin-left: 97px;
   margin-top: -3px;
   margin-bottom: -10px;
 }
 
-#popUpStart .modal-body .row .col-md-3 a.whatsapp{
-    margin-bottom: -12px;
-    margin-left: 105px;
-    margin-top: 8px;
+#popUpStart .modal-body .row .col-md-3 a.whatsapp {
+  margin-bottom: -12px;
+  margin-left: 105px;
+  margin-top: 8px;
 }
 
-#popUpStart .modal-body .row .col-md-3 a.youtube{
-    margin-top: 10px;
-    margin-bottom: 3px;
-    margin-left: 6.8rem;
-    padding: 7px;
+#popUpStart .modal-body .row .col-md-3 a.youtube {
+  margin-top: 10px;
+  margin-bottom: 3px;
+  margin-left: 6.8rem;
+  padding: 7px;
 }
 
 #popUpStart .modal-body .row .col-md-3 .fa-brands {
-  font-size: 60px;;
+  font-size: 60px;
 }
 
 #popUpStart .modal-body .row .col-md-3 .fa-brands.fa-whatsapp {
-  font-size: 68px;;
-  padding-bottom: 0rem!important;
+  font-size: 68px;
+  padding-bottom: 0rem !important;
   margin-top: -5px;
 }
 
@@ -133,7 +133,7 @@ body {
   font-size: 15px;
   line-height: 20px;
   padding-top: 20px;
-  color: white!important;
+  color: white !important;
   font-weight: 500;
 }
 
@@ -145,17 +145,16 @@ body {
   font-weight: 600;
 }
 
-#popUpStart .modal-body .row .col-md-3 .follow:nth-child(){
+#popUpStart .modal-body .row .col-md-3 .follow:nth-child() {
   margin-bottom: 5rem;
 }
 
-#popUpStart .modal-body .row .col-md-3 .qrfCode{
+#popUpStart .modal-body .row .col-md-3 .qrfCode {
   width: 42%;
   margin-left: 5.3rem;
 }
 
 /* SOCIAL MEDIA POP UP ENDS HERE */
-
 
 /* NAVIGATION AREA STARTS HERE */
 .scrolling-navbar {
@@ -171,11 +170,11 @@ body {
 }
 
 .navbar-nav.main {
-  margin-left: 16rem!important;
+  margin-left: 16rem !important;
 }
 
 .navbar-nav.right-end {
-  margin-top: -14px!important;
+  margin-top: -14px !important;
 }
 
 .navbar .container-fluid .bi-list {
@@ -191,11 +190,11 @@ body {
   font-family: "Roboto Slab";
   font-weight: 600;
   color: lightgray;
-  font-size: 15px!important;
+  font-size: 15px !important;
 }
 
 .navbar .container-fluid .nav-item .nav-link:hover {
-  font-size: 17px!important;
+  font-size: 17px !important;
   text-decoration: overline #f58122ff 3px;
 }
 
@@ -247,7 +246,7 @@ body {
   box-shadow: none;
 }
 
-.navbar-nav .nav-item .language{
+.navbar-nav .nav-item .language {
   cursor: pointer;
 }
 
@@ -406,7 +405,7 @@ body {
   position: relative;
 }
 
-#categories .heading h1{
+#categories .heading h1 {
   font-size: 25px;
   border: solid 0px;
   background-color: #f58122ff;
@@ -418,27 +417,27 @@ body {
   margin-right: 5rem;
 }
 
-#categories{
+#categories {
   background-color: #000000;
   padding: 4rem 0;
 }
 
-#categories .col .carousel-inner h2{
-    z-index: 1;
-    position: absolute; 
-    left: 25px;
-    font-size: 20px;
-    padding-top: 20px;
+#categories .col .carousel-inner h2 {
+  z-index: 1;
+  position: absolute;
+  left: 25px;
+  font-size: 20px;
+  padding-top: 20px;
 }
 
 #categories .col .carousel-item .card {
-    padding-top: 0rem;
-    height: 330px;
+  padding-top: 0rem;
+  height: 330px;
 }
 
-#categories .col .carousel-item .card img{
-    height: 100%;
-    object-fit: cover;
+#categories .col .carousel-item .card img {
+  height: 100%;
+  object-fit: cover;
 }
 
 #categories .carousel-item .card-button {
@@ -481,7 +480,8 @@ body {
   margin-bottom: 8rem;
 }
 
-#categories .carousel-control-prev-icon,.carousel-control-next-icon{
+#categories .carousel-control-prev-icon,
+.carousel-control-next-icon {
   width: 25px;
 }
 
@@ -568,19 +568,19 @@ body {
 }
 
 #categories .modal #trainerModalLabel {
-  padding-left: 30rem!important;
+  padding-left: 30rem !important;
 }
 
 #categories .modal #nutriModalLabel {
-  padding-left: 30rem!important;
+  padding-left: 30rem !important;
 }
 
 #categories .modal #fisioModalLabel {
-  padding-left: 32rem!important;
+  padding-left: 32rem !important;
 }
 
 #categories .modal #fisicaModalLabel {
-  padding-left: 29rem!important;
+  padding-left: 29rem !important;
 }
 /* Modal boxes responsiveness */
 

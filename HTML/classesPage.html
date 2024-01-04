@@ -60,117 +60,121 @@
     <link rel="stylesheet" href="../CSS/classesPage.css" />
   </head>
   <body>
-    <!-- NAVIGATION BAR STARTS HERE -->
+    <!-- NAVIGATION BAR -->
     <!-- In this section the navbar will have the logo/navbar-brand in the middle with the nav tabs around it on the large screens and smaller screens the logo/navbar-brand will be on the left  and it will have a toggler button on the right-->
-    <nav class="navbar navbar-expand-md bg-dark">
+
+    <nav class="navbar navbar-expand-md fixed-top scrolling-navbar">
       <div class="container-fluid">
-        <a class="navbar-brand d-md-none" href="../HTML/mainPage.html">
-          <img src="../Images/logo/logoProgym.jpg" alt="ProGym Logo" />
-        </a>
-        <!-- BARRA DE NAVEGAÇÃO COLAPSAVEL -->
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <i class="bi bi-list"></i>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav mx-auto">
-            <li class="nav-item px-md-0 px-lg-2">
-              <a
-                href="../HTML/mainPage.html"
-                class="nav-link active"
-                aria-current="page"
-                >Inicio</a
-              >
-            </li>
-            <li class="nav-item dropdown px-md-0 px-lg-2">
-              <a
-                href="../HTML/classesPage.html"
-                class="nav-link dropdown-toggle"
-                id="navbarDropdownClass"
-                role="button"
-                data-bs-toggle="dropdown"
-                >Aulas</a
-              >
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdownClass">
-                <li>
-                  <a href="../HTML/classesPage.html#mares" class="dropdown-item"
-                    >Marés</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="../HTML/classesPage.html#matola"
-                    class="dropdown-item"
-                    >Matola</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="../HTML/classesPage.html#altoMae"
-                    class="dropdown-item"
-                    >Alto Maé</a
-                  >
-                </li>
+          <a class="navbar-brand d-md-none" href="../HTML/mainPage.html">
+              <img src="../Images/logo/logoProgym.jpg" alt="ProGym Logo" style="width: 180px;" />
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <i class="bi bi-list"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav main mx-auto">
+                  <li class="nav-item px-3">
+                      <a class="nav-link" href="../HTML/mainPage.html">Inicio</a>
+                  </li>
+                  <li class="nav-item px-3 dropdown px-md-0 ">
+                      <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownClass" role="button"
+                          data-bs-toggle="dropdown">Aulas</a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdownClass">
+                          <li>
+                              <a href="../HTML/classesPage.html#mares" class="dropdown-item">Marés</a>
+                          </li>
+                          <li>
+                              <a href="../HTML/classesPage.html#matola" class="dropdown-item">Matola</a>
+                          </li>
+                          <li>
+                              <a href="../HTML/classesPage.html#altoMae" class="dropdown-item">Alto Maé</a>
+                          </li>
+                      </ul>
+                  </li>
+                  <li class="nav-item px-3">
+                      <a class="nav-link" href="#">Preços</a>
+                  </li>
+                  <li class="nav-item px-3 dropdown px-md-0">
+                      <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownServices" role="button"
+                          data-bs-toggle="dropdown">Serviços</a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdownServices">
+                          <li>
+                              <a href="../HTML/servicesPage.html#personal" class="dropdown-item">Personal Trainer</a>
+                          </li>
+                          <li>
+                              <a href="../HTML/servicesPage.html#fisica" class="dropdown-item">Avaliação Física</a>
+                          </li>
+                          <li>
+                              <a href="../HTML/servicesPage.html#nutri" class="dropdown-item">Nutricionista</a>
+                          </li>
+                          <li>
+                              <a href="../HTML/servicesPage.html#fisio" class="dropdown-item">Fisioterapia</a>
+                          </li>
+                      </ul>
+                  </li>
+                  <!-- Logo Starts Here -->
+                  <a class="navbar-brand d-none d-md-block" href="../HTML/mainPage.html">
+                      <img src="../Images/logo/logoProgym.jpg" style="width: 220px;" alt="">
+                  </a>
+                  <!-- logo Ends Here -->
+                  <li class="nav-item px-3 dropdown px-md-0">
+                      <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownGyms" role="button"
+                          data-bs-toggle="dropdown">Ginásios</a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdownGyms">
+                          <li>
+                              <a href="../HTML/gymsPage.html#mares" class="dropdown-item">Marés</a>
+                          </li>
+                          <li>
+                              <a href="../HTML/gymsPage.html#fisica" class="dropdown-item">Matola</a>
+                          </li>
+                          <li>
+                              <a href="../HTML/gyms.html#nutri" class="dropdown-item">Alto Maé</a>
+                          </li>
+                      </ul>
+                  </li>
+                  <li class="nav-item px-3">
+                      <a class="nav-link" href="../HTML/eventsPage.html">Events</a>
+                  </li>
+                  <li class="nav-item px-3 dropdown px-md-0">
+                      <a href="#" class="nav-link dropdown-toggle px-0" id="navbarDropdownCompany" role="button"
+                          data-bs-toggle="dropdown">Compania Serviços</a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdownCompany">
+                          <li>
+                              <a href="../HTML/companyPage.html#tvMarketing" class="dropdown-item">Tv Marketing</a>
+                          </li>
+                          <li>
+                              <a href="../HTML/companyPage.html#webMarketing" class="dropdown-item">Website
+                                  Marketing</a>
+                          </li>
+                          <li>
+                              <a href="../HTML/companyPage.html#manuEquip" class="dropdown-item">Manutenção de
+                                  Equipamento</a>
+                          </li>
+                          <li>
+                              <a href="../HTML/companyPage.html#setUpGym" class="dropdown-item">Set Up de Ginásios</a>
+                          </li>
+                      </ul>
+                  </li>
+                  <li class="nav-item px-3">
+                      <a class="nav-link" href="../HTML/aboutPage.html">Sobre nós</a>
+                  </li>
               </ul>
-            </li>
-
-            <li class="nav-item px-md-0 px-lg-2">
-              <a href="../HTML/pricesPage" class="nav-link">Preços</a>
-            </li>
-            <li class="nav-item px-md-0 px-lg-2">
-              <a href="../HTML/servicesPage" class="nav-link">Serviços</a>
-            </li>
-            <a class="navbar-brand d-none d-md-block" href="#">
-              <img src="../Images/logo/logoProgym.jpg" alt="ProGym Logo" />
-            </a>
-            <li class="nav-item dropdown px-md-0 px-lg-2">
-              <a
-                href="#"
-                class="nav-link dropdown-toggle"
-                id="navbarDropdownGyms"
-                role="button"
-                data-bs-toggle="dropdown"
-                >Ginásios</a
-              >
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdownGyms">
-                <li>
-                  <a href="../HTML/gymsPage.html#mares" class="dropdown-item"
-                    >Marés</a
-                  >
-                </li>
-                <li>
-                  <a href="../HTML/gymsPage.html#matola" class="dropdown-item"
-                    >Matola</a
-                  >
-                </li>
-                <li>
-                  <a href="../HTML/gymsPage.html#altoMae" class="dropdown-item"
-                    >Alto Maé</a
-                  >
-                </li>
+              <ul class="navbar-nav right-end ">
+                  <li class="nav-item px-2">
+                      <a class="nav-link" href="../HTML/storePage.html">Loja</a>
+                  </li>
+                  <li class="nav-item px-2">
+                      <img src="../Images/logo/english-flag.png" width="25px" class="mt-2 me-2 languag d-none"
+                          id="english" alt="">
+                      <img src="../Images/logo/portuguese-flag.png" width="38px" class="mt-2 language" id="portugal"
+                          alt="">
+                  </li>
               </ul>
-            </li>
-            <li class="nav-item px-md-0 px-lg-2">
-              <a href="../HTML/eventsPage.html" class="nav-link">Eventos</a>
-            </li>
-            <li class="nav-item px-md-0 px-lg-2">
-              <a href="../HTML/tvPage.html" class="nav-link">TV Marketing</a>
-            </li>
-            <li class="nav-item px-md-0 px-lg-2">
-              <a href="../HTML/storePage.html" class="nav-link">Loja</a>
-            </li>
-          </ul>
-        </div>
+          </div>
       </div>
-    </nav>
+  </nav>
+
 
     <!-- HERO SECTION BEGINS HERE -->
     <!-- In this  section there will be a grid in large screens displaying four cards containing images, they will open modals when user clicks each one of them, these cards will contain som information such as: 
@@ -181,11 +185,11 @@
     -->
 
     <section id="grid">
-      <div id="mares">
+      <div id="mares" style="display: none;">
         <button type="button" class="btn p-0" data-bs-toggle="modal" data-bs-target="#horaMares">
           <div class="card border-4 border-white  text-white">
             <img
-              src="../Images/Classes/10_Matola_Outubro_2023-01.jpg"
+              src="../Images/Classes/aulasMares.jpg"
               class="card-img"
               alt="..."
             />
@@ -193,36 +197,94 @@
               <h5 class="card-title text-center">Horário</h5>
             </div>
           </div>
-        </button>    
-      </div>
-    </section>
-    <!-- <button type="button" class="btn p-0" data-bs-toggle="modal" data-bs-target="#horaMares">
-      <div class="card border-4 border-white  text-white">
-        <img
-          src="../Images/Classes/10_Matola_Outubro_2023-01.jpg"
-          class="card-img"
-          alt="..."
-        />
-        <div class="card-img-overlay">
-          <h5 class="card-title text-center">Horário</h5>
-        </div>
-      </div>
-    </button>
-
-    <div class="modal fade" id="horaMares" dats-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="horaMares" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered modal-xl">
-        <div class="modal-content">
-          <div class="modal-body">
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            <img
-            src="../Images/Classes/10_Matola_Outubro_2023-01.jpg"
-            class="card-img"
-            alt="..." style="height: 667px;"
-          />
+        </button>   
+        
+        
+        <div class="modal fade" id="horaMares" dats-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="horaMares" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+              <div class="modal-body">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <img
+                src="../Images/Classes/aulasMares.jpg"
+                class="card-img"
+                alt="..." style="height: 667px;"
+              />
+              </div>
+            </div>
           </div>
         </div>
+        
       </div>
-    </div> -->
+
+
+
+      <div id="matola" style="display: none;">
+        <button type="button" class="btn p-0" data-bs-toggle="modal" data-bs-target="#horaMatola">
+          <div class="card border-4 border-white  text-white">
+            <img
+              src="../Images/Classes/aulasMatola.jpg"
+              class="card-img"
+              alt="..."
+            />
+            <div class="card-img-overlay">
+              <h5 class="card-title text-center">Horário</h5>
+            </div>
+          </div>
+        </button>   
+        
+        
+        <div class="modal fade" id="horaMatola" dats-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="horaMatola" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+              <div class="modal-body">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <img
+                src="../Images/Classes/aulasMatola.jpg"
+                class="card-img"
+                alt="..." style="height: 667px;"
+              />
+              </div>
+            </div>
+          </div>
+        </div>
+        
+
+
+      <div id="altoMae" style="display: none;">
+        <button type="button" class="btn p-0" data-bs-toggle="modal" data-bs-target="#horaMares">
+          <div class="card border-4 border-white  text-white">
+            <img
+              src="../Images/Classes/aulasMaejpg.jpg"
+              class="card-img"
+              alt="..."
+            />
+            <div class="card-img-overlay">
+              <h5 class="card-title text-center">Horário</h5>
+            </div>
+          </div>
+        </button>   
+        
+        
+        <div class="modal fade" id="horaMares" dats-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="horaMares" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+              <div class="modal-body">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <img
+                src="../Images/Classes/aulasMaejpg.jpg"
+                class="card-img"
+                alt="..." style="height: 667px;"
+              />
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+
+
+    </section>
     
     <!-- FOOTER SECTION STARTS HERE -->
     <section id="footer">
@@ -400,7 +462,7 @@
      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
      crossorigin="anonymous"></script>
     <!-- Jquery -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <!-- Animation On Scroll Script -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>

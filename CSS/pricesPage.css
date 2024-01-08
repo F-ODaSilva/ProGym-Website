@@ -101,22 +101,13 @@ body {
 
 
 /* MODAL PRICES CARDS */
-#prices .container-fluid{
-    height: 100%;
-    margin: 13rem 0;
-}
+#prices .container-fluid img{
+    position: relative;
+    width: 479px;
+    margin-left: 6rem;
+    border-radius: 20px;
+    border: white 3.5px solid;
 
-#prices .container-fluid .heading h1{
-    text-align: center!important;
-}
-
-#prices .container-fluid .card{
-    height: 323px;
-}
-
-#prices .container-fluid .card img{
-    object-fit: cover;
-    height: 100%;
 }
 
 

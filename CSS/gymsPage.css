@@ -1,0 +1,227 @@
+html,
+body {
+  font-family: "Roboto Slab";
+  font-size: 15px;
+  line-height: 1.5;
+  box-sizing: border-box;
+  margin: 0;
+  top: 0;
+  left: 0;
+  background-image: url("../Images/Patterns/pattern4.png");
+  overflow-x: hidden;
+}
+
+body {
+  background-color: black;
+}
+
+/* NAVIGATION AREA STARTS HERE */
+.scrolling-navbar {
+  transition: top 0.3s ease-in-out;
+}
+
+.scrolling-navbar.hidden {
+  top: -70px; /* Adjust the height of your navbar */
+}
+
+.navbar {
+  background-color: black !important;
+}
+
+.navbar-nav.main {
+  margin-left: 16rem !important;
+}
+
+.navbar-nav.right-end {
+  margin-top: -14px !important;
+}
+
+.navbar .container-fluid .bi-list {
+  color: whitesmoke;
+  font-size: 30px;
+}
+
+.navbar-brand img {
+  width: 200px;
+}
+
+.navbar .container-fluid .nav-item .nav-link {
+  font-family: "Roboto Slab";
+  font-weight: 600;
+  color: lightgray;
+  font-size: 15px !important;
+}
+
+.navbar .container-fluid .nav-item .nav-link:hover {
+  font-size: 17px !important;
+  text-decoration: overline #f58122ff 3px;
+}
+
+.navbar .container-fluid .nav-item .dropdown-menu {
+  background-color: black;
+}
+
+.navbar .container-fluid .nav-item .dropdown-menu .dropdown-item {
+  color: whitesmoke;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+/* This will make the  */
+.navbar .container-fluid .nav-item .dropdown-menu .dropdown-item:hover {
+  background-color: #f58122ff;
+}
+
+/* This will make the nav-item with the dropdown menu be displayed when hovered in larger screens*/
+@media all and (min-width: 992px) {
+  .navbar .nav-item .dropdown-menu {
+    display: none;
+  }
+  .navbar .nav-item:hover .dropdown-menu {
+    display: block;
+  }
+  .navbar .nav-item .dropdown-menu {
+    margin-top: 0;
+  }
+}
+
+/* This will make style the navbar when the display is above the set amount of pixels ( in this case large ) */
+@media screen and (min-width: 750px) {
+  .navbar-brand img {
+    width: 235px;
+  }
+  .navbar-brand {
+    margin-right: 0;
+    padding: 0 1em;
+  }
+  .navbar-nav .nav-item .nav-link:hover {
+    text-decoration: overline #f58122ff 3px;
+  }
+}
+
+/* Navbar toggler made transparent */
+.navbar .container-fluid .navbar-toggler {
+  border: none transparent;
+  box-shadow: none;
+}
+
+.navbar-nav .nav-item .language {
+  cursor: pointer;
+}
+/* NAVIGATION AREA ENDS HERE */
+
+/* GYM GRID STARTS HERE */
+#gyms {
+  margin-top: 4.6rem;
+}
+
+#gyms .col-6 {
+  padding-bottom: 1rem;
+  background-color: transparent!important;
+}
+
+#gyms .col-6 .card {
+  height: 270px;
+  width: 500px;
+}
+
+#gyms .col-6 .card iframe{
+    height: 100%;
+    object-fit: cover;
+} 
+
+#gyms .col-6 .contact-box{
+    background-color: rgba(128, 128, 128, 0.6);
+    margin-right: 5rem;
+    padding-bottom: 4rem;
+    text-align: center;
+    color: white;
+    border-radius: 30px;
+    border: solid white 4px;
+}
+
+#gyms .col-6 .contact-box h3{
+    padding-top: 3rem;
+}
+
+
+/* GYM GRID ENDS HERE */
+
+/* FOOTER STARTS HERE  */
+#footer footer {
+  background-color: #000000 !important;
+}
+#footer .container-fluid {
+  padding: 0;
+}
+#footer .container-fluid .fa-brands {
+  font-size: 21px;
+}
+
+#footer .container-fluid .fa-instagram {
+  border-radius: 6px;
+  color: whitesmoke;
+  padding: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: -3px;
+  margin-left: -4px;
+}
+
+#footer .container-fluid a {
+  border-color: transparent;
+  border-radius: 30px;
+  height: 35px;
+  width: 45px;
+}
+
+#footer .container-fluid a img {
+  width: 33px;
+  margin-left: -5px;
+  margin-top: -4px;
+}
+
+.bar {
+  background-color: #f58122ff;
+  height: 0.5px;
+  display: flex;
+  margin: -3px 14rem 4px;
+}
+
+.bar-2 {
+  background-color: #f58122ff;
+  height: 0.5px;
+  display: flex;
+  margin: -5px 14rem 4px;
+}
+
+.bar-3 {
+  background-color: #f58122ff;
+  height: 0.5px;
+  display: flex;
+  margin: -5px 14rem 4px;
+}
+
+#footer .container-fluid .row .col-lg-4 a {
+  text-decoration: none;
+  line-height: 30px;
+}
+
+#footer .container-fluid .row .col-lg-4 a:hover {
+  padding-left: 25px;
+  color: #f58122ff !important;
+  text-decoration: underline #f58122ff 15%;
+  font-size: 18px;
+}
+
+#footer .container-fluid .row .col-lg-4 {
+  border-left: solid #f58122ff 1px;
+}
+
+#footer .container-fluid .row .col-lg-4 {
+  border-left: solid #f58122ff 1px;
+}
+
+#footer .container-fluid .row .col-lg-4 .contacts {
+  line-height: 50px;
+}

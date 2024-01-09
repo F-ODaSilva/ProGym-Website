@@ -25,8 +25,24 @@ body {
 }
 
 /* NAVIGATION AREA STARTS HERE */
+.scrolling-navbar {
+  transition: top 0.3s ease-in-out;
+}
+
+.scrolling-navbar.hidden {
+  top: -70px; /* Adjust the height of your navbar */
+}
+
 .navbar {
   background-color: black !important;
+}
+
+.navbar-nav.main {
+  margin-left: 16rem !important;
+}
+
+.navbar-nav.right-end {
+  margin-top: -14px !important;
 }
 
 .navbar .container-fluid .bi-list {
@@ -39,14 +55,14 @@ body {
 }
 
 .navbar .container-fluid .nav-item .nav-link {
-  padding-top: 30px;
   font-family: "Roboto Slab";
   font-weight: 600;
   color: lightgray;
+  font-size: 15px !important;
 }
 
 .navbar .container-fluid .nav-item .nav-link:hover {
-  font-size: 17px;
+  font-size: 17px !important;
   text-decoration: overline #f58122ff 3px;
 }
 
@@ -82,8 +98,6 @@ body {
 @media screen and (min-width: 750px) {
   .navbar-brand img {
     width: 235px;
-    padding-top: 15px;
-    padding-bottom: 15px;
   }
   .navbar-brand {
     margin-right: 0;
@@ -100,102 +114,41 @@ body {
   box-shadow: none;
 }
 
+.navbar-nav .nav-item .language {
+  cursor: pointer;
+}
+
 /* NAVIGATION AREA ENDS HERE */
 
 /* HERO SECTION STARTS HERE */
-#grid .container-fluid {
-  padding: 2rem 0;
+#grid .btn{
+  margin: 4rem 15rem 0;
+  box-shadow: none;
 }
 
-#grid .row {
-  margin: 2rem;
+#grid .card-img{ 
+  height: 46rem;
 }
 
-#grid img {
-  filter: brightness(1);
+#grid #mares,#matola,#altoMae{
+  background-color: white;
 }
 
-#grid .card {
-  filter: contrast(1.1)
-} 
-
-#grid .col-3 .card img {
-  object-fit: cover;
-  height: 100%;
+#grid .modal .modal-body .btn-close{
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+  z-index: 1;
+  font-size: 22px;
 }
 
-#grid .col-12 {
-  height: 239px
-}
-
-#grid .col-12 .card{
-  height: 239px
-}
-
-#grid .col-12 img{
-  height: 100%
-}
-
-#grid .col-12 iframe{
-  height: 234px;
-  width: 333.5px;
-}
-
-#grid .card-title{
+#grid button .card-img-overlay h5{
   color: #f58122ff;
   font-weight: 800;
-  text-align: end;
-}
-
-/* Modal Installations Styling */
-#grid #insMares{
-  background-color: #000000b3;
-}
-
-#grid .col-12 .modal .modal-body .btn-close-white{
-  position: absolute;
-  top: 1rem;
-  right: 2rem;
-  z-index: 1;
-  font-size: 22px;
-}
-
-#grid .col-12 .modal .modal-content{
-  border-radius: 25px;
-}
-
-#grid .col-12 .modal .modal-content img{
-  border-radius: 23px;
-}
-
-#grid .col-12 .modal .modal-content .carousel-control-next,
-.carousel-control-prev{
-  margin-top: 4rem;
-  margin-bottom: 4rem;
-  opacity: 0;
-}
-
-#grid .col-12 .modal .modal-content .carousel-control-next:hover{
-  opacity: 1;
+  font-size: 27px;
 }
 
 
-/* Modal Schedule Styling */
-#grid #horaMares{
-  background-color: #000000b3;
-}
-
-#grid #horaMares .modal-content{
-  top: -1rem;
-}
-
-#grid .col-6 .modal .modal-body .btn-close{
-  position: absolute;
-  top: 1rem;
-  right: 2rem;
-  z-index: 1;
-  font-size: 22px;
-}
 /* HERO SECTION ENDS HERE */
 
 /* FOOTER STARTS HERE  */

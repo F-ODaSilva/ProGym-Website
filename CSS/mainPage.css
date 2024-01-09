@@ -1,6 +1,6 @@
 html,
 body {
-  font-family: "Roboto Slab";
+  font-family: "Lemon", serif;
   font-size: 15px;
   line-height: 1.5;
   box-sizing: border-box;
@@ -186,14 +186,14 @@ body {
 }
 
 .navbar .container-fluid .nav-item .nav-link {
-  font-family: "Roboto Slab";
+  font-family: "Lemon";
   font-weight: 600;
   color: lightgray;
-  font-size: 15px !important;
+  font-size: 13px !important;
 }
 
 .navbar .container-fluid .nav-item .nav-link:hover {
-  font-size: 17px !important;
+  font-size: 14px !important;
   text-decoration: overline #f58122ff 3px;
 }
 
@@ -417,7 +417,8 @@ body {
 }
 
 #categories {
-  background-image: url(../Images/Patterns/pattern4.png);
+  background-image: url(../Images/Images/background6.jpg);
+  background-size: cover;
   padding: 4rem 0;
 }
 

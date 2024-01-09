@@ -1,6 +1,6 @@
 html,
 body {
-  font-family: "Roboto Slab";
+  font-family: "Lemon";
   font-size: 15px;
   line-height: 1.5;
   box-sizing: border-box;
@@ -45,14 +45,14 @@ body {
 }
 
 .navbar .container-fluid .nav-item .nav-link {
-  font-family: "Roboto Slab";
+  font-family: "Lemon";
   font-weight: 600;
   color: lightgray;
-  font-size: 15px !important;
+  font-size: 13px !important;
 }
 
 .navbar .container-fluid .nav-item .nav-link:hover {
-  font-size: 17px !important;
+  font-size: 14px !important;
   text-decoration: overline #f58122ff 3px;
 }
 
@@ -111,7 +111,7 @@ body {
 
 /* GYM GRID STARTS HERE */
 #gyms {
-  margin-top: 4.6rem;
+  margin-top: 5rem;
   background-image: url("../Images/Images/background2.jpg");
   background-size: cover;
   background-position: center;
@@ -119,17 +119,20 @@ body {
 
 #gyms .col-6 {
   padding-bottom: 1rem;
+  margin-top: 1px;
   background-color: transparent!important;
 }
 
 #gyms .col-6 .card {
-  height: 270px;
+  height: 265px;
   width: 500px;
+  border-radius: 25px;
 }
 
 #gyms .col-6 .card iframe{
     height: 100%;
     object-fit: cover;
+    border-radius: 25px;
 } 
 
 #gyms .col-6 .contact-box{
@@ -144,6 +147,10 @@ body {
 
 #gyms .col-6 .contact-box h3{
     padding-top: 3rem;
+}
+
+#gyms .row .col-8{
+    margin-bottom: 12px;
 }
 
 #gyms .col-2 {

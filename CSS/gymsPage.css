@@ -7,7 +7,6 @@ body {
   margin: 0;
   top: 0;
   left: 0;
-  background-image: url("../Images/Patterns/pattern4.png");
   overflow-x: hidden;
 }
 
@@ -113,6 +112,9 @@ body {
 /* GYM GRID STARTS HERE */
 #gyms {
   margin-top: 4.6rem;
+  background-image: url("../Images/Images/background2.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 #gyms .col-6 {
@@ -131,7 +133,7 @@ body {
 } 
 
 #gyms .col-6 .contact-box{
-    background-color: rgba(128, 128, 128, 0.6);
+    background-color: rgba(72, 70, 70, 0.891);
     margin-right: 5rem;
     padding-bottom: 4rem;
     text-align: center;
@@ -144,6 +146,29 @@ body {
     padding-top: 3rem;
 }
 
+#gyms .col-2 {
+    margin-top: 3rem;
+    position: relative;
+    right:  2rem;
+    height: 600px;
+    width: 300px;
+    border-radius: 25px; 
+}
+#gyms .col-2 .card{
+    height: 100%;
+    border: none;
+    width: 109%;
+    background-color: transparent;
+    margin-left: -11px;
+}
+
+#gyms .col-2 img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+}
 
 /* GYM GRID ENDS HERE */
 

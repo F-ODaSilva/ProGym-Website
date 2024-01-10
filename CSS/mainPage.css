@@ -413,8 +413,9 @@ body {
 }
 
 #categories {
-  background-image: url(../Images/Images/background6.jpg);
+  background-image: url(../Images/Images/background3.jpg);
   background-size: cover;
+  background-position: center;
   padding: 4rem 0;
 }
 
@@ -442,7 +443,7 @@ body {
 }
 
 #categories .carousel-item .card .card-title {
-  font-size: 40px;
+  font-size: 30px;
   padding-top: 7rem;
   font-weight: 600;
 }
@@ -507,7 +508,7 @@ body {
 }
 
 #categories .modal .modal-header h3 {
-  padding-left: 33rem;
+  padding-left: 30rem;
   color: white;
   font-weight: 600;
   font-size: 35px;
@@ -542,6 +543,7 @@ body {
 
 #categories .modal .col-md-4 p {
   text-align: justify;
+  font-size: 13px;
 }
 
 #categories .modal .col-md-4 ol {
@@ -549,7 +551,7 @@ body {
   list-style: inside;
   list-style-type: decimal;
   margin-left: -28px;
-  font-size: 13.5px;
+  font-size: 13.4px;
 }
 
 #categories .modal .col-md-4 li::marker {
@@ -563,8 +565,48 @@ body {
   font-weight: 700;
 }
 
+#categories .modal #eliteModalLabel{
+  padding-left: 27rem;
+}
+
+#categories .modal #spinModalLabel{
+  padding-left: 32rem;
+}
+
+#categories .modal #stepModalLabel{
+  padding-left: 32rem;
+}
+
+#categories .modal #runModalLabel{
+  padding-left: 32rem;
+}
+
+#categories .modal #coreModalLabel{
+  padding-left: 32rem;
+}
+
+#categories .modal #flowModalLabel{
+  padding-left: 32rem;
+}
+
+#categories .modal #tabataModalLabel{
+  padding-left: 33rem;
+}
+
+#categories .modal #zumbaModalLabel{
+  padding-left: 33rem;
+}
+
+#categories .modal #runModalLabel{
+  padding-left: 33rem;
+}
+
+#categories .modal #bodyModalLabel{
+  padding-left: 28rem;
+}
+
 #categories .modal #trainerModalLabel {
-  padding-left: 30rem !important;
+  padding-left: 27rem !important;
 }
 
 #categories .modal #nutriModalLabel {
@@ -572,7 +614,7 @@ body {
 }
 
 #categories .modal #fisioModalLabel {
-  padding-left: 32rem !important;
+  padding-left: 30rem !important;
 }
 
 #categories .modal #fisicaModalLabel {
@@ -597,6 +639,10 @@ body {
 
   #categories .modal #fatburnModalLabel {
     padding-left: 12rem !important;
+  }
+
+  #categories .modal #eliteModalLabel {
+    padding-left: 18rem !important;
   }
 
   #categories .modal #stepModalLabel {

@@ -245,6 +245,26 @@ body {
   cursor: pointer;
 }
 
+/* Navigation bar responsiveness */
+@media screen and (1376px <= width <= 1470px){
+  .navbar .container-fluid .nav-item .nav-link{
+    font-size: 12px!important;
+  }
+
+  .navbar .main{
+    margin-left: 14rem!important;
+  }
+}
+
+@media screen and (1298px <= width <= 1375px){
+  .navbar .container-fluid .nav-item .nav-link{
+    font-size: 11px!important;
+  }
+
+  .navbar .main{
+    margin-left: 12rem!important;
+  }
+}
 /* NAVIGATION AREA ENDS HERE */
 
 /* HERO SECTION STARTS HERE */

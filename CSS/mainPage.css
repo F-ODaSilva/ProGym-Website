@@ -905,6 +905,9 @@ body {
 #categories .modal .container-fluid {
   padding-left: 12px;
 }
+#categories .modal .col-md-8.col-lg-7 img{
+  width: 100%;
+}
 #categories .modal .col-md-4 {
   color: whitesmoke;
 }

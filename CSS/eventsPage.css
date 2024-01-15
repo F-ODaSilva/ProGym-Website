@@ -413,7 +413,7 @@ body {
     margin-top: 4rem;
 }
 
-#events .col-4 button{
+#events .col-4 button:first-child{
     border: none;
     background-color: transparent;
     width: 100%;
@@ -433,6 +433,21 @@ body {
     height: 100%;
 } 
 
+#events .col-4 #year2024Modal .modal-content{
+    margin-top: -28px;
+}
+
+#events .col-4 .modal-header{
+    padding: 5px 15px;
+}
+
+#events .col-4 .modal-body{
+    padding: 0.5rem;
+}
+
+#events .col-4 #spinn2024Backdrop .modal-content{
+    margin-left: -8px;
+}
 /* FOOTER STARTS HERE  */
 #footer footer {
   background-color: #000000 !important;

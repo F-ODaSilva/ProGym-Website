@@ -413,6 +413,11 @@ body {
     margin-top: 4rem;
 }
 
+#events .container-fluid .col-8{
+  background-color: black!important;
+}
+
+
 #events .col-4 button:first-child{
     border: none;
     background-color: transparent;
@@ -456,6 +461,11 @@ body {
   text-align: center;
 }
 
+#events .col-4 .modal .modal-header button.btn-close{
+  background-color: #ffffff;
+  border-radius: 30px;
+}
+
 #events .col-4 .modal-body{
   padding: 0px;
   overflow-x: hidden;
@@ -484,7 +494,7 @@ body {
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgb(240, 115, 13); 
+  background: #ffffff; 
   border-radius: 10px;
 }
 

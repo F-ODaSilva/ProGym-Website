@@ -434,20 +434,60 @@ body {
 } 
 
 #events .col-4 #year2024Modal .modal-content{
-    margin-top: -28px;
+    background-color: black;
 }
 
 #events .col-4 .modal-header{
     padding: 5px 15px;
+    border-bottom: #f58122ff solid 1px;
+}
+
+#events .col-4 .modal .modal-header h1[id$=ModalLabel]{
+  margin-left: 22rem!important;
+  color: whitesmoke;
+  font-size: 30px!important;
+}
+
+#events .col-4 .modal .modal-header h1[id$=BackdropLabel]{
+  color: whitesmoke;
+  font-size: 29px!important;
+  margin-left: 18rem;
+  margin-right: 18rem;
+  text-align: center;
 }
 
 #events .col-4 .modal-body{
-    padding: 0.5rem;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+#events .col-4 .modal .modal-body .col-4{
+  padding-bottom: 1.5rem!important;
+  padding-top: 0!important;
+  padding-right: 2px;
 }
 
 #events .col-4 #spinn2024Backdrop .modal-content{
     margin-left: -8px;
 }
+
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(0, 0, 0); 
+  background: black;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(240, 115, 13); 
+  border-radius: 10px;
+}
+
 /* FOOTER STARTS HERE  */
 #footer footer {
   background-color: #000000 !important;

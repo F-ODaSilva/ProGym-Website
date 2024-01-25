@@ -14,6 +14,23 @@ body {
   background-color: black;
 }
 
+/* SCROLLBAR CUSTOMIZATION  */
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(0, 0, 0); 
+  background: black;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ffffff; 
+  border-radius: 10px;
+}
 
 /* NAVIGATION AREA STARTS HERE */
 .scrolling-navbar {

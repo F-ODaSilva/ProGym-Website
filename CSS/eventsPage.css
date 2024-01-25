@@ -16,6 +16,25 @@ body {
   background-color: black;
 }
 
+/* SCROLLBAR CUSTOMIZATION */
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(0, 0, 0); 
+  background: black;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ffffff; 
+  border-radius: 10px;
+}
+
 /* NAVIGATION AREA STARTS HERE */
 .scrolling-navbar {
   transition: top 0.3s ease-in-out;
@@ -479,23 +498,6 @@ body {
 
 #events .col-4 #spinn2024Backdrop .modal-content{
     margin-left: -8px;
-}
-
-/* width */
-::-webkit-scrollbar {
-  width: 12px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px rgb(0, 0, 0); 
-  background: black;
-}
- 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #ffffff; 
-  border-radius: 10px;
 }
 
 /* FOOTER STARTS HERE  */

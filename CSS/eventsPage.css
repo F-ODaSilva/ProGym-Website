@@ -436,6 +436,15 @@ body {
   background-color: black!important;
 }
 
+#events .col-8 .row.mt-2 .col-4{
+  padding-top: 1.5rem!important;
+  padding-bottom: 3.25rem!important;
+}
+
+#events .col-8 .row .col-4{
+  padding-top: 2rem!important;
+  padding-bottom: 4rem!important;
+}
 
 #events .col-4 button:first-child{
     border: none;
@@ -457,13 +466,13 @@ body {
     height: 100%;
 } 
 
-#events .col-4 #year2024Modal .modal-content{
+#events .col-4 .modal-content{
     background-color: black;
 }
 
 #events .col-4 .modal-header{
     padding: 5px 15px;
-    border-bottom: #f58122ff solid 1px;
+    border-bottom: #f58122ff solid 4px;
 }
 
 #events .col-4 .modal .modal-header h1[id$=ModalLabel]{
@@ -474,15 +483,18 @@ body {
 
 #events .col-4 .modal .modal-header h1[id$=BackdropLabel]{
   color: whitesmoke;
-  font-size: 29px!important;
-  margin-left: 18rem;
-  margin-right: 18rem;
-  text-align: center;
+  font-size: 18px!important;
+  margin: 0 auto;
+}
+
+#events .col-4 .modal[id$=Backdrop]{
+  background-color: rgba(0, 0, 0, 0.779);
 }
 
 #events .col-4 .modal .modal-header button.btn-close{
   background-color: #ffffff;
   border-radius: 30px;
+  width: 35px;
 }
 
 #events .col-4 .modal-body{
@@ -498,6 +510,23 @@ body {
 
 #events .col-4 #spinn2024Backdrop .modal-content{
     margin-left: -8px;
+}
+
+#events .col-4 .modal .carousel{
+  height: 550px;
+}
+
+#events .col-4 .modal .carousel .carousel-inner{
+  height: 100%;
+}
+
+#events .col-4 .modal .carousel .carousel-item{
+  height: 100%;
+}
+
+#events .col-4 .modal .carousel .carousel-item img{
+  height: 100%;
+  object-fit: cover;
 }
 
 /* FOOTER STARTS HERE  */

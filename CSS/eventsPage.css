@@ -1,13 +1,13 @@
 html,
 body {
-  font-family: "Lemon", serif;
+  /* font-family: "Lemon" , serif,; */
+  font-family: var(--bs-font-sans-serif);
   font-size: 15px;
   line-height: 1.5;
   box-sizing: border-box;
   margin: 0;
   top: 0;
   left: 0;
-  background-image: url("../Images/Patterns/pattern6.png");
   background-position: 41% 25%;
   overflow-x: hidden;
 }
@@ -66,7 +66,7 @@ body {
 }
 
 .navbar .container-fluid .nav-item .nav-link {
-  font-family: "Lemon";
+  /* font-family: "Lemon"; */
   font-weight: 600;
   color: lightgray;
   font-size: 13px !important;
@@ -432,6 +432,38 @@ body {
     margin-top: 4rem;
 }
 
+
+#events .col-lg-1 {
+  margin-top: 3rem;
+  position: relative;
+  right:  0;
+  height: 500px;
+  width: 255px;
+  border-radius: 25px; 
+}
+
+#events .col-lg-1 .card{
+  height: 100%;
+  border: none;
+  width: 106%;
+  background-color: transparent;
+  margin-left: -6px;
+}
+
+#events .col-lg-1 img{
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  border: none;
+  border-radius: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+#events .col-lg-1 .card img:hover{
+  transform: scale(1.02);
+  cursor:pointer;
+}
+
 #events .container-fluid .col-8{
   background-color: black!important;
 }
@@ -446,7 +478,7 @@ body {
   padding-bottom: 4rem!important;
 }
 
-#events .col-4 button:first-child{
+#events .row .col-4 button:first-child{
     border: none;
     background-color: transparent;
     width: 100%;
@@ -454,16 +486,27 @@ body {
     padding: 0;
 }
 
-#events .col-4 .card{
+
+#events .row .col-4 .card{
     object-fit: cover;
-    width: 100%;
-    height: 100%;
-    border: none;
+    width: 104%;
+    height: 122%;
+    border: solid 4px;
+    border-radius: 23px;
+}
+
+#events .row .modal .modal-dialog-centered .col-4 .card{
+    object-fit: cover;
+    width: 98%;
+    height: 103%;
+    border: solid 4px;
+    border-radius: 23px;
 }
 
 #events .col-4 .card .card-img{
     object-fit: cover;
     height: 100%;
+    border-radius: 21px;
 } 
 
 #events .col-4 .modal-content{
@@ -506,6 +549,12 @@ body {
   padding-bottom: 1.5rem!important;
   padding-top: 0!important;
   padding-right: 2px;
+  background-color: transparent!important;
+}
+
+
+#events .col-4 .modal .modal-body .col-4 .card{
+  background-color: transparent!important;
 }
 
 #events .col-4 #spinn2024Backdrop .modal-content{

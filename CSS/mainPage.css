@@ -848,11 +848,36 @@ body {
   border: solid 0px;
   background-color: #f58122ff;
   border-radius: 25px;
-  margin: 0 32rem;
+  margin: 0 30rem;
 }
 
 #categories .heading {
-  margin-right: 5rem;
+  margin-right: 4rem;
+}
+
+@media screen and (1200px <= width <= 1400px)  {
+  #categories .heading{
+    margin-left: -2rem;
+  }
+
+  #categories .heading h1{
+    margin: 0 25rem!important;
+  }
+
+  #categories .row.row-cols-1.row-cols-lg-2.g-3{
+    margin: -115px;
+    padding-top: 90px;
+    padding-bottom: 65px;
+  } 
+}
+
+@media screen and (1000px <= width <= 1200px)  {
+  #categories .heading{
+    margin: 0;
+  }
+  #categories .heading h1{
+    margin: 0 18rem!important;
+  }
 }
 
 #categories {
@@ -912,7 +937,6 @@ body {
 #categories .carousel-control-next {
   margin-top: 8rem;
   margin-bottom: 8rem;
-  left: 29.5rem;
 }
 
 #categories .carousel-control-prev {

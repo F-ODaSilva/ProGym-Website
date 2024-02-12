@@ -16,6 +16,25 @@ body {
   background-color: black;
 }
 
+/* SCROLLBAR CUSTOMIZATION */
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(0, 0, 0); 
+  background: black;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ffffff; 
+  border-radius: 10px;
+}
+
 /* SOCIAL MEDIA POP UP STARTS HERE */
 
 #popUpStart .modal {
@@ -810,7 +829,7 @@ body {
 @media screen and (320px <= width <= 450px){
   #carouselHero{
     margin-top: 4rem;
-    margin-bottom: -3.5rem;
+    margin-bottom: -4.5rem;
   }
   #hero .carousel-control-next {
     margin-bottom: 0;
@@ -855,6 +874,22 @@ body {
   margin-right: 4rem;
 }
 
+#categories .modal #trainerModalLabel {
+  padding-left: 27rem;
+}
+
+#categories .modal #nutriModalLabel {
+  padding-left: 30rem;
+}
+
+#categories .modal #fisioModalLabel {
+  padding-left: 30rem;
+}
+
+#categories .modal #fisicaModalLabel {
+  padding-left: 29rem;
+}
+
 @media screen and (1200px <= width <= 1400px)  {
   #categories .heading{
     margin-left: -2rem;
@@ -875,8 +910,514 @@ body {
   #categories .heading{
     margin: 0;
   }
+
   #categories .heading h1{
     margin: 0 18rem!important;
+  }
+
+  #categories .row.row-cols-1.row-cols-lg-2.g-3{
+    margin: 0 -160px;
+    margin-right: -250px;
+  }
+}
+
+@media screen and (900px <= width <= 1000px){
+  #categories .row.row-cols-1.row-cols-lg-2.g-3{
+    margin: -168px;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
+
+  #categories .heading{
+    margin: 0;
+  }
+
+  #categories .heading h1{
+    margin: 0 12rem;
+  }
+
+  #categories .modal  .modal-dialog .modal-title{
+    font-size: 28px;
+    margin: 0 auto;
+  }
+
+  #categories #crossfitModalLabel{
+    padding-left: 21rem!important;
+  }
+
+  #categories #fatburnModalLabel{
+    padding-left: 22rem!important;
+  }
+
+  #categories #eliteModalLabel{
+    padding-left: 20rem!important;
+  }
+
+  #categories #spinModalLabel{
+    padding-left: 23rem!important;
+  }
+
+  #categories #runModalLabel{
+    padding-left: 25rem!important;
+  }
+
+  #categories #stepModalLabel{
+    padding-left: 23rem!important;
+  }
+
+  #categories #glutesModalLabel{
+    padding-left: 22rem!important;
+  }
+
+  #categories #coreModalLabel{
+    padding-left: 25rem!important;
+  }
+
+  #categories #tabataModalLabel{
+    padding-left: 22rem!important;
+  }
+
+  #categories #flowModalLabel{
+    padding-left: 25rem!important;
+  }
+
+  #categories #zumbaModalLabel{
+    padding-left: 23rem!important;
+  }
+  #categories #bodyModalLabel{
+    padding-left: 21rem!important;
+  }
+      
+  #categories .modal #trainerModalLabel {
+    padding-left: 18rem !important;
+  }
+
+  #categories .modal #nutriModalLabel {
+    padding-left: 20rem !important;
+  }
+
+  #categories .modal #fisioModalLabel {
+    padding-left: 21rem !important;
+  }
+
+  #categories .modal #fisicaModalLabel {
+    padding-left: 21rem !important;
+  }
+
+  #categories .modal .modal-dialog .modal-content{
+    width: 900px;
+    margin: 0 -12rem;
+  }
+
+  #categories .modal .modal-dialog .modal-content h4{
+    font-size: 16px;
+  } 
+
+  #categories .modal .modal-dialog .modal-content h5{
+    font-size: 15px;
+  }
+
+  #categories .modal .modal-dialog .modal-content p{
+    font-size: 11px;
+  }
+
+  #categories .modal .modal-dialog .modal-content li{
+    font-size: 11px;
+  }
+  
+}
+
+@media screen and (800px <= width <= 900px){
+  #categories .row.row-cols-1.row-cols-lg-2.g-3{
+    margin: -128px;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+  
+  #categories .heading{
+    margin: 0;
+  }
+
+  #categories .heading h1{
+    margin: 0 12rem;
+  }
+
+  #categories .modal  .modal-dialog .modal-title{
+    font-size: 28px;
+    margin: 0 auto;
+  }
+
+  #categories .modal .modal-dialog .modal-content{
+    width: 900px;
+    margin: 0 -9rem;
+  }
+
+  #categories .modal .modal-dialog .modal-content h4{
+    font-size: 16px;
+  } 
+
+  #categories .modal .modal-dialog .modal-content h5{
+    font-size: 15px;
+  }
+
+  #categories .modal .modal-dialog .modal-content p{
+    font-size: 11px;
+  }
+
+  #categories .modal .modal-dialog .modal-content li{
+    font-size: 10px;
+  }
+  
+  #categories #eliteModalLabel{
+    padding-left: 15rem!important;
+  }
+
+  #categories #spinModalLabel{
+    padding-left: 21rem!important;
+  }
+
+  #categories #stepModalLabel{
+    padding-left: 21rem!important;
+  }
+
+  #categories #zumbaModalLabel{
+    padding-left: 21rem!important;
+  }
+
+  #categories #runModalLabel{
+    padding-left: 22rem!important;
+  }
+
+  #categories #coreModalLabel{
+    padding-left: 22rem!important;
+  }
+
+  #categories #aeroModalLabel{
+    padding-left: 20rem!important;
+  }
+
+  #categories #tabataModalLabel{
+    padding-left: 21rem!important;
+  }
+
+  #categories #flowModalLabel{
+    padding-left: 22rem!important;
+  }
+
+  #categories #bodyModalLabel{
+    padding-left: 18rem!important;
+  }
+
+  #categories #trainerModalLabel{
+    padding-left: 15rem!important;
+  }
+
+  #categories #nutriModalLabel{
+    padding-left: 17rem!important;
+  }
+
+  #categories #fisioModalLabel{
+    padding-left: 19rem!important;
+  }
+
+  #categories #fisicaModalLabel{
+    padding-left: 17rem!important;
+  }
+
+  #categories .col .carousel-inner .card .card-img-overlay h5{
+    font-size: 25px;
+  }
+  #categories .col .carousel-inner .card .card-img-overlay p{
+    font-size: 12px!important;
+  }
+}
+
+@media screen and (770px <= width <= 800px){
+  #categories .row.row-cols-1.row-cols-lg-2.g-3{
+    margin: -100px;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+
+  #categories .heading{
+    margin: 0;
+  }
+
+  #categories .heading h1{
+    margin: 0 10rem;
+  }
+  
+  #categories .col .carousel-inner .card .card-img-overlay h5{
+    font-size: 21px;
+  }
+  #categories .col .carousel-inner .card .card-img-overlay p{
+    font-size: 12px!important;
+  }
+
+  #categories .modal .modal-dialog .modal-content{
+    width: 700px;
+    margin: 0 -7rem;
+  }
+
+  #categories .modal .modal-dialog .modal-content h4{
+    font-size: 16px;
+  } 
+
+  #categories .modal .modal-dialog .modal-content h5{
+    font-size: 15px;
+  }
+
+  #categories .modal .modal-dialog .modal-content p{
+    font-size: 11px;
+  }
+
+  #categories .modal .modal-dialog .modal-content li{
+    font-size: 10px;
+  }
+
+  #categories #crossfitModalLabel{
+    padding-left: 15rem!important;
+  }
+
+  #categories #fatburnModalLabel{
+    padding-left: 17rem!important;
+  }
+
+  #categories #eliteModalLabel{
+    padding-left: 12rem!important;
+  }
+
+  #categories #spinModalLabel{
+    padding-left: 18rem!important;
+  }
+
+  #categories #stepModalLabel{
+    padding-left: 19rem!important;
+  }
+
+  #categories #zumbaModalLabel{
+    padding-left: 19rem!important;
+  }
+
+  #categories #glutesModalLabel{
+    padding-left: 17rem!important;
+  }
+
+  #categories #runModalLabel{
+    padding-left: 19rem!important;
+  }
+
+  #categories #coreModalLabel{
+    padding-left: 19rem!important;
+  }
+
+  #categories #aeroModalLabel{
+    padding-left: 18rem!important;
+  }
+
+  #categories #flowModalLabel{
+    padding-left: 19rem!important;
+  }
+
+  #categories #tabataModalLabel{
+    padding-left: 19rem!important;
+  }
+
+  #categories #bodyModalLabel{
+    padding-left: 13rem!important;
+  }
+
+  #categories #trainerModalLabel{
+    padding-left: 13rem!important;
+  }
+
+  #categories #fisicaModalLabel{
+    padding-left: 12rem!important;
+  }
+
+  #categories #fisioModalLabel{
+    padding-left: 13rem!important;
+  }
+
+  #categories #nutriModalLabel{
+    padding-left: 13rem!important;
+  }
+}
+
+@media screen and (625px <= width <= 700px){
+  #categories .row.row-cols-1.row-cols-lg-2.g-3{
+    margin: -150px;
+    padding-top: 9rem;
+    padding-bottom: 8rem;
+    padding-right: 5rem;
+  }
+
+  #categories .heading{
+    margin: 0;
+  }
+
+  #categories .heading h1{
+    margin: 0 8rem;
+  }
+  
+  #categories #crossfitModalLabel{
+    padding-left: 8rem!important;
+  }
+
+  #categories #fatburnModalLabel{
+    padding-left: 10rem!important;
+  }
+
+  #categories #eliteModalLabel{
+    padding-left: 4rem!important;
+  }
+
+  #categories #spinModalLabel{
+    padding-left: 12rem!important;
+  }
+
+  #categories #stepModalLabel{
+    padding-left: 12rem!important;
+  }
+
+  #categories #zumbaModalLabel{
+    padding-left: 11rem!important;
+  }
+
+  #categories #glutesModalLabel{
+    padding-left: 8rem!important;
+  }
+
+  #categories #runModalLabel{
+    padding-left: 12rem!important;
+  }
+
+  #categories #coreModalLabel{
+    padding-left: 13rem!important;
+  }
+
+  #categories #aeroModalLabel{
+    padding-left: 10rem!important;
+  }
+
+  #categories #flowModalLabel{
+    padding-left: 12rem!important;
+  }
+
+  #categories #tabataModalLabel{
+    padding-left: 12rem!important;
+  }
+
+  #categories #bodyModalLabel{
+    padding-left: 8rem!important;
+    font-size: 28px;
+  }
+
+  #categories #trainerModalLabel{
+    padding-left: 7rem!important;
+    font-size: 28px;
+  }
+
+  #categories #fisicaModalLabel{
+    padding-left: 8rem!important;
+    font-size: 25px;
+  }
+
+  #categories #fisioModalLabel{
+    padding-left: 8rem!important;
+  }
+
+  #categories #nutriModalLabel{
+    padding-left: 6rem!important;
+  }
+  
+  #categories #basketModalLabel{
+    padding-left: 7rem!important;
+  }
+  
+  #categories #futsalModalLabel{
+    padding-left: 12rem!important;
+  }
+
+  #categories #pulaModalLabel{
+    padding-left: 9rem!important;
+  }
+
+  #categories #golfModalLabel{
+    padding-left: 9rem!important;
+  }
+
+  #categories #crossModalLabel{
+    padding-left: 9rem!important;
+  }
+
+  #categories #taekModalLabel{
+    padding-left: 7rem!important;
+  }
+
+  #categories .col .carousel-inner .card .card-img-overlay h5{
+    font-size: 21px;
+  }
+  #categories .col .carousel-inner .card .card-img-overlay p{
+    font-size: 12px!important;
+  }
+}
+
+@media screen and (420px <= width <= 625px){
+  #categories .row.row-cols-1.row-cols-lg-2.g-3{
+    margin: -110px;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    padding-right: 8rem;
+  }
+
+  #categories .heading{
+    margin: 0;
+  }
+
+  #categories .heading h1{
+    margin: 0 5rem;
+  }
+  
+  #categories .modal .modal-header h3{
+    padding-left: 0!important;
+    font-size: 22px!important;
+  }
+
+  #categories .col .carousel-inner .card .card-img-overlay h5{
+    font-size: 21px;
+  }
+
+  #categories .col .carousel-inner .card .card-img-overlay p{
+    font-size: 12px!important;
+  }
+} 
+
+@media screen and (318px <= width <= 429px){
+  #categories .row.row-cols-1.row-cols-lg-2.g-3{
+    margin: -102px;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    padding-right: 14rem;
+  }
+
+  #categories .heading{
+    margin: 0;
+  }
+
+  #categories .heading h1{
+    margin: 0 1rem;
+    margin-top: 3rem;
+  }
+
+  #categories .col{
+    width: auto;
+    height: auto;
+  }
+
+  #categories .modal .modal-header h3{
+    padding-left: 0!important;
+    font-size: 22px!important;
   }
 }
 
@@ -951,7 +1492,7 @@ body {
 
 #categories .modal .modal-content {
   background-color: black;
-  border: #f58122ff 4px solid;
+  border: #000000 4px solid;
 }
 
 #categories .modal .modal-header {
@@ -991,6 +1532,8 @@ body {
 }
 #categories .modal .col-md-8.col-lg-7 img{
   width: 100%;
+  object-fit: cover;
+  height: 100%;
 }
 #categories .modal .col-md-4 {
   color: whitesmoke;
@@ -1075,104 +1618,11 @@ body {
   padding-left: 28rem;
 }
 
-#categories .modal #trainerModalLabel {
-  padding-left: 27rem !important;
-}
-
-#categories .modal #nutriModalLabel {
-  padding-left: 30rem !important;
-}
-
-#categories .modal #fisioModalLabel {
-  padding-left: 30rem !important;
-}
-
-#categories .modal #fisicaModalLabel {
-  padding-left: 29rem !important;
-}
 /* Modal boxes responsiveness */
 
 @media screen and (max-width: 1200px) {
   #categories .modal .modal-header h3 {
     padding-left: 19rem;
-  }
-}
-
-@media screen and (max-width: 950px) {
-  #categories .modal .modal-header h3 {
-    padding-left: 7rem !important;
-  }
-
-  #categories .modal #spinModalLabel {
-    padding-left: 12rem !important;
-  }
-
-  #categories .modal #fatburnModalLabel {
-    padding-left: 12rem !important;
-  }
-
-  #categories .modal #eliteModalLabel {
-    padding-left: 19rem !important;
-  }
-
-  #categories .modal #stepModalLabel {
-    padding-left: 13rem !important;
-  }
-
-  #categories .modal #zumbaModalLabel {
-    padding-left: 12rem !important;
-  }
-
-  #categories .modal #runModalLabel {
-    padding-left: 13rem !important;
-  }
-
-  #categories .modal #coreModalLabel {
-    padding-left: 13rem !important;
-  }
-
-  #categories .modal #aeroModalLabel {
-    padding-left: 11rem !important;
-  }
-
-  #categories .modal #flowModalLabel {
-    padding-left: 13rem !important;
-  }
-
-  #categories .modal #tabataModalLabel {
-    padding-left: 12rem !important;
-  }
-
-  #categories .modal #glutesModalLabel {
-    padding-left: 10rem !important;
-  }
-
-  #categories .modal #taekModalLabel {
-    padding-left: 9rem !important;
-  }
-
-  #categories .modal #basketModalLabel {
-    padding-left: 9rem !important;
-  }
-
-  #categories .modal #basketModalLabel {
-    padding-left: 9rem !important;
-  }
-
-  #categories .modal #pulaModalLabel {
-    padding-left: 10rem !important;
-  }
-
-  #categories .modal #crossModalLabel {
-    padding-left: 10rem !important;
-  }
-
-  #categories .modal #golfModalLabel {
-    padding-left: 10rem !important;
-  }
-
-  #categories .modal #futsalModalLabel {
-    padding-left: 12rem !important;
   }
 }
 

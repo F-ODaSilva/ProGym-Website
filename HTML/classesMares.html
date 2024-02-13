@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aulas Mares</title>
+    <!-- Tab Logo Fav-icon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="../Images/logo/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="../Images/logo/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="../Images/logo/favicon-16x16.png" />
+    <link rel="manifest" href="../Images/logo/site.webmanifest" />
+
+    <!-- Font Awesome Kit Code Link -->
+    <script src="https://kit.fontawesome.com/f7ccd0c567.js" crossorigin="anonymous"></script>
+
+    <!-- Google Fonts CDN Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian:wght@300&family=Roboto+Slab&display=swap"
+        rel="stylesheet" />
+
+    <!-- Bootstrap Stylesheet Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <!-- Bootstrap CDN Icon Link -->
+    <!-- Option 1: Include in HTML -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+
+    <!-- Animation On Scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- CSS Stylesheet Link -->
+    <link rel="stylesheet" href="../CSS/classesPage.css" />
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md fixed-top scrolling-navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand d-md-none" href="../HTML/mainPage.html">
+                <img src="../Images/logo/logoProgym.jpg" alt="ProGym Logo" style="width: 180px;" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="bi bi-list"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav main mx-auto">
+                    <li class="nav-item px-3">
+                        <a class="nav-link" href="../HTML/mainPage.html">Inicio</a>
+                    </li>
+                    <li class="nav-item px-3 dropdown px-md-0 ">
+                        <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownClass" role="button"
+                            data-bs-toggle="dropdown">Aulas</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownClass">
+                            <li>
+                                <a href="../HTML/classesMares.html" class="dropdown-item">Marés</a>
+                            </li>
+                            <li>
+                                <a href="../HTML/classesMatola.html" class="dropdown-item">Matola</a>
+                            </li>
+                            <li>
+                                <a href="../HTML/classesMae.html" class="dropdown-item">Alto Maé</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link" href="#">Preços</a>
+                    </li>
+                    <li class="nav-item px-3 dropdown px-md-0">
+                        <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownServices" role="button"
+                            data-bs-toggle="dropdown">Serviços</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownServices">
+                            <li>
+                                <a href="../HTML/servicesPage.html#personal" class="dropdown-item">Personal Trainer</a>
+                            </li>
+                            <li>
+                                <a href="../HTML/servicesPage.html#fisica" class="dropdown-item">Avaliação Física</a>
+                            </li>
+                            <li>
+                                <a href="../HTML/servicesPage.html#nutri" class="dropdown-item">Nutricionista</a>
+                            </li>
+                            <li>
+                                <a href="../HTML/servicesPage.html#fisio" class="dropdown-item">Fisioterapia</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- Logo Starts Here -->
+                    <a class="navbar-brand d-none d-md-block" href="../HTML/mainPage.html">
+                        <img src="../Images/logo/logoProgym.jpg" style="width: 220px;" alt="">
+                    </a>
+                    <!-- logo Ends Here -->
+                    <li class="nav-item px-3 dropdown px-md-0">
+                        <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownGyms" role="button"
+                            data-bs-toggle="dropdown">Ginásios</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownGyms">
+                            <li>
+                                <a href="../HTML/gymsPage.html#mares" class="dropdown-item">Marés</a>
+                            </li>
+                            <li>
+                                <a href="../HTML/gymsPage.html#fisica" class="dropdown-item">Matola</a>
+                            </li>
+                            <li>
+                                <a href="../HTML/gyms.html#nutri" class="dropdown-item">Alto Maé</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link" href="../HTML/eventsPage.html">Events</a>
+                    </li>
+                    <li class="nav-item px-3 dropdown px-md-0">
+                        <a href="#" class="nav-link dropdown-toggle px-0" id="navbarDropdownCompany" role="button"
+                            data-bs-toggle="dropdown">Compania Serviços</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownCompany">
+                            <li>
+                                <a href="../HTML/companyPage.html#tvMarketing" class="dropdown-item">Tv Marketing</a>
+                            </li>
+                            <li>
+                                <a href="../HTML/companyPage.html#webMarketing" class="dropdown-item">Website
+                                    Marketing</a>
+                            </li>
+                            <li>
+                                <a href="../HTML/companyPage.html#manuEquip" class="dropdown-item">Manutenção de
+                                    Equipamento</a>
+                            </li>
+                            <li>
+                                <a href="../HTML/companyPage.html#setUpGym" class="dropdown-item">Set Up de Ginásios</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link" href="../HTML/aboutPage.html">Sobre nós</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav right-end ">
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="../HTML/storePage.html">Loja</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <img src="../Images/logo/english-flag.png" width="25px" class="mt-2 me-2 languag d-none"
+                            id="english" alt="">
+                        <img src="../Images/logo/portuguese-flag.png" width="38px" class="mt-2 language" id="portugal"
+                            alt="">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <section id="grid">
+        <div id="mares">
+            <button type="button" class="btn p-0" data-bs-toggle="modal" data-bs-target="#horaMares">
+                <div class="card border-4 border-white  text-white">
+                    <img src="../Images/Classes/aulasMares.jpg" class="card-img" alt="..." />
+                    <div class="card-img-overlay">
+                        <h5 class="card-title text-center">Horário</h5>
+                    </div>
+                </div>
+            </button>
+
+
+            <div class="modal fade" id="horaMares" dats-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="horaMares" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <img src="../Images/Classes/aulasMares.jpg" class="card-img" alt="..."
+                                style="height: 667px;" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- FOOTER SECTION STARTS HERE -->
+    <section id="footer">
+        <div class="container-fluid">
+            <footer class="bg-dark text-center text-white">
+                <div class="container-fluid pt-4">
+                    <!-- Social Media Section Starts Here -->
+                    <div class="row">
+                        <section class="social-media">
+                            <!-- Facebook link -->
+                            <a href="https://facebook.com/mozprogym" class="btn btn-outline-light btn-floating m-1">
+                                <i class="fa-brands fa-facebook" style="color: #0742f2"></i>
+                            </a>
+
+                            <!-- Whats App Link -->
+                            <a href="https://wa.me/+258844414441" class="btn btn-outline-light btn-floating m-1">
+                                <i class="fa-brands fa-whatsapp" style="color: limegreen"></i>
+                            </a>
+
+                            <!-- Instagram link -->
+                            <a href="https://www.instagram.com/mozprogym/"
+                                class="btn btn-outline-light btn-floating m-1">
+                                <i class="fa-brands fa-instagram" style="
+                        background: linear-gradient(
+                          210deg,
+                          #f9ce34,
+                          #ee2a7b,
+                          #6228d7
+                        );
+                      "></i>
+                            </a>
+
+                            <!-- Youtube Link -->
+                            <a href="https://www.youtube.com/@MozProGym" class="btn btn-outline-light btn-floating m-1">
+                                <i class="fa-brands fa-youtube" style="color: red"></i>
+                            </a>
+
+                            <!-- Gmail Link -->
+                            <a href="mailto:info@progym.com" class="btn btn-outline-light btn-floating m-1">
+                                <img src="../Images/logo/gmailIcon-removebg-preview.png" />
+                            </a>
+
+                            <!-- Tik Tok Link -->
+                            <a href="https://www.tiktok.com/@mozprogym" class="btn btn-outline-light btn-floating m-1">
+                                <i class="fa-brands fa-tiktok"></i>
+                            </a>
+                        </section>
+                    </div>
+                    <!-- Social Media Section Ends Here -->
+
+                    <div class="row mt-4">
+                        <!-- Navigation List Section Starts Here -->
+                        <div class="col-lg-4 col-md-4">
+                            <h3 class="title">Navegação</h3>
+                            <span class="bar"></span>
+                            <div class="row">
+                                <div class="col-6">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a href="#" class="text-white">Inicio</a>
+                                        </li>
+                                        <li>
+                                            <a href="../HTML/classesPage.html" class="text-white">Aulas</a>
+                                        </li>
+                                        <li>
+                                            <a href="../HTML/pricesPage.html" class="text-white">Preços</a>
+                                        </li>
+                                        <li>
+                                            <a href="../HTML/servicesPage.html" class="text-white">Serviços</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-6">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a href="#" class="text-white">Ginásios</a>
+                                        </li>
+                                        <li>
+                                            <a href="../HTML/classesPage.html" class="text-white">Eventos</a>
+                                        </li>
+                                        <li>
+                                            <a href="../HTML/pricesPage.html" class="text-white">Tv Marketing</a>
+                                        </li>
+                                        <li>
+                                            <a href="../HTML/servicesPage.html" class="text-white">Loja</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Navigation List Section Starts Here -->
+
+                        <!-- Description Section Starts Here -->
+                        <div class="col-lg-4 col-md-4">
+                            <h3 class="title">Sobre Nós</h3>
+                            <span class="bar-2"></span>
+                            <p class="description-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. In
+                                voluptatem at maxime eos accusantium quas saepe, asperiores
+                                recusandae id exercitationem, illo sint maiores molestias
+                                ipsam eveniet, minima fugiat quo. Eum excepturi dolor vitae
+                                veniam consectetur!
+                            </p>
+                        </div>
+                        <!-- Description Section Ends Here -->
+
+                        <div class="col-lg-4 col-md-4">
+                            <div class="contacts">
+                                <h3 class="title">Contatos</h3>
+                                <span class="bar-3"></span>
+                                <ul class="list-unstyled">
+                                    <li>+258844414441</li>
+                                    <li>info@progym.co.mz</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mt-5">
+                        <div class="col-lg-12 col-md-12 text-center p-3">
+                            <p class="copyright">
+                                Copyright © 2023 Todos direitos reservados a ProGym Fitness
+                                <span class="divider" style="color: #f58122ff">|</span> Este
+                                website foi feito com
+                                <i class="bi bi-suit-heart-fill" style="color: red"></i> pela
+                                <span class="creator" style="color: lightblue">Dahls Consulting</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </section>
+    <!-- FOOTER SECTION ENDS HERE -->
+
+
+
+    <!-- Bootstrap Javascript Popper  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!-- Jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Animation On Scroll Script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- Javascript Script -->
+    <script src="../Javascript/mainPage.js"></script>
+</body>
+
+</html>

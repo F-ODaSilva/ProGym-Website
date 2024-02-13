@@ -4,8 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ProGym Website</title>
-
+    <title>Aulas Matola</title>
     <!-- Tab Logo Fav-icon -->
     <link rel="apple-touch-icon" sizes="180x180" href="../Images/logo/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="../Images/logo/favicon-32x32.png" />
@@ -32,16 +31,14 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
     <!-- CSS Stylesheet Link -->
-    <link rel="stylesheet" href="../CSS/servicesPage.css" />
+    <link rel="stylesheet" href="../CSS/classesPage.css" />
 </head>
 
 <body>
 
     <!-- NAVIGATION BAR -->
     <!-- In this section the navbar will have the logo/navbar-brand in the middle with the nav tabs around it on the large screens and smaller screens the logo/navbar-brand will be on the left  and it will have a toggler button on the right-->
- <!-- NAVIGATION BAR -->
-    <!-- In this section the navbar will have the logo/navbar-brand in the middle with the nav tabs around it on the large screens and smaller screens the logo/navbar-brand will be on the left  and it will have a toggler button on the right-->
-    
+
     <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar">
         <div class="container-fluid">
             <a class="navbar-brand d-lg-none" href="../HTML/mainPage.html">
@@ -54,7 +51,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav main mx-auto">
                     <li class="nav-item px-3">
-                        <a class="nav-link" href="#">Inicio</a>
+                        <a class="nav-link" href="../HTML/mainPage.html">Inicio</a>
                     </li>
                     <li class="nav-item px-3 dropdown px-lg-0 ">
                         <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownClass" role="button"
@@ -154,15 +151,33 @@
         </div>
     </nav>
 
-    <!-- MODAL CARD PRICE  -->
-    <section id="trainer">
-        <div class="container-fluid">
-            <div class="row justify-content-center">
-                <div class="col-6">
-                    <img src="../Images/Images/priceList.jpg" class="card-img" alt="...">
+    <section id="grid">
+        <div id="matola">
+            <button type="button" class="btn p-0" data-bs-toggle="modal" data-bs-target="#horaMatola">
+                <div class="card border-4 border-white  text-white">
+                    <img src="../Images/Classes/aulasMatola.jpg" class="card-img" alt="..." />
+                    <div class="card-img-overlay">
+                        <h5 class="card-title text-center">Horário</h5>
+                    </div>
+                </div>
+            </button>
+
+
+            <div class="modal fade" id="horaMatola" dats-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="horaMatola" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <img src="../Images/Classes/aulasMatola.jpg" class="card-img" alt="..."
+                                style="height: 667px;" />
+                        </div>
+                    </div>
                 </div>
             </div>
+
         </div>
+
     </section>
 
 
@@ -188,13 +203,13 @@
                             <a href="https://www.instagram.com/mozprogym/"
                                 class="btn btn-outline-light btn-floating m-1">
                                 <i class="fa-brands fa-instagram" style="
-                      background: linear-gradient(
-                        210deg,
-                        #f9ce34,
-                        #ee2a7b,
-                        #6228d7
-                      );
-                    "></i>
+                        background: linear-gradient(
+                          210deg,
+                          #f9ce34,
+                          #ee2a7b,
+                          #6228d7
+                        );
+                      "></i>
                             </a>
 
                             <!-- Youtube Link -->
@@ -300,12 +315,14 @@
     </section>
     <!-- FOOTER SECTION ENDS HERE -->
 
+
+
     <!-- Bootstrap Javascript Popper  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
     <!-- Jquery -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <!-- Animation On Scroll Script -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>

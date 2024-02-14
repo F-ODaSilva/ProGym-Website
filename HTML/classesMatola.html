@@ -141,10 +141,10 @@
                         <a class="nav-link" href="../HTML/storePage.html">Loja</a>
                     </li>
                     <li class="nav-item">
-                        <img src="../Images/logo/english-flag.png" width="25px" class="mt-2 me-2 language"
-                            id="english" alt="">
-                        <img src="../Images/logo/portuguese-flag.png" width="38px" class="mt-2 language d-none" id="portugal"
+                        <img src="../Images/logo/english-flag.png" width="25px" class="mt-2 me-2 language" id="english"
                             alt="">
+                        <img src="../Images/logo/portuguese-flag.png" width="38px" class="mt-2 language d-none"
+                            id="portugal" alt="">
                     </li>
                 </ul>
             </div>
@@ -153,24 +153,28 @@
 
     <section id="grid">
         <div id="matola">
-            <button type="button" class="btn p-0" data-bs-toggle="modal" data-bs-target="#horaMatola">
-                <div class="card border-4 border-white  text-white">
-                    <img src="../Images/Classes/aulasMatola.jpg" class="card-img" alt="..." />
-                    <div class="card-img-overlay">
-                        <h5 class="card-title text-center">Horário</h5>
-                    </div>
-                </div>
-            </button>
+            <div class="container-fluid">
+                <div class="col-12">
+                    <a href="../Images/Classes/aulasMatola.jpg" download>
+                        <button type="button" class="btn p-0" data-bs-toggle="modal" data-bs-target="#horaMatola">
+                            <div class="card border-4 border-white  text-white">
+                                <img src="../Images/Classes/aulasMatola.jpg" class="card-img" alt="..." />
+                            </div>
+                        </button>
 
+                    </a>
 
-            <div class="modal fade" id="horaMatola" dats-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-                aria-labelledby="horaMatola" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered modal-xl">
-                    <div class="modal-content">
-                        <div class="modal-body">
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            <img src="../Images/Classes/aulasMatola.jpg" class="card-img" alt="..."
-                                style="height: 667px;" />
+                    <div class="modal fade" id="horaMatola" dats-bs-backdrop="static" data-bs-keyboard="false"
+                        tabindex="-1" aria-labelledby="horaMatola" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-xl">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                    <img src="../Images/Classes/aulasMatola.jpg" class="card-img" alt="..."
+                                        style="height: 667px;" />
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

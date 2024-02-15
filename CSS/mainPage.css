@@ -1651,13 +1651,6 @@ body {
   filter: brightness(0.6)
 }
 
-#promotions .container-fluid .card .background-pattern-2{
-  color: aqua;
-  width: 58%;
-  height: 60%;
-  position: absolute;
-
-}
 #promotions .container-fluid .card-img-overlay{
   /* backdrop-filter: grayscale(1.8); */
   margin: 0;

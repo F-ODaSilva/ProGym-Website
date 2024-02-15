@@ -1641,37 +1641,44 @@ body {
 #promotions .container-fluid .card{
   height: 100%;
   width: 100%;
-  filter: saturate(1.80);
+  filter: saturate(1.2);
 }
 
 #promotions .container-fluid .card img.card-img{
   object-fit: cover;
   height: 100%;
   width: 100%;
-  filter: brightness(0.7)
+  filter: brightness(0.6)
 }
 
+#promotions .container-fluid .card .background-pattern-2{
+  color: aqua;
+  width: 58%;
+  height: 60%;
+  position: absolute;
+
+}
 #promotions .container-fluid .card-img-overlay{
-  backdrop-filter: grayscale(1.8);
+  /* backdrop-filter: grayscale(1.8); */
   margin: 0;
   padding-top: 6rem;
+  z-index: 2;
 }
-
 
 #promotions .container-fluid .row .card-title{
   font-size: 80px;
-  padding-left: 18%;
+  padding-left: 28%;
 }
 
 #promotions .container-fluid .row .card-img-overlay .pay {
-  padding-left: 57%;
+  padding-left: 30%;
   font-size: 75px;
   color: #f58122ff;
 }
 
 #promotions .container-fluid .row .card-img-overlay .three{
   color: #f58122ff;
-  padding-left: 71%;
+  padding-left: 32%;
   font-size: 100px;
   margin-top: -50px;
 }
@@ -1679,9 +1686,10 @@ body {
 #promotions .container-fluid .row .card-img-overlay .months {
   color: #f58122ff;
   font-size: 65px;
-  margin-left: 67rem;
-  margin-top: -2rem;
-  width: 16%;
+  padding-left: 38%;
+  margin-top: -8rem;
+  margin-bottom: 8rem;
+  
 }
 
 #promotions .container-fluid .row .card-img-overlay .win {
@@ -1691,25 +1699,25 @@ body {
   margin-top: -11rem;
 }
 
-#promotions .container-fluid .row .card-img-overlay .plus{
+/* #promotions .container-fluid .row .card-img-overlay .plus{
   color: #ffffff;
-  padding-left: 24%;
+  padding-left: 50%;
   font-size: 200px;
-  margin-top: -8rem;
-}
+  margin-top: -11rem;
+} */
 
 #promotions .container-fluid .row .card-img-overlay .one{
   color: #ffffff;
   padding-left: 32%;
   font-size: 290px;
-  margin-top: -24rem;
+  margin-top: -10rem;
 }
 
 #promotions .container-fluid .row .card-img-overlay .month{
   color: #ffffff;
   padding-left: 42%;
-  font-size: 80px;
-  margin-top: -19rem;
+  font-size: 75px;
+  margin-top: -24.2rem;
 }
 
 #promotions .container-fluid .row .card-img-overlay .free{
@@ -1786,6 +1794,7 @@ body {
 /* FOOTER STARTS HERE  */
 #footer footer {
   background-color: #000000 !important;
+  font-family: "Roboto Slab";
 }
 
 #footer .container-fluid {

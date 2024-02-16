@@ -548,9 +548,9 @@ body {
 
 @media screen and (700px <= width <= 880px){
   #grid button{
-    margin: 5rem 2rem 4rem!important;
+    margin: 5rem 3rem 4rem!important;
   } 
-  
+
   #grid .card-img{
     height: 34rem;
     width: 100%;
@@ -558,8 +558,12 @@ body {
 }
 
 @media screen and (600px <= width <= 699px){
+  #grid .card{
+    width: 108%;
+  }
+
   #grid button{
-    margin: 9rem 0!important;
+    margin: 9rem 3rem!important;
   }
 
   #grid .card-img{

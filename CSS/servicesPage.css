@@ -477,13 +477,110 @@ body {
 /* NAVIGATION AREA ENDS HERE */
 
 /* MODAL CARD PRICE STARTS */
-#trainer .container-fluid .col-6 img{
-    width: 64%;
-    margin-top: 4.5rem;
-    margin-left: 6rem;
-    border: 4px solid whitesmoke;
-    border-radius: 23px;
-    margin-bottom: 1px;
+
+#prices .container-fluid{
+  background-image: url(../Images/Images/newMember2.jpg);
+  background-size: cover;
+  background-position-y: center;
+  filter: contrast(1.2);
+}
+
+#prices .container-fluid .row{
+  filter: brightness(0.7);
+}
+
+#prices .container-fluid .col-6 img{
+  width: 35%;
+  margin-top: 4.5rem;
+  margin-left: 8rem;
+  border: 4px solid whitesmoke;
+  border-radius: 23px;
+  margin-bottom: 1px;
+  filter: brightness(1.23);
+}
+
+@media screen and (1390px<= width <= 1440px){
+   #prices .container-fluid .col-6 img{
+    width: 70%!important;
+   }
+}
+
+@media screen and (1100px <= width <= 1389px) {
+  #prices .container-fluid .col-6 img {
+    width: 75%!important;
+    margin-top: 7rem;
+    margin-bottom: 5rem;
+    margin-left: 5rem;
+  }
+
+  #footer .social-media {
+    padding-bottom: 4rem;
+  } 
+}
+
+@media screen and (900px <= width <= 1099px) {
+  #prices .container-fluid .col-6 img {
+    width: 90%!important;
+    margin-top: 7rem;
+    margin-bottom: 5rem;
+    margin-left: 3rem;
+  }
+
+  #footer .social-media {
+    padding-bottom: 4rem;
+  } 
+}
+
+@media screen and (680px <= width <= 899px) {
+  #prices .container-fluid .col-6 img {
+    width: 110%!important;
+    margin-top: 7rem;
+    margin-bottom: 5rem;
+    margin-left: 0rem;
+  }
+
+  #footer .social-media {
+    padding-bottom: 4rem;
+  } 
+}
+
+@media screen and (900px <= width <= 1099px) {
+  #prices .container-fluid .col-6 img {
+    width: 90%!important;
+    margin-top: 7rem;
+    margin-bottom: 5rem;
+    margin-left: 3rem;
+  }
+
+  #footer .social-media {
+    padding-bottom: 4rem;
+  } 
+}
+
+@media screen and (width <= 393px) {
+  #prices .container-fluid .col-6 img{
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+    margin-left: -6.5rem;
+    width: 210%;
+  }
+
+  #footer .container-fluid .row .social-media{
+    padding-bottom: 6rem;
+  }
+}
+
+@media screen and (max-width: 414px) {
+   #prices .container-fluid .col-6 img{
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+    margin-left: -6.5rem;
+    width: 210%;
+  }
+
+  #footer .container-fluid .row .social-media{
+    padding-bottom: 6rem;
+  }
 }
 /* MODAL CARD PRICE ENDS HERE */
 

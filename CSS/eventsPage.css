@@ -477,6 +477,13 @@ body {
   }
 }
 /* NAVIGATION AREA ENDS HERE */
+#events .container-fluid img{
+  width: 45%;
+  position: absolute;
+  top: -10rem;
+  left: -13rem;
+  transform: rotate(150deg);
+}
 #events {
   margin-top: 4rem;
   height: 650px;
@@ -489,8 +496,17 @@ body {
   /* background-color: #000000; */
   height: 100%;
 }
-#events .container-fluid .row .pattern-diagonal-lines-xl{
+#events .container-fluid .row .pattern-diagonal-lines-lg{
   color: #f58122ff;
+  width: 90%;
+  height: 100%;
+  z-index: 1;
+  position: absolute;
+  zoom: 1.8;
+  margin-left: 36rem;
+}
+#events .container-fluid .row .pattern-diagonal-lines-xl{
+  color: rgba(0, 255, 217, 0.937);
   width: 90%;
   height: 100%;
   z-index: 1;

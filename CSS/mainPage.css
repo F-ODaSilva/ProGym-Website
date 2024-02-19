@@ -1718,6 +1718,7 @@ body {
   font-size: 85px;
   margin-top: -9rem;
 }
+
 /* 
 
 #promotions .container-fluid .text .pay{
@@ -1781,6 +1782,122 @@ body {
   bottom: 43rem;
   color: #1ea9d8;
 } */
+
+/* Responsiveness starts here */
+
+@media screen and ( 1359px <= width <= 1516px){
+  #promotions .container-fluid .row .card-img-overlay .months{
+   margin-left: 61rem!important;
+   font-size: 58px!important;
+   /* background-color: red; */
+   height: 30%;
+  }
+ 
+  #promotions .container-fluid .row .card-img-overlay .win{
+   position: relative;
+   top: -5rem;
+  }
+ 
+  #promotions .container-fluid .card-img-overlay .plus{
+   position: relative;
+   top: -4rem;;
+   }
+ 
+  #promotions .container-fluid .card-img-overlay .one{
+   position: relative;
+   top: -1rem;;
+   font-size: 200px!important;
+   padding-left: 34%!important;
+   }
+ 
+  #promotions .container-fluid .card-img-overlay .month{
+   position: relative;
+   top: 2rem;;
+   }
+ 
+  #promotions .container-fluid .card-img-overlay .free{
+   position: relative;
+   top: 5rem!important;
+   }
+ }
+
+@media screen and ( 1224px <= width <= 1358px){
+  #promotions .container-fluid .row .card-img-overlay .months{
+   margin-left: 54rem!important;
+   font-size: 52px!important;
+   /* background-color: red; */
+   height: 30%;
+  }
+ 
+  #promotions .container-fluid .row .card-img-overlay .win{
+   position: relative;
+   top: -5rem;
+  }
+ 
+  #promotions .container-fluid .card-img-overlay .plus{
+   position: relative;
+   top: -4rem;;
+   }
+ 
+  #promotions .container-fluid .card-img-overlay .one{
+   position: relative;
+   top: -1rem;;
+   font-size: 200px!important;
+   padding-left: 34%!important;
+   }
+ 
+  #promotions .container-fluid .card-img-overlay .month{
+   position: relative;
+   top: 2rem;;
+   }
+ 
+  #promotions .container-fluid .card-img-overlay .free{
+   position: relative;
+   top: 5rem!important;
+   padding-left: 57%!important;
+   }
+ }
+
+@media screen and ( 1130px <= width <= 1223px){
+  #promotions .container-fluid .row .card-img-overlay .months{
+   margin-left: 52rem!important;
+   font-size: 48px!important;
+   /* background-color: red; */
+   height: 30%;
+  }
+ 
+  #promotions .container-fluid .row .card-img-overlay .win{
+   position: relative;
+   top: -8rem;
+  }
+ 
+  #promotions .container-fluid .card-img-overlay .plus{
+   position: relative;
+   top: -4rem;;
+   }
+ 
+  #promotions .container-fluid .card-img-overlay .one{
+   position: relative;
+   top: -1rem;;
+   font-size: 200px!important;
+   padding-left: 34%!important;
+   }
+ 
+  #promotions .container-fluid .card-img-overlay .month{
+   position: relative;
+   top: 2rem;;
+   }
+ 
+  #promotions .container-fluid .card-img-overlay .free{
+   position: relative;
+   top: 5rem!important;
+   padding-left: 57%!important;
+   }
+ }
+ 
+ /* Responsiveness ends here */
+ 
+ 
 /* PROMOTION SECTION STARTS HERE */
 
 /* FOOTER STARTS HERE  */

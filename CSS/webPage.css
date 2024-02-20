@@ -489,7 +489,7 @@ body {
   height: 650px;
   background-image: url("../Images/Images/background18.jpg");
   background-size: cover;
-  background-position: top;
+  background-position:center;
   filter: brightness(0.9);
 }
 #events .container-fluid{
@@ -498,12 +498,12 @@ body {
 }
 #events .container-fluid .row .pattern-triangles-lg{
   color: #ffffff;
-  width: 90%;
-  height: 72%;
+  width: 50%;
+  height: 69%;
   z-index: 1;
   position: absolute;
   zoom: 1.1;
-  margin-left: 38rem;
+  margin-left: 50rem;
   top: 1rem;
   /* background-color: #f5812275; */
   /* border: 4px solid black; */
@@ -533,12 +533,12 @@ body {
 
 #events .container-fluid .row .background3.pattern-cross-dots-lg{
   color: rgba(11, 184, 247, 0.792);
-  width: 60%;
+  width: 30%;
   height: 80%;
   z-index: 1;
   position: absolute;
   zoom: 1.3;
-  margin-left: 32rem;
+  margin-left: 50rem;
 }
 
 #events .container-fluid .row .background4.pattern-diagonal-lines-xl{

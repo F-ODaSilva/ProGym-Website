@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProGym Website</title>
+
+    <!-- Tab Logo Fav-icon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="../Images/logo/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="../Images/logo/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="../Images/logo/favicon-16x16.png" />
+    <link rel="manifest" href="../Images/logo/site.webmanifest" />
+
+    <!-- Font Awesome Kit Code Link -->
+    <script src="https://kit.fontawesome.com/f7ccd0c567.js" crossorigin="anonymous"></script>
+
+    <!-- Google Fonts CDN Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian:wght@300&family=Roboto+Slab&display=swap"
+        rel="stylesheet" />
+
+    <!-- Bootstrap Stylesheet Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <!-- Bootstrap CDN Icon Link -->
+    <!-- Option 1: Include in HTML -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+
+    <!-- Animation On Scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- CSS Stylesheet Link -->
+    <link rel="stylesheet" href="../CSS/aboutPage.css" />
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+    </style>
+</head>
+<body>
+    
+    <!-- NAVIGATION BAR -->
+    <!-- In this section the navbar will have the logo/navbar-brand in the middle with the nav tabs around it on the large screens and smaller screens the logo/navbar-brand will be on the left  and it will have a toggler button on the right-->
+
+    <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand d-lg-none" href="../HTML/mainPage.html">
+                <img src="../Images/logo/logoProgym.jpg" alt="ProGym Logo" style="width: 180px;" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="bi bi-list"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav main mx-auto">
+                    <li class="nav-item px-3">
+                        <a class="nav-link" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item px-3 dropdown px-lg-0 ">
+                        <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownClass" role="button"
+                            data-bs-toggle="dropdown">Aulas</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownClass">
+                            <li>
+                                <a href="../HTML/classesMares.html" class="dropdown-item">Marés</a>
+                            </li>
+                            <li>
+                                <a href="../HTML/classesMatola.html" class="dropdown-item">Matola</a>
+                            </li>
+                            <li>
+                                <a href="../HTML/classesMae.html" class="dropdown-item">Alto Maé</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link" href="../HTML/pricesPage.html">Preços</a>
+                    </li>
+                    <li class="nav-item px-3 dropdown px-lg-0">
+                        <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownServices" role="button"
+                            data-bs-toggle="dropdown">Serviços</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownServices">
+                            <li>
+                                <a href="../HTML/personalPage.html" class="dropdown-item">Personal Trainer</a>
+                            </li>
+                            <li>
+                                <a href="../HTML/avaliaPage.html" class="dropdown-item">Avaliação Física</a>
+                            </li>
+                            <li>
+                                <a href="../HTML/nutriPage.html" class="dropdown-item">Nutricionista</a>
+                            </li>
+                            <li>
+                                <a href="../HTML/fisioPage.html" class="dropdown-item">Fisioterapia</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- Logo Starts Here -->
+                    <a class="navbar-brand d-none d-lg-block" href="../HTML/mainPage.html">
+                        <img src="../Images/logo/logoProgym.jpg" style="width: 220px;">
+                    </a>
+                    <!-- logo Ends Here -->
+                    <li class="nav-item px-3 dropdown px-lg-0">
+                        <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownGyms" role="button"
+                            data-bs-toggle="dropdown">Ginásios</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownGyms">
+                            <li>
+                                <a href="../HTML/gymMaresPage.html" class="dropdown-item">Marés</a>
+                            </li>
+                            <li>
+                                <a href="../HTML/gymMatolaPage.html" class="dropdown-item">Matola</a>
+                            </li>
+                            <li>
+                                <a href="../HTML/gymMaePage.html" class="dropdown-item">Alto Maé</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link" href="../HTML/eventsPage.html">Events</a>
+                    </li>
+                    <li class="nav-item px-3 dropdown px-lg-0">
+                        <a href="#" class="nav-link dropdown-toggle px-0" id="navbarDropdownCompany" role="button"
+                            data-bs-toggle="dropdown">Compania Serviços</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownCompany">
+                            <li>
+                                <a href="../HTML/tvPage.html" class="dropdown-item">Tv Marketing</a>
+                            </li>
+                            <li>
+                                <a href="../HTML/webPage.html" class="dropdown-item">Website
+                                    Marketing</a>
+                            </li>
+                            <li>
+                                <a href="../HTML/manuPage.html" class="dropdown-item">Manutenção de
+                                    Equipamento</a>
+                            </li>
+                            <li>
+                                <a href="../HTML/setupPage.html" class="dropdown-item">Set Up de Ginásios</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link" href="../HTML/aboutPage.html">Sobre nós</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav right-end ">
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="../HTML/storePage.html">Loja</a>
+                    </li>
+                    <li class="nav-item">
+                        <img src="../Images/logo/english-flag.png" width="25px" class="mt-2 me-2 language"
+                            id="english">
+                        <img src="../Images/logo/portuguese-flag.png" width="38px" class="mt-2 language d-none" id="portugal"
+                        >
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ABOUT PAGE SECTION  -->
+    <!-- In this section there will be a container holding a card with an image background and a card-text overlaying the image. Everything has a tilting effect and a 3d effect -->
+    <section id="about">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="container py-5" >
+                    <div class="card bg-dark text-white" data-tilt data-tilt-max="5" data-tilt-speed="400" data-tilt-perspective="1500">
+                        <img src="../Images/Images/adults1.jpg" class="card-img" alt="...">
+                        <div class="card-img-overlay">
+                          <h1 class="card-title">Sobre Nós</h1>
+                          <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis est ab ut? Facere eligendi beatae neque quos dolorum numquam dolore consequatur deleniti explicabo nulla, sunt maiores dolores repellat iure accusamus quam dolor nemo optio eius a enim quae! Vitae beatae similique ipsa eveniet minus! Necessitatibus, debitis ipsum aut, quae officia inventore nesciunt ea eveniet eius molestiae fugiat magni vel mollitia a repellat minus. Atque repudiandae porro pariatur consequatur soluta provident minus ex vero necessitatibus temporibus, dicta odit, quia quaerat iure.</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PARTNERS SECTION STARTS HERE -->
+
+    <section id="partners">
+        <div class="container-fluid">
+            <h1 class="text-center" data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="linear">Nossos Parceiros</h1>
+            <div class="row">
+               <div class="col-2 col-md-2 col-lg-2">
+                <img src="../Images/logo/dahlsConsulting-Logo.png" class="partners">
+               </div>
+               <div class="col-2 col-md-2 col-lg-2">
+                <img src="../Images/logo/Nivaldo-Logo-Laranja.png" class="partners">
+               </div>
+               <div class="col-2 col-md-2 col-lg-2">
+                <img src="../Images/logo/mediPlus-Logo.jpg" class="partners">
+               </div>
+               <div class="col-2 col-md-2 col-lg-2">
+                <img src="../Images/logo/vumbalogo.jpg" class="partners">
+               </div>
+               <div class="col-2 col-md-2 col-lg-2">
+                <img src="../Images/logo/kratos-Empire-Logo.jpg" class="partners">
+               </div>
+               <div class="col-2 col-md-2 col-lg-2">
+                <img src="../Images/logo/securityLogo.png" class="partners">
+               </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="team">
+        <div class="container">
+            <h1 class="text-center mb-5 text-white" data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="linear">Nossa Equipe</h1>
+            <div class="row row-cols-2 row-cols-md-4 row-cols-lg-4">
+                <div class="col mb-4" data-aos="fade-up" data-aos-duration="2000" data-aos-easing="linear">
+                    <div class="card">
+                        <img src="../Images/team/team.jpg" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Nome</h4>
+                            <p class="card-text">Cargo</p>
+                        </div>
+                    </div>    
+                </div>
+
+                <div class="col mb-4" data-aos="fade-up" data-aos-duration="2000" data-aos-easing="linear">
+                    <div class="card">
+                        <img src="../Images/team/team.jpg" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Nome</h4>
+                            <p class="card-text">Cargo</p>
+                        </div>
+                    </div>    
+                </div>
+
+                <div class="col mb-4" data-aos="fade-up" data-aos-duration="2000" data-aos-easing="linear">
+                    <div class="card">
+                        <img src="../Images/team/team.jpg" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Nome</h4>
+                            <p class="card-text">Cargo</p>
+                        </div>
+                    </div>    
+                </div>
+
+                <div class="col mb-4" data-aos="fade-up" data-aos-duration="2000" data-aos-easing="linear">
+                    <div class="card">
+                        <img src="../Images/team/team.jpg" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Nome</h4>
+                            <p class="card-text">Cargo</p>
+                        </div>
+                    </div>    
+                </div>
+
+                <div class="col mb-4" data-aos="fade-up" data-aos-duration="2000" data-aos-easing="linear">
+                    <div class="card">
+                        <img src="../Images/team/team.jpg" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Nome</h4>
+                            <p class="card-text">Cargo</p>
+                        </div>
+                    </div>    
+                </div>
+
+                <div class="col mb-4" data-aos="fade-up" data-aos-duration="2000" data-aos-easing="linear">
+                    <div class="card">
+                        <img src="../Images/team/team.jpg" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Nome</h4>
+                            <p class="card-text">Cargo</p>
+                        </div>
+                    </div>    
+                </div>
+
+                <div class="col mb-4" data-aos="fade-up" data-aos-duration="2000" data-aos-easing="linear">
+                    <div class="card">
+                        <img src="../Images/team/team.jpg" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Nome</h4>
+                            <p class="card-text">Cargo</p>
+                        </div>
+                    </div>    
+                </div>
+
+                <div class="col mb-4" data-aos="fade-up" data-aos-duration="2000" data-aos-easing="linear">
+                    <div class="card">
+                        <img src="../Images/team/team.jpg" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Nome</h4>
+                            <p class="card-text">Cargo</p>
+                        </div>
+                    </div>    
+                </div>
+
+                <div class="col mb-4" data-aos="fade-up" data-aos-duration="2000" data-aos-easing="linear">
+                    <div class="card">
+                        <img src="../Images/team/team.jpg" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Nome</h4>
+                            <p class="card-text">Cargo</p>
+                        </div>
+                    </div>    
+                </div>
+
+                <div class="col mb-4" data-aos="fade-up" data-aos-duration="2000" data-aos-easing="linear">
+                    <div class="card">
+                        <img src="../Images/team/team.jpg" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Nome</h4>
+                            <p class="card-text">Cargo</p>
+                        </div>
+                    </div>    
+                </div>
+
+                <div class="col mb-4" data-aos="fade-up" data-aos-duration="2000" data-aos-easing="linear">
+                    <div class="card">
+                        <img src="../Images/team/team.jpg" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Nome</h4>
+                            <p class="card-text">Cargo</p>
+                        </div>
+                    </div>    
+                </div>
+
+                <div class="col mb-4" data-aos="fade-up" data-aos-duration="2000" data-aos-easing="linear">
+                    <div class="card">
+                        <img src="../Images/team/team.jpg" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Nome</h4>
+                            <p class="card-text">Cargo</p>
+                        </div>
+                    </div>    
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section id="faq">
+        <div class="container">
+            <h1 class="text-center">Perguntas Frequentes</h1>
+            <div class="accordion" id="questions">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Após o pagamento posso fazer o uso de todas as instalções?
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      Sim, poderá fazer o uso de todas as instalções de todas instalções (Mares, Matola e  Alto Mae), desde que esteja dentro do prazo limite do seu pagamento.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Ja fui cliente e quero voltar, preciso de fazer a inscrição denovo?
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      Não será necessário, pois uma vez inscrito ja faz parte da familia progym, se ainda tiver o seu cartão/cracha pode ficar descansado porque poderá voltar a usalo assim que efetuar o pagamento. 
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      As aulas tambem são pagas?
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      Não, as aulas estão disponiveis para todos os clientes que tenham efetuado o pagamento dos nossos serviços de fisiocultura, poderá entrar a qualquer momento 
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </section>
+
+    <!-- FOOTER SECTION STARTS HERE-->
+    <section id="footer">
+        <div class="container-fluid">
+            <footer class="bg-dark text-center text-white">
+                <div class="container-fluid pt-4">
+                    <!-- Social Media Section Starts Here -->
+                    <div class="row">
+                        <section class="social-media">
+                            <!-- Facebook link -->
+                            <a href="https://facebook.com/mozprogym" class="btn btn-outline-light btn-floating m-1">
+                                <i class="fa-brands fa-facebook" style="color: #0742f2"></i>
+                            </a>
+
+                            <!-- Whats App Link -->
+                            <a href="https://wa.me/+258844414441" class="btn btn-outline-light btn-floating m-1">
+                                <i class="fa-brands fa-whatsapp" style="color: limegreen"></i>
+                            </a>
+
+                            <!-- Instagram link -->
+                            <a href="https://www.instagram.com/mozprogym/"
+                                class="btn btn-outline-light btn-floating m-1">
+                                <i class="fa-brands fa-instagram" style="
+                      background: linear-gradient(
+                        210deg,
+                        #f9ce34,
+                        #ee2a7b,
+                        #6228d7
+                      );
+                    "></i>
+                            </a>
+
+                            <!-- Youtube Link -->
+                            <a href="https://www.youtube.com/@MozProGym" class="btn btn-outline-light btn-floating m-1">
+                                <i class="fa-brands fa-youtube" style="color: red"></i>
+                            </a>
+
+                            <!-- Gmail Link -->
+                            <a href="mailto:info@progym.com" class="btn btn-outline-light btn-floating m-1">
+                                <img src="../Images/logo/gmailIcon-removebg-preview.png" />
+                            </a>
+
+                            <!-- Tik Tok Link -->
+                            <a href="https://www.tiktok.com/@mozprogym" class="btn btn-outline-light btn-floating m-1">
+                                <i class="fa-brands fa-tiktok"></i>
+                            </a>
+                        </section>
+                    </div>
+                    <!-- Social Media Section Ends Here -->
+
+                    <div class="row mt-4">
+                        <!-- Navigation List Section Starts Here -->
+                        <div class="col-lg-4 col-md-4">
+                            <h3 class="title">Navegação</h3>
+                            <span class="bar"></span>
+                            <div class="row">
+                                <div class="col-6">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a href="#" class="text-white">Inicio</a>
+                                        </li>
+                                        <li>
+                                            <a href="../HTML/classesPage.html" class="text-white">Aulas</a>
+                                        </li>
+                                        <li>
+                                            <a href="../HTML/pricesPage.html" class="text-white">Preços</a>
+                                        </li>
+                                        <li>
+                                            <a href="../HTML/servicesPage.html" class="text-white">Serviços</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-6">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a href="#" class="text-white">Ginásios</a>
+                                        </li>
+                                        <li>
+                                            <a href="../HTML/classesPage.html" class="text-white">Eventos</a>
+                                        </li>
+                                        <li>
+                                            <a href="../HTML/pricesPage.html" class="text-white">Tv Marketing</a>
+                                        </li>
+                                        <li>
+                                            <a href="../HTML/servicesPage.html" class="text-white">Loja</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Navigation List Section Starts Here -->
+
+                        <!-- Description Section Starts Here -->
+                        <div class="col-lg-4 col-md-4">
+                            <h3 class="title">Sobre Nós</h3>
+                            <span class="bar-2"></span>
+                            <p class="description-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. In
+                                voluptatem at maxime eos accusantium quas saepe, asperiores
+                                recusandae id exercitationem, illo sint maiores molestias
+                                ipsam eveniet, minima fugiat quo. Eum excepturi dolor vitae
+                                veniam consectetur!
+                            </p>
+                        </div>
+                        <!-- Description Section Ends Here -->
+
+                        <div class="col-lg-4 col-md-4">
+                            <div class="contacts">
+                                <h3 class="title">Contatos</h3>
+                                <span class="bar-3"></span>
+                                <ul class="list-unstyled">
+                                    <li>+258844414441</li>
+                                    <li>info@progym.co.mz</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mt-5">
+                        <div class="col-lg-12 col-md-12 text-center p-3">
+                            <p class="copyright">
+                                Copyright © 2023 Todos direitos reservados a ProGym Fitness
+                                <span class="divider" style="color: #f58122ff">|</span> Este
+                                website foi feito com
+                                <i class="bi bi-suit-heart-fill" style="color: red"></i> pela
+                                <span class="creator" style="color: lightblue">Dahls Consulting</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </section>
+    <!-- FOOTER SECTION ENDS HERE -->
+
+    <!-- Bootstrap Javascript Popper  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- Animation On Scroll Script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- Javascript Script -->
+    <script src="../Javascript/mainPage.js"></script>
+    <!-- Tilt Javascript -->
+    <script src="../Javascript/tilt.jquery.js"></script> 
+</body>
+</html>
